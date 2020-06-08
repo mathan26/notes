@@ -46,3 +46,33 @@ Once Server stopped ,need to generate again.
   <img src="https://github.com/mathan26/notes/blob/master/Images/16%20ngork.PNG"/>
 </p>
 https://ngrok.com/
+
+<hr/>
+
+#React
+1. What is React? What is it purpose?
+<br/>
+```React is a JavaScript library used to show the HTML content to the user and handle the User Interaction.```
+<br/><br/>
+```But it can also work with tremendous libraries, packages and servers to make React even more poerful```
+
+2. How to make React Components?
+<br/>
+```React Components Made using either JavaScript functions or classes```
+3. What was the HTML or JSX looking stuff?
+<br/>
+    ``` It's look like html and placed between the JS.It is converted to HTML code when rendering the Components```
+4. How to handle the User Interaction with the components?
+<br/>
+```Event handlers are used to detect the User Interaction and respond to it.```
+5. What is React and React-DOM in the import section do?
+   <br/>
+   ```React knows what components is and how to make component work together```
+   <br/>
+   ```ReactDOM knows how to take components and make it show up in the DOM.```
+   <br/><br/>
+6. How to create React Project?
+ <br/>
+   ```npx create-react-app app-name```
+   <br/>
+   ```It provides default setup WebPack, Babel, Dev Server.No need to Setup manually.```
