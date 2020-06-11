@@ -77,3 +77,92 @@ https://ngrok.com/
 
 ```npx create-react-app app-name```
 ```It provides default setup WebPack, Babel, Dev Server.No need to Setup manually.```
+
+# Data Structures and Algorithms
+
+ 1 Introduction
+ * Variables 
+ * Data Types
+ 
+    ![Data Types In Java(/Images/17 Data Types In Java.PNG)
+    
+ * Data Structures 
+ 
+   *Once we have data that is stored in the variable we need some mechanism to manipulate the data,*
+  
+   > Data Structure is a way of storing and organizing data in a computer, so that it can be used efficiently.
+   
+   Depending on the organization of elements ,DS classified into two types:     
+   1 Linear Data Structures
+    > Elements are accessed in a sequential order.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+   2 Non Linear Data Structures
+   > Elements of this DS stored/accessed in a non-linear order. 
+   
+* Abstract Data Type
+    > To Simplify the process of solving problems ,we combine the data structures with their operations
+    > and are called ADT.
+   * Two Parts:    
+        * Declaration of Data 
+        * Declaration of Operations
+* Algorithm
+    > An Algorithm is step-by-step instructions to solve a given problem.   
+* Analysis of Algorithm
+    > It helps us to find which of them is efficient in terms of time and space consumed.
+* Goal of Analysis of Algorithm
+    >Compare the Algorithms of different solutions.
+* Running Time Analysis
+    > It is the process of determining how process time increase as the size of the problem.
+* Compare Algorithms
+    > Running time of given algorithm as a function of input size n.
+* Rate of Growth
+    > The rate at which running time increase as a function of input is called rate of growth.
+    We can igore the small terms when compare with big terms.
+
+* Commonly used Rate of Growths
+    
+   Time Complexity | Name | Example 
+   ------------ | ------------- | -------------
+   1 | Constant | Adding Element in the front of the list
+   logn | Logarithmic | Finding an element in sorted array
+   n | Linear | Finding an element in unsorted array
+   nlogn | Linear Logarithmic | sorting n items by 'divide-and-conquer' Mergesort
+   n^2 | Quadratic | Shortest path between two nodes in a graph.
+   n^3 | cubic | Matrix Multiplication
+   2^n | Exponential | The Towers of Hanoi problem
+   
+  * Comparison from low to high processing,
+    > 1 < log log n < √logn < log^2 n < 2^logn < n < log(n!) < n log n < n^2 < 2^n < 4^ < n! <2^2n
+      
+      
+      
+* Types of Analysis
+    * To analysis the algorithm we need to know what input algorithm takes less time and on what inputs
+    it takes huge time.
+    * Three types
+        * Worst Case (Big O)
+            * Defines the input for which algorithm takes huge time.
+            * Input is the one for which the algorithm runs slower
+        * Best case (Big Omega)
+            * Defines the input for which algorithm takes less time
+         * Average Case (Theta)
+            * Provides prediction about the running time of algorithm
+            * input is random.
+* Asymptotic Notation
+    > Expression for Best ,Worst and Average
+* Big-O Notation
+    > Find tight upper bound of the given function.The function , f(n) = O(g(n)) iff +ve Constants C and n0
+    > such that 
+                   
+                  f(n) <= C*g(n) for All n>= n0
+    
+    Example:
+        f(n) = 2n + 3
+        <br/>
+        2n + 3 <= 10n n>=1
+    Here C = 10, g(n) = n
+    <code> 2n + 3 < = 2n + 3n=5n</code>
+          Therefore 
+    ```f(n)=O(n)```
+    
+    * In big-O write closest function i.e near of growth rate of f(n)
