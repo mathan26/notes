@@ -166,3 +166,216 @@ https://ngrok.com/
     ```f(n)=O(n)```
     
     * In big-O write closest function i.e near of growth rate of f(n)
+
+# LinkedList
+
+* Successive elements are connected by pointers
+* last elements points to null.
+* It can shrink or grown execution of the program.
+* It doesn't waste memory space.
+
+# LinkedList ADT
+* Main
+    * Insert
+    * Delete
+* Auxiliary
+    * Delete List
+    * Count
+    * Find nth
+
+* Why constant time for accessing array elemens?
+    * We already know the base address ,using the offset we can find any value.
+    * So it takes constant time.
+    
+        * Advantage of Arrays:
+            * simple and easy to use.
+            * Faster access to the elements
+        * Disadvantage:
+            * Fixed size
+            * One block allocation
+            * Complex position-based insertion
+        * Advantage of LinkedList
+            * Expanded at constant time.
+        * Disadvantage of LinkedList
+            * Linear access
+            * Hard to manipulate
+            * Extra space for memory.
+    
+    * LinkedList Representation in Java
+    
+    ```
+          class LinkedList {
+           Node head; // head of the list
+       
+           /* Linked list Node*/
+           class Node {
+               int data;
+               Node next;
+       
+               // Constructor to create a new node
+               // Next is by default initialized
+               // as null
+               Node(int d) { data = d; }
+           }
+       }
+  ```
+  * In LinkedList data can be added in,
+  
+    1  At the front of the linked list
+    
+    ```
+    public void push(int new_data) 
+    { 
+        /* 1 & 2: Allocate the Node & 
+                  Put in the data*/
+        Node new_node = new Node(new_data); 
+      
+        /* 3. Make next of new Node as head */
+        new_node.next = head; 
+      
+        /* 4. Move the head to point to new Node */
+        head = new_node; 
+    } 
+    ```
+    > Time complexity of push() is O(1) as it does constant amount of work.
+    
+    2  After a given node.  
+    
+    ```
+    public void insertAfter(Node prev_node, int new_data) 
+    { 
+        /* 1. Check if the given Node is null */
+        if (prev_node == null) 
+        { 
+            System.out.println("The given previous node cannot be null"); 
+            return; 
+        } 
+      
+        /* 2. Allocate the Node & 
+           3. Put in the data*/
+        Node new_node = new Node(new_data); 
+      
+        /* 4. Make next of new Node as next of prev_node */
+        new_node.next = prev_node.next; 
+      
+        /* 5. make next of prev_node as new_node */
+        prev_node.next = new_node; 
+    } 
+    ```
+    > Time complexity of insertAfter() is O(1) as it does constant amount of work.
+      
+    3  At the end of the linked list.
+    
+    ```
+    /* Appends a new node at the end.  This method is  
+       defined inside LinkedList class shown above */
+    public void append(int new_data) 
+    { 
+        /* 1. Allocate the Node & 
+           2. Put in the data 
+           3. Set next as null */
+        Node new_node = new Node(new_data); 
+      
+        /* 4. If the Linked List is empty, then make the 
+               new node as head */
+        if (head == null) 
+        { 
+            head = new Node(new_data); 
+            return; 
+        } 
+      
+        /* 4. This new node is going to be the last node, so 
+             make next of it as null */
+        new_node.next = null; 
+      
+        /* 5. Else traverse till the last node */
+        Node last = head;  
+        while (last.next != null) 
+            last = last.next; 
+      
+        /* 6. Change the next of last node */
+        last.next = new_node; 
+        return; 
+    } 
+    ```
+    
+    > Time complexity of append is O(n) where n is the number of nodes in linked list. Since there is a loop from head to end, the function does O(n) work.
+      This method can also be optimized to work in O(1) by keeping an extra pointer to tail of linked list
+
+
+# Java 8
+## Predefined Functional Interfaces
+### Predicates
+* It is a functional interface which has single method  test it accepts single argument and returns a boolean value.
+* It is available in the java.util.function package.
+
+```
+    interface Predicate<T> {
+             public boolean test(T t);
+    }
+```
+* It is a functional interface, so it can refer lamda expression.
+
+> *Write a predicate to check whether the given integer is greater than 10 or not.*
+
+> Actual Signature,
+```
+Predicate<Integer> p = new Predicate<Integer>() {
+            @Override
+            public boolean test(Integer I) {
+                return I>10 ;
+            }
+        };
+```
+
+> Using Lamda Expression,
+
+```
+    Predicate<Integer> p = I->(I>10);  
+```
+
+#### Predicate Joining
+
+* We can also join the predicate conditions and get the results by using below methods,
+    * p.and(p2);
+    * p.or(p2);
+    * p.negate();
+
+### Functions
+* It is similar to predicates, but functions can return any type.
+* But it will return only one value based on the type we provided.
+* it contains only one method i.e apply()
+
+> Signature
+  
+  argument 1 - Processing value
+  argument 2 - Return Type
+  
+```
+    Function<String,Integer> function =new Function<String, Integer>() {
+            @Override
+            public Integer apply(String s) {
+                return s.length();
+            }
+        };
+        
+```
+
+> Lamda Signature
+
+```
+ Function<String,Integer> f1 = s -> s.length();
+```
+
+#### Function chaning
+
+* We can combine the Functions and get the results,
+  * f1.andThen(f2).apply(); // f1 will execute first then f2 will execute
+  * f1.compose(f2).apply();  // first f2 will be applied then f1 will execute
+  
+ #### Function Interface static method: identity()
+ 
+  * Returns a function that always returns it's input argument.
+```
+Function<String,String> f2= Function.identity();
+```
