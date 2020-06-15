@@ -302,6 +302,71 @@ https://ngrok.com/
     > Time complexity of append is O(n) where n is the number of nodes in linked list. Since there is a loop from head to end, the function does O(n) work.
       This method can also be optimized to work in O(1) by keeping an extra pointer to tail of linked list
 
+#### Doubly Linked List
+
+* Advantage
+  * We can navigate in both the direction.
+  * Each Node has left and Right pointers, no need to keep pre pointer for delete operation.
+* Disadvantage
+  * Extra memory space
+  * More pointer operation
+  
+  ```
+    // Class for Doubly Linked List 
+    public class DLL { 
+        Node head; // head of list 
+      
+        /* Doubly Linked list Node*/
+        class Node { 
+            int data; 
+            Node prev; 
+            Node next; 
+      
+            // Constructor to create a new node 
+            // next and prev is by default initialized as null 
+            Node(int d) { data = d; } 
+        } 
+    } 
+  ```
+
+### Circular Linked list
+  * All node are connected to form a circle.
+    
+    * Advantage
+        * Any node can be starting point, need to stop when first visited node is visited again.
+        * Useful for implementation of Queue.
+    * Application
+        * it is used in the application when repeatedly go around the list. Ex: OS managing list of application.
+      
+      
+   
+```
+static void traverse(Node last) 
+{ 
+    Node p; 
+  
+    // If list is empty, return. 
+    if (last == null) 
+    { 
+        System.out.println("List is empty."); 
+        return; 
+    } 
+  
+    // Pointing to first Node of the list. 
+    p = last.next; 
+  
+    // Traversing the list. 
+    do
+    { 
+        System.out.print(p.data + " "); 
+        p = p.next; 
+  
+    } 
+    while(p != last.next); 
+  
+} 
+```  
+
 
 # Java 8
 ## Predefined Functional Interfaces
