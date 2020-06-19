@@ -367,6 +367,37 @@ static void traverse(Node last)
 } 
 ```  
 
+###Stack
+
+> Stack is a linear data structure which follows a particular order in which the operations are performed. The order may be LIFO(Last In First Out) or FILO(First In Last Out).
+
+* Operations:
+    * push
+    * pop
+    * peek or top
+    * isEmpty
+    
+###Queue
+
+> Like Stack, Queue is a linear structure which follows a particular order in which the operations are performed. The order is First In First Out (FIFO).  A good example of queue is any queue of consumers for a resource where the consumer that came first is served first.
+
+* Operations
+    * Enqueue
+    * Dequeue
+    * Front
+    * Rear
+    
+###Tree
+
+* A tree is an Undirected graph with no cycles.
+*   Equivalently, a tree it is a connected graph with N nodes and N-1 edges.
+
+##### Examples:
+* File system on the computer.
+* Social hierarchies.
+
+ 
+
 
 # Java 8
 ## Predefined Functional Interfaces
@@ -444,3 +475,15 @@ Predicate<Integer> p = new Predicate<Integer>() {
 ```
 Function<String,String> f2= Function.identity();
 ```
+
+# Java Questions
+
+1 what is hashCode() and equals()?
+
+* <a href="https://github.com/Snailclimb/JavaGuide/blob/master/docs/java/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.md#129-hashcode%E4%B8%8E-equals">Ref-1</a>
+* <a href="https://www.geeksforgeeks.org/internal-working-of-hashmap-java/">Ref-2</a>
+* <a href="https://www.java8net.com/2020/01/how-hashmap-works-internally-in-java.html">Ref-3 [MUST READ]</a>
+
+2 what is Autoboxing and Unboxing in Java?
+* <a href="https://www.geeksforgeeks.org/autoboxing-unboxing-java/#:~:text=Unboxing%3A%20Converting%20an%20object%20of,of%20the%20corresponding%20primitive%20type.">Ref-1</a>
+* <a href="https://beginnersbook.com/2014/09/java-autoboxing-and-unboxing-with-examples/">Ref-2</a>
