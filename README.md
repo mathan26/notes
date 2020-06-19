@@ -367,7 +367,7 @@ static void traverse(Node last)
 } 
 ```  
 
-###Stack
+### Stack
 
 > Stack is a linear data structure which follows a particular order in which the operations are performed. The order may be LIFO(Last In First Out) or FILO(First In Last Out).
 
@@ -377,7 +377,7 @@ static void traverse(Node last)
     * peek or top
     * isEmpty
     
-###Queue
+### Queue
 
 > Like Stack, Queue is a linear structure which follows a particular order in which the operations are performed. The order is First In First Out (FIFO).  A good example of queue is any queue of consumers for a resource where the consumer that came first is served first.
 
@@ -387,7 +387,7 @@ static void traverse(Node last)
     * Front
     * Rear
     
-###Tree
+### Tree
 
 * A tree is an Undirected graph with no cycles.
 *   Equivalently, a tree it is a connected graph with N nodes and N-1 edges.
@@ -487,3 +487,57 @@ Function<String,String> f2= Function.identity();
 2 what is Autoboxing and Unboxing in Java?
 * <a href="https://www.geeksforgeeks.org/autoboxing-unboxing-java/#:~:text=Unboxing%3A%20Converting%20an%20object%20of,of%20the%20corresponding%20primitive%20type.">Ref-1</a>
 * <a href="https://beginnersbook.com/2014/09/java-autoboxing-and-unboxing-with-examples/">Ref-2</a>
+
+3 What is constant pools?
+
+4 Why is there only value passing in Java?
+* <a href="https://www.journaldev.com/3884/java-is-pass-by-value-and-not-pass-by-reference">Ref-1</a>
+
+5 The difference between overloading and rewriting?
+
+6 Deep copy vs shallow copy?
+* <a href= "https://javaconceptoftheday.com/difference-between-shallow-copy-vs-deep-copy-in-java/">Ref-1</a>
+
+### Classes and objects?
+7 The difference between object-oriented and process-oriented?
+
+8 Can the Constructor be overridden?
+
+9 The role of a constructor that does nothing and has no parameters in Java?
+
+10 What are the differences between member variables and local variables?
+
+11 Before calling the subclass constructor, the parent class constructor without parameters will be called first. What is its purpose?
+
+12 Encapsulation
+
+13 Inheritance
+
+14 Polymorphism
+
+15  Why is it illegal to call a non-static member within a static method?
+
+16 What is the difference between static methods and instance methods?
+
+17 Summary of common keywords: static, final, this, super?
+
+### Interfaces and abstract classes
+
+18  What is the difference between an interface and an abstract class?
+
+19 Updates of Interface in Java 8 and Java 9?
+
+### Other important knowledege
+
+20 What is the difference between String StringBuffer and StringBuilder? Why is String immutable?
+
+* <a href= "https://www.geeksforgeeks.org/string-vs-stringbuilder-vs-stringbuffer-in-java/#:~:text=Objects%20of%20String%20are%20immutable,needed%2C%20then%20StringBuffer%20is%20used.">Ref-1</a>
+
+21 what are all common methods of Object class?
+
+22 What if some fields do not want to be serialized in Java serialization?
+
+23 Obtaining two commonly used methods for keyboard input?
+
+### Java core technology
+
