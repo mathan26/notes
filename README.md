@@ -527,7 +527,7 @@ Function<String,String> f2= Function.identity();
 
 19 Updates of Interface in Java 8 and Java 9?
 
-### Other important knowledege
+### Other important knowledge
 
 20 What is the difference between String StringBuffer and StringBuilder? Why is String immutable?
 
