@@ -396,7 +396,30 @@ static void traverse(Node last)
 * File system on the computer.
 * Social hierarchies.
 
- 
+* when to use tree?
+* cost of operation.
+### Images
+* 18 Tree Indroduction and terminology
+* Images\19 Nodes and Edges.PNG
+* Images\20 HeightandDepth.PNG
+* Images\21 TreePicRepresentation.PNG
+* 22 Binary Tree.PNG
+* 23 Proper Binary tree.PNG
+* 24 complete binary tree.PNG
+* 25 maxNode and level.PNG
+* 26 Perfect binary tree.PNG
+* 27 binary tree and normal tree height comparasion.PNG
+* 28 Balanced binary tree.PNG
+* 29 balanced binary tree rule.PNG
+* 30 binary tree array impl.PNG
+* 31 Array LinkedList search comparation for huge data.PNG
+* 32 BST comparison.PNG
+* 33 BST Rule.PNG
+
+
+
+
+
 
 
 # Java 8
