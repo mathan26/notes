@@ -96,9 +96,8 @@
 ## Wesbos Flexbox Tutorial
 **Introduction to what the flex box**
 
- - inline-flex: Take the actual space oth
+ - inline-flex: Does not reserved any specific space in normal form.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODQyOTM1MTcsLTEyMTU5NTkyNzldfQ
-==
+eyJoaXN0b3J5IjpbMTcwMTY1NTI2NiwtMTIxNTk1OTI3OV19
 -->
