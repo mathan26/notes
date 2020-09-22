@@ -97,8 +97,9 @@
 **Introduction to  flex box**
 
  - inline-flex: Does not reserved any specific space in normal form.
+ - height: 100vh: Takes up full height
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTU1Mjk3MTUsMTcwMTY1NTI2NiwtMT
-IxNTk1OTI3OV19
+eyJoaXN0b3J5IjpbLTQ5MjAwNzE4OSwxNzAxNjU1MjY2LC0xMj
+E1OTU5Mjc5XX0=
 -->
