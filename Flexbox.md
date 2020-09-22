@@ -92,6 +92,10 @@
  - By default, items will appear in the same order they come in the source HTML. 
  - The property takes numbers as values, and negative numbers can be used.
 
+
+## Wesbos Flexbox Tutorial
+**Video 1:**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTU5NTkyNzldfQ==
+eyJoaXN0b3J5IjpbLTE1MzQ4NDQ0MTQsLTEyMTU5NTkyNzldfQ
+==
 -->
