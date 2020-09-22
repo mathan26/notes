@@ -94,8 +94,11 @@
 
 
 ## Wesbos Flexbox Tutorial
-**Video 1:**
+**Introduction to what the flex box**
+
+ - inline-flex: Take the actual space oth
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzQ4NDQ0MTQsLTEyMTU5NTkyNzldfQ
+eyJoaXN0b3J5IjpbLTIwODQyOTM1MTcsLTEyMTU5NTkyNzldfQ
 ==
 -->
