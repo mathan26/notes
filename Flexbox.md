@@ -94,10 +94,11 @@
 
 
 ## Wesbos Flexbox Tutorial
-**Introduction to what the flex box**
+**Introduction to  flex box**
 
  - inline-flex: Does not reserved any specific space in normal form.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMTY1NTI2NiwtMTIxNTk1OTI3OV19
+eyJoaXN0b3J5IjpbLTE2MTU1Mjk3MTUsMTcwMTY1NTI2NiwtMT
+IxNTk1OTI3OV19
 -->
