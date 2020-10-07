@@ -55,8 +55,12 @@ The CLI generated three metadata properties:
  - Every component must be declared in exactly one NgModule.
  - The HeroesComponent is declared in the @NgModule.declarations array.
 ## Display a selection list
+
+ - Create mock heroes
+ - List heroes with ***ngFor**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMjczMDkxMiwtMTQ3NDM0MDc2MywtMT
-kxMTY5OTg2MSwxNTMxMTU0MzI5LDE5ODg4ODQ4MDEsLTc1NzIx
-NDc4OF19
+eyJoaXN0b3J5IjpbNjA0MzIxMTIsLTgxMjczMDkxMiwtMTQ3ND
+M0MDc2MywtMTkxMTY5OTg2MSwxNTMxMTU0MzI5LDE5ODg4ODQ4
+MDEsLTc1NzIxNDc4OF19
 -->
