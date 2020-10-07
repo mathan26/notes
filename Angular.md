@@ -47,9 +47,9 @@ The CLI generated three metadata properties:
  
 
  - Angular needs to know how the pieces of your application fit together and what other files and libraries the app requires. This information is called metadata.
- - Then add FormsModule to the @NgModule metadata's imports array, which contains a list of external modules that the app needs.
+ - Then add FormsModule to the `@NgModule` metadata's imports array, which contains a list of external modules that the app needs.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NTMwMjQ4MSwtMTkxMTY5OTg2MSwxNT
-MxMTU0MzI5LDE5ODg4ODQ4MDEsLTc1NzIxNDc4OF19
+eyJoaXN0b3J5IjpbLTEzMTYxODI2OTUsLTE5MTE2OTk4NjEsMT
+UzMTE1NDMyOSwxOTg4ODg0ODAxLC03NTcyMTQ3ODhdfQ==
 -->
