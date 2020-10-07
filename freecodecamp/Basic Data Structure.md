@@ -353,9 +353,35 @@
  -
  ## Modify an Array Stored in an Object
 
+    let user = {
+      name: 'Kenneth',
+      age: 28,
+      data: {
+        username: 'kennethCodesAllDay',
+        joinDate: 'March 26, 2016',
+        organization: 'freeCodeCamp',
+        friends: [
+          'Sam',
+          'Kira',
+          'Tomo'
+        ],
+        location: {
+          city: 'San Francisco',
+          state: 'CA',
+          country: 'USA'
+        }
+      }
+    };
+    
+    function addFriend(userObj, friend) {
+      // Only change code below this line
+        return userObj.data.friends.push(friend);
+      // Only change code above this line
+    }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MzA3NzkxNCwtNzQwNjg2ODQ0LDIwOT
-MxNTE4NjksMTM0Nzg4NzU5NSwtMzQ0MzY2NDU1LDEwNTU4MTc5
-OTIsMTc1MTUwOTc0MiwxNDcxMDU0MjQ2XX0=
+eyJoaXN0b3J5IjpbMjAwNzQ3OTM1MSwtNzYzMDc3OTE0LC03ND
+A2ODY4NDQsMjA5MzE1MTg2OSwxMzQ3ODg3NTk1LC0zNDQzNjY0
+NTUsMTA1NTgxNzk5MiwxNzUxNTA5NzQyLDE0NzEwNTQyNDZdfQ
+==
 -->
