@@ -334,14 +334,15 @@
     console.log(isEveryoneHere(users));
     function isEveryoneHere(obj) {
   
-// Another
+// Another solution
+
     return ["Alan", "Jeff", "Sarah", "Ryan"].every(name =>
         obj.hasOwnProperty(name)
       );
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyODI3Mjg2NiwxMzQ3ODg3NTk1LC0zND
+eyJoaXN0b3J5IjpbMjA5MzE1MTg2OSwxMzQ3ODg3NTk1LC0zND
 QzNjY0NTUsMTA1NTgxNzk5MiwxNzUxNTA5NzQyLDE0NzEwNTQy
 NDZdfQ==
 -->
