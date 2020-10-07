@@ -247,8 +247,32 @@
     // Only change code above this line
     
     console.log(userActivity);
+ ## HeadingAccess Property Names with Bracket Notation
+ 
+
+ - Bracket notation is very useful because sometimes object properties are not known before runtime or we need to access them in a more dynamic way.
+
+> We've defined a function, checkInventory, which receives a scanned item as an argument. Return the current value of the scannedItem key in the foods object. You can assume that only valid keys will be provided as an argument to checkInventory.
+
+
+    let foods = {
+      apples: 25,
+      oranges: 32,
+      plums: 28,
+      bananas: 13,
+      grapes: 35,
+      strawberries: 27
+    };
+    
+    function checkInventory(scannedItem) {
+      // Only change code below this line
+          return foods[scannedItem];
+      // Only change code above this line
+    }
+    
+    console.log(checkInventory("apples"));
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzIxNjA2MDksLTM0NDM2NjQ1NSwxMD
+eyJoaXN0b3J5IjpbLTE1NjAxMTgwMjcsLTM0NDM2NjQ1NSwxMD
 U1ODE3OTkyLDE3NTE1MDk3NDIsMTQ3MTA1NDI0Nl19
 -->
