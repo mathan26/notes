@@ -58,9 +58,11 @@ The CLI generated three metadata properties:
 
  - Create mock heroes
  - List heroes with ***ngFor**
+ - `*ngFor="let hero of heroes"`
+ - Don't forget the asterisk (*) in front of ngFor. It's a critical part of the syntax.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA0MzIxMTIsLTgxMjczMDkxMiwtMTQ3ND
-M0MDc2MywtMTkxMTY5OTg2MSwxNTMxMTU0MzI5LDE5ODg4ODQ4
-MDEsLTc1NzIxNDc4OF19
+eyJoaXN0b3J5IjpbNzQ1Mjg0MTU0LC04MTI3MzA5MTIsLTE0Nz
+QzNDA3NjMsLTE5MTE2OTk4NjEsMTUzMTE1NDMyOSwxOTg4ODg0
+ODAxLC03NTcyMTQ3ODhdfQ==
 -->
