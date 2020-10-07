@@ -13,10 +13,11 @@ The CLI generated three metadata properties:
  - **selector**— the component's CSS element selector
  - **templateUrl**— the location of the component's template file.
  - **styleUrls**— the location of the component's private CSS styles.
- - The `ngOnInit()` is a lifecycle hook. Angular calls ngOnInit() shortly
-   after creating a component. It's a good place to put initialization
+ - The `ngOnInit()` is a lifecycle hook. Angular calls ***ngOnInit() shortly
+   after creating a component***. It's a good place to put initialization
    logic.
+ - Always export the component class so you can import it elsewhere ... like in the AppModule.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2OTYxOTk0NywtNzU3MjE0Nzg4XX0=
+eyJoaXN0b3J5IjpbLTE5NTM4OTg0NTgsLTc1NzIxNDc4OF19
 -->
