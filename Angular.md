@@ -56,8 +56,7 @@ The CLI generated three metadata properties:
  - The HeroesComponent is declared in the @NgModule.declarations array.
 ## Display a selection list
 
- - Create mock heroes**Add a details section
-**
+ - Create mock heroes
  - List heroes with ***ngFor**
  - `*ngFor="let hero of heroes"`
  - Don't forget the asterisk (*) in front of ngFor. It's a critical part of the syntax.
@@ -66,9 +65,12 @@ The CLI generated three metadata properties:
  - Add the click event handler
  - Add the following onSelect() method, which assigns the clicked hero from the template to the component's selectedHero.
 
+**Add a details section**
+
+ - Wrap the hero detail HTML in a <div>. Add Angular's *ngIf directive to the <div> and set it to selectedHero.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0ODY1NTM2NSwtODEyNzMwOTEyLC0xND
-c0MzQwNzYzLC0xOTExNjk5ODYxLDE1MzExNTQzMjksMTk4ODg4
-NDgwMSwtNzU3MjE0Nzg4XX0=
+eyJoaXN0b3J5IjpbNjA3NTI3NDcxLC04MTI3MzA5MTIsLTE0Nz
+QzNDA3NjMsLTE5MTE2OTk4NjEsMTUzMTE1NDMyOSwxOTg4ODg0
+ODAxLC03NTcyMTQ3ODhdfQ==
 -->
