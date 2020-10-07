@@ -341,9 +341,16 @@
       );
     }
     
+## Iterate Through the Keys of an Object with a for...in Statement
+
+ - Sometimes you may need to iterate through all the keys within an object. 
+ - This requires a specific syntax in JavaScript called a `for...in` statement. 
+ 
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1Njk3NDM1NywyMDkzMTUxODY5LDEzND
+eyJoaXN0b3J5IjpbLTI0NTU4Mzg1MCwyMDkzMTUxODY5LDEzND
 c4ODc1OTUsLTM0NDM2NjQ1NSwxMDU1ODE3OTkyLDE3NTE1MDk3
 NDIsMTQ3MTA1NDI0Nl19
 -->
