@@ -25,7 +25,11 @@ The CLI generated three metadata properties:
 ## Create a Hero interface
 
  - Create a Hero interface in its own file in the src/app folder. Give it id and name properties.
+## Show the hero object
+ - Update the binding in the template to announce the hero's name and show both id and name in a details layout like this:
+ - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4ODg4NDgwMSwtNzU3MjE0Nzg4XX0=
+eyJoaXN0b3J5IjpbMTE1ODg5MTU0MiwxOTg4ODg0ODAxLC03NT
+cyMTQ3ODhdfQ==
 -->
