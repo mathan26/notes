@@ -17,7 +17,9 @@ The CLI generated three metadata properties:
    after creating a component***. It's a good place to put *initialization
    logic*.
  - Always **export** the component class so **you can import it elsewhere** ... like in the AppModule.
+## Show the HeroesComponent view
+ - List itemo display the HeroesComponent, you must add it to the template of the shell AppComponent.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0Mjk2MTc5OCwtNzU3MjE0Nzg4XX0=
+eyJoaXN0b3J5IjpbNjIxMDkzMzg3LC03NTcyMTQ3ODhdfQ==
 -->
