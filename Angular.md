@@ -60,9 +60,10 @@ The CLI generated three metadata properties:
  - List heroes with ***ngFor**
  - `*ngFor="let hero of heroes"`
  - Don't forget the asterisk (*) in front of ngFor. It's a critical part of the syntax.
+ -  **Master/Detail**<li *ngFor="let hero of heroes" (click)="onSelect(hero)">
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ1Mjg0MTU0LC04MTI3MzA5MTIsLTE0Nz
-QzNDA3NjMsLTE5MTE2OTk4NjEsMTUzMTE1NDMyOSwxOTg4ODg0
-ODAxLC03NTcyMTQ3ODhdfQ==
+eyJoaXN0b3J5IjpbMjA4MDk4NzE1MywtODEyNzMwOTEyLC0xND
+c0MzQwNzYzLC0xOTExNjk5ODYxLDE1MzExNTQzMjksMTk4ODg4
+NDgwMSwtNzU3MjE0Nzg4XX0=
 -->
