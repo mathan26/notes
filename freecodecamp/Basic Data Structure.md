@@ -298,43 +298,50 @@
 
 > We've created an object, users, with some users in it and a function isEveryoneHere, which we pass the users object to as an argument. Finish writing this function so that it returns true only if the users object contains all four names, Alan, Jeff, Sarah, and Ryan, as keys, and false otherwise.
 
-let users = {
-  Alan: {
-    age: 27,
-    online: true
-  },
-  Jeff: {
-    age: 32,
-    online: true
-  },
-  Sarah: {
-    age: 48,
-    online: true
-  },
-  Ryan: {
-    age: 19,
-    online: true
-  }
-};
-
-function isEveryoneHere(obj) {
-  // Only change code below this line
-  if (
-    obj.hasOwnProperty("Alan") &&
-    obj.hasOwnProperty("Jeff") &&
-    obj.hasOwnProperty("Sarah") &&
-    obj.hasOwnProperty("Ryan")
-  ) {
-    return true;
-  }
-  return false;
-  // Only change code above this line
-}
-
-console.log(isEveryoneHere(users));
+    let users = {
+      Alan: {
+        age: 27,
+        online: true
+      },
+      Jeff: {
+        age: 32,
+        online: true
+      },
+      Sarah: {
+        age: 48,
+        online: true
+      },
+      Ryan: {
+        age: 19,
+        online: true
+      }
+    };
+    
+    function isEveryoneHere(obj) {
+      // Only change code below this line
+      if (
+        obj.hasOwnProperty("Alan") &&
+        obj.hasOwnProperty("Jeff") &&
+        obj.hasOwnProperty("Sarah") &&
+        obj.hasOwnProperty("Ryan")
+      ) {
+        return true;
+      }
+      return false;
+      // Only change code above this line
+    }
+    
+    console.log(isEveryoneHere(users));
+    function isEveryoneHere(obj) {
+  
+// Another
+    return ["Alan", "Jeff", "Sarah", "Ryan"].every(name =>
+        obj.hasOwnProperty(name)
+      );
+    }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njc0ODE1MTksMTM0Nzg4NzU5NSwtMz
-Q0MzY2NDU1LDEwNTU4MTc5OTIsMTc1MTUwOTc0MiwxNDcxMDU0
-MjQ2XX0=
+eyJoaXN0b3J5IjpbMTcyODI3Mjg2NiwxMzQ3ODg3NTk1LC0zND
+QzNjY0NTUsMTA1NTgxNzk5MiwxNzUxNTA5NzQyLDE0NzEwNTQy
+NDZdfQ==
 -->
