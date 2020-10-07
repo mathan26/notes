@@ -35,9 +35,11 @@ The CLI generated three metadata properties:
  - Pipes are a good way to format strings, currency amounts, dates and other display data. Angular ships with several built-in pipes and you can create your own.
 ## Edit the hero
 
- - List item
+ - `[(ngModel)]` is Angular's two-way data binding syntax.
+ - Here it binds the hero.name property to the HTML textbox so that data can flow in both directions: from the hero.name property to the textbox, and from the textbox back to the hero.name.
+ - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMTE1NDMyOSwxOTg4ODg0ODAxLC03NT
-cyMTQ3ODhdfQ==
+eyJoaXN0b3J5IjpbLTg2MzM1OTM1MiwxNTMxMTU0MzI5LDE5OD
+g4ODQ4MDEsLTc1NzIxNDc4OF19
 -->
