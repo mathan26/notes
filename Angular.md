@@ -43,9 +43,13 @@ The CLI generated three metadata properties:
 
  - Although ngModel is a valid Angular directive, it isn't available by default.
  - It belongs to the optional FormsModule and you must opt-in to using it.
+ **AppModule**
  
 
+ - Angular needs to know how the pieces of your application fit together and what other files and libraries the app requires. This information is called metadata.
+ - Then add FormsModule to the @NgModule metadata's imports array, which contains a list of external modules that the app needs.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjM2NDcyNjYsLTE5MTE2OTk4NjEsMT
-UzMTE1NDMyOSwxOTg4ODg0ODAxLC03NTcyMTQ3ODhdfQ==
+eyJoaXN0b3J5IjpbLTQ1NTMwMjQ4MSwtMTkxMTY5OTg2MSwxNT
+MxMTU0MzI5LDE5ODg4ODQ4MDEsLTc1NzIxNDc4OF19
 -->
