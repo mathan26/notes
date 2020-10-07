@@ -28,9 +28,10 @@ The CLI generated three metadata properties:
 ## Show the hero object
  - Update the binding in the template to announce the hero's name and show both id and name in a details layout like this:
  ## Format with the UppercasePipe
- 
+
+     {{hero.name | uppercase}} Details
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjM0MzQzLDE5ODg4ODQ4MDEsLTc1Nz
-IxNDc4OF19
+eyJoaXN0b3J5IjpbMTQ3OTQxNjMxMCwxOTg4ODg0ODAxLC03NT
+cyMTQ3ODhdfQ==
 -->
