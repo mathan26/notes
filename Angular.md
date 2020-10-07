@@ -24,8 +24,13 @@ The CLI generated three metadata properties:
 
 ## Create a Hero interface
 
- - List item
+ - Create a Hero interface in its own file in the src/app folder. Give it id and name properties.
+
+    export interface Hero {
+      id: number;
+      name: string;
+    }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMTA4NjE3NywtNzU3MjE0Nzg4XX0=
+eyJoaXN0b3J5IjpbLTEzNTkxOTc0MDYsLTc1NzIxNDc4OF19
 -->
