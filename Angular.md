@@ -18,8 +18,9 @@ The CLI generated three metadata properties:
    logic*.
  - Always **export** the component class so **you can import it elsewhere** ... like in the AppModule.
 ## Show the HeroesComponent view
- - List itemo display the HeroesComponent, you must add it to the template of the shell AppComponent.
-
+ - To display the HeroesComponent, you **must add it to the template of the shell AppComponent**.
+ - Remember that **app-heroes** is the element **selector for the HeroesComponent**. 
+ - So add an <app-heroes> element to the AppComponent template file, just below the title.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIxMDkzMzg3LC03NTcyMTQ3ODhdfQ==
+eyJoaXN0b3J5IjpbLTk0Mjk5MTczMSwtNzU3MjE0Nzg4XX0=
 -->
