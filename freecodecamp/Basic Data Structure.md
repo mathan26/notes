@@ -166,7 +166,8 @@
     
     console.log(quickCheck(['squash', 'onions', 'shallots'], 'shallots'));
     //true
+## Iterate Through All an Array's Items Using For Loops
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MTA1NDI0Nl19
+eyJoaXN0b3J5IjpbMTc1MTUwOTc0MiwxNDcxMDU0MjQ2XX0=
 -->
