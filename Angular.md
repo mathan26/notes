@@ -31,7 +31,10 @@ The CLI generated three metadata properties:
 
      {{hero.name | uppercase}} Details
 
+ - The word uppercase in the interpolation binding, right after the pipe operator ( **|** ), **activates the built-in UppercasePipe.**
+ - Pipes are a good way to format strings, currency amounts, dates and other display data. Angular ships with several built-in pipes and you can create your own.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3OTQxNjMxMCwxOTg4ODg0ODAxLC03NT
-cyMTQ3ODhdfQ==
+eyJoaXN0b3J5IjpbNjA2MTMxNzkyLDE5ODg4ODQ4MDEsLTc1Nz
+IxNDc4OF19
 -->
