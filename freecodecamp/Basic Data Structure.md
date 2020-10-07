@@ -234,21 +234,21 @@
 ## Modify an Object Nested Within an Object
 
     let userActivity = {
-  id: 23894201352,
-  date: 'January 1, 2017',
-  data: {
-    totalUsers: 51,
-    online: 42
-  }
-};
-
-// Only change code below this line
-userActivity['data']['online']=45;
-// Only change code above this line
-
-console.log(userActivity);
+      id: 23894201352,
+      date: 'January 1, 2017',
+      data: {
+        totalUsers: 51,
+        online: 42
+      }
+    };
+    
+    // Only change code below this line
+    userActivity['data']['online']=45;
+    // Only change code above this line
+    
+    console.log(userActivity);
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA3Mjg2MTc1LC0zNDQzNjY0NTUsMTA1NT
-gxNzk5MiwxNzUxNTA5NzQyLDE0NzEwNTQyNDZdfQ==
+eyJoaXN0b3J5IjpbLTE0NzIxNjA2MDksLTM0NDM2NjQ1NSwxMD
+U1ODE3OTkyLDE3NTE1MDk3NDIsMTQ3MTA1NDI0Nl19
 -->
