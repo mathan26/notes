@@ -345,12 +345,13 @@
 
  - Sometimes you may need to iterate through all the keys within an object. 
  - This requires a specific syntax in JavaScript called a `for...in` statement. 
- 
 
+## Generate an Array of All Object Keys with Object.keys()
 
+ - We can also generate an array which contains all the keys stored in an object using the Object.keys() method and passing in an object as the argument. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NTU4Mzg1MCwyMDkzMTUxODY5LDEzND
+eyJoaXN0b3J5IjpbLTc0MDY4Njg0NCwyMDkzMTUxODY5LDEzND
 c4ODc1OTUsLTM0NDM2NjQ1NSwxMDU1ODE3OTkyLDE3NTE1MDk3
 NDIsMTQ3MTA1NDI0Nl19
 -->
