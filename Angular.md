@@ -37,9 +37,15 @@ The CLI generated three metadata properties:
 
  - `[(ngModel)]` is Angular's two-way data binding syntax.
  - Here it binds the hero.name property to the HTML textbox so that data can flow in both directions: from the hero.name property to the textbox, and from the textbox back to the hero.name.
+
+
+**The missing FormsModule**
+
+ - Although ngModel is a valid Angular directive, it isn't available by default.
+ - It belongs to the optional FormsModule and you must opt-in to using it.
  - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MzM1OTM1MiwxNTMxMTU0MzI5LDE5OD
-g4ODQ4MDEsLTc1NzIxNDc4OF19
+eyJoaXN0b3J5IjpbLTE5MTE2OTk4NjEsMTUzMTE1NDMyOSwxOT
+g4ODg0ODAxLC03NTcyMTQ3ODhdfQ==
 -->
