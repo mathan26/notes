@@ -272,7 +272,11 @@
     
     console.log(checkInventory("apples"));
 
+## Use the delete Keyword to Remove Object Properties
+
+> Blockquote
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjAxMTgwMjcsLTM0NDM2NjQ1NSwxMD
-U1ODE3OTkyLDE3NTE1MDk3NDIsMTQ3MTA1NDI0Nl19
+eyJoaXN0b3J5IjpbOTA1OTAwNjU3LC0zNDQzNjY0NTUsMTA1NT
+gxNzk5MiwxNzUxNTA5NzQyLDE0NzEwNTQyNDZdfQ==
 -->
