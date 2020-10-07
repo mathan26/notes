@@ -68,9 +68,11 @@ The CLI generated three metadata properties:
 **Add a details section**
 
  - Wrap the hero detail HTML in a <div>. Add Angular's *ngIf directive to the <div> and set it to selectedHero.
+ - [class.selected]="hero === selectedHero"
+ - You can toggle a CSS style class with a class binding.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA3NTI3NDcxLC04MTI3MzA5MTIsLTE0Nz
-QzNDA3NjMsLTE5MTE2OTk4NjEsMTUzMTE1NDMyOSwxOTg4ODg0
-ODAxLC03NTcyMTQ3ODhdfQ==
+eyJoaXN0b3J5IjpbODAyNzQ0MTMzLDYwNzUyNzQ3MSwtODEyNz
+MwOTEyLC0xNDc0MzQwNzYzLC0xOTExNjk5ODYxLDE1MzExNTQz
+MjksMTk4ODg4NDgwMSwtNzU3MjE0Nzg4XX0=
 -->
