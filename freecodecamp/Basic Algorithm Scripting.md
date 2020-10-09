@@ -100,9 +100,10 @@ Using .map()
       return num > 0 ? str + repeatStringNumTimes(str, num - 1) : '';
     }
     repeatStringNumTimes("abc", 3);
+## Truncate a String
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTU5MzE2NDUsLTMyMTU3ODgsMzIwOD
+eyJoaXN0b3J5IjpbLTE4MTgzMzE1NzcsLTMyMTU3ODgsMzIwOD
 kyNTYxLDI2MDUxNDY2OSwxMjg2MzgzOTA3LDE2Njg2MTIwNDIs
 LTE3ODc3MTk5NzhdfQ==
 -->
