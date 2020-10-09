@@ -30,7 +30,28 @@
 
  - Return the factorial of the provided integer.
 
+	    function factorialize(num) {
+	      for (var product = 1; num > 0; num--) {
+	        product *= num;
+	      }
+	      return product;
+	    }
+	    
+	    //Recursion
+	    
+	    factorialize(5);
+	    
+	    
+	    function factorialize(num) {
+	      if(num==0){
+	        return 1;
+	      }
+	      return num * factorialize(num-1);
+	    }
+	    
+	    console.log(factorialize(5));
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODc3OTkxMzcsMTY2ODYxMjA0MiwtMT
-c4NzcxOTk3OF19
+eyJoaXN0b3J5IjpbMTI4NjM4MzkwNywxNjY4NjEyMDQyLC0xNz
+g3NzE5OTc4XX0=
 -->
