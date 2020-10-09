@@ -77,11 +77,11 @@ The CLI generated three metadata properties:
     ng generate component hero-detail
 
  - Write the template
- - 
+ - Add the @Input() hero property
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NTg2MjM1Niw0NDA1OTEzNzAsODAyNz
+eyJoaXN0b3J5IjpbMjAyNzYxNzc1Miw0NDA1OTEzNzAsODAyNz
 Q0MTMzLDYwNzUyNzQ3MSwtODEyNzMwOTEyLC0xNDc0MzQwNzYz
 LC0xOTExNjk5ODYxLDE1MzExNTQzMjksMTk4ODg4NDgwMSwtNz
 U3MjE0Nzg4XX0=
