@@ -71,8 +71,14 @@ The CLI generated three metadata properties:
  - [class.selected]="hero === selectedHero"
  - You can toggle a CSS style class with a class binding.
 
+
+## Create a feature component
+
+    ng generate component hero-detail
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAyNzQ0MTMzLDYwNzUyNzQ3MSwtODEyNz
-MwOTEyLC0xNDc0MzQwNzYzLC0xOTExNjk5ODYxLDE1MzExNTQz
-MjksMTk4ODg4NDgwMSwtNzU3MjE0Nzg4XX0=
+eyJoaXN0b3J5IjpbLTEwNzg4Njk1OTQsODAyNzQ0MTMzLDYwNz
+UyNzQ3MSwtODEyNzMwOTEyLC0xNDc0MzQwNzYzLC0xOTExNjk5
+ODYxLDE1MzExNTQzMjksMTk4ODg4NDgwMSwtNzU3MjE0Nzg4XX
+0=
 -->
