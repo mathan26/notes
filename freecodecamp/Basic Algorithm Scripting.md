@@ -14,8 +14,19 @@
     }
     
     convertToF(0);
-## Heading
+## Reverse a String
+
+ - Reverse the provided string.
+   You may need to turn the string into an array before you can reverse
+   it.Your result must be a string.
+
+
+function reverseString(str) {
+  return str.split('').reverse().join('');
+}
+
+reverseString("hello");
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDg2ODk2NzYsLTE3ODc3MTk5NzhdfQ
-==
+eyJoaXN0b3J5IjpbMzEyMzk2ODc0LC0xNzg3NzE5OTc4XX0=
 -->
