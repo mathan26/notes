@@ -102,8 +102,19 @@ Using .map()
     repeatStringNumTimes("abc", 3);
 ## Truncate a String
 
+> Truncate a string (first argument) if it is longer than the given
+> maximum string length (second argument). Return the truncated string
+> with a ... ending.
+
+    function truncateString(str, num) {
+      return str.length > num ? str.slice(0,num) + "...": str;
+    }
+    
+    truncateString("A-tisket a-tasket A green and yellow basket", 8);
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTgzMzE1NzcsLTMyMTU3ODgsMzIwOD
+eyJoaXN0b3J5IjpbLTE3NzQwNDY0MTgsLTMyMTU3ODgsMzIwOD
 kyNTYxLDI2MDUxNDY2OSwxMjg2MzgzOTA3LDE2Njg2MTIwNDIs
 LTE3ODc3MTk5NzhdfQ==
 -->
