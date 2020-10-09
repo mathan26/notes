@@ -21,12 +21,12 @@
    it.Your result must be a string.
 
 
-function reverseString(str) {
-  return str.split('').reverse().join('');
-}
+		function reverseString(str) {
+		  return str.split('').reverse().join('');
+		}
 
-reverseString("hello");
+		reverseString("hello");
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEyMzk2ODc0LC0xNzg3NzE5OTc4XX0=
+eyJoaXN0b3J5IjpbMTY2ODYxMjA0MiwtMTc4NzcxOTk3OF19
 -->
