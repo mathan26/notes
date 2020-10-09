@@ -84,10 +84,19 @@ Using .map()
     }
     console.log(largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]));
     largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]);
+## Confirm the Ending
 
+ - Check if a string (first argument, str) ends with the given target string (second argument, target).
+
+	    function confirmEnding(str, target) {
+	      console.log(str.substring(str.length-target.length)===target)
+	      return str.substring(str.length-target.length)===target;
+	    }
+	    
+	    confirmEnding("Congratulation", "on");
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MzY5MTUxOSwzMjA4OTI1NjEsMjYwNT
-E0NjY5LDEyODYzODM5MDcsMTY2ODYxMjA0MiwtMTc4NzcxOTk3
-OF19
+eyJoaXN0b3J5IjpbLTMyMTU3ODgsMzIwODkyNTYxLDI2MDUxND
+Y2OSwxMjg2MzgzOTA3LDE2Njg2MTIwNDIsLTE3ODc3MTk5Nzhd
+fQ==
 -->
