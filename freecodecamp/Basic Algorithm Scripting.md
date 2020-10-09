@@ -26,7 +26,8 @@
 		}
 
 		reverseString("hello");
-
+## Factorialize a Number
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2ODYxMjA0MiwtMTc4NzcxOTk3OF19
+eyJoaXN0b3J5IjpbMzg1ODgzMzQ1LDE2Njg2MTIwNDIsLTE3OD
+c3MTk5NzhdfQ==
 -->
