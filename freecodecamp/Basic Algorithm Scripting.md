@@ -27,7 +27,10 @@
 
 		reverseString("hello");
 ## Factorialize a Number
+
+ - Return the factorial of the provided integer.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg1ODgzMzQ1LDE2Njg2MTIwNDIsLTE3OD
-c3MTk5NzhdfQ==
+eyJoaXN0b3J5IjpbLTE4ODc3OTkxMzcsMTY2ODYxMjA0MiwtMT
+c4NzcxOTk3OF19
 -->
