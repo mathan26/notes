@@ -75,10 +75,14 @@ The CLI generated three metadata properties:
 ## Create a feature component
 
     ng generate component hero-detail
-**Write the template**
+
+ - Write the template
+ - 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQwNTkxMzcwLDgwMjc0NDEzMyw2MDc1Mj
-c0NzEsLTgxMjczMDkxMiwtMTQ3NDM0MDc2MywtMTkxMTY5OTg2
-MSwxNTMxMTU0MzI5LDE5ODg4ODQ4MDEsLTc1NzIxNDc4OF19
+eyJoaXN0b3J5IjpbLTU4NTg2MjM1Niw0NDA1OTEzNzAsODAyNz
+Q0MTMzLDYwNzUyNzQ3MSwtODEyNzMwOTEyLC0xNDc0MzQwNzYz
+LC0xOTExNjk5ODYxLDE1MzExNTQzMjksMTk4ODg4NDgwMSwtNz
+U3MjE0Nzg4XX0=
 -->
