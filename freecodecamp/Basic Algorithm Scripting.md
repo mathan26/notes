@@ -65,8 +65,27 @@ Using .map()
     function findLongestWordLength(str) {
       return Math.max(...str.split(" ").map(word => word.length));
     }
-## Heading
+## Return Largest Numbers in Arrays
+
+
+>  Return an array consisting of the largest number from each provided
+> sub-array. For simplicity, the provided array will contain exactly 4
+> sub-arrays.
+> 
+> Remember, you can iterate through an array with a simple for loop, and
+> access each member with array syntax arr[i].
+
+    function largestOfFour(arr) {
+      return arr.map(a=>{
+        return a.reduce((prev,currentItem)=>{
+          return prev > currentItem ? prev :currentItem;
+        });
+      });
+    }
+    console.log(largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]));
+    largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]);
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MTcyNjUzOSwyNjA1MTQ2NjksMTI4Nj
-M4MzkwNywxNjY4NjEyMDQyLC0xNzg3NzE5OTc4XX0=
+eyJoaXN0b3J5IjpbMzIwODkyNTYxLDI2MDUxNDY2OSwxMjg2Mz
+gzOTA3LDE2Njg2MTIwNDIsLTE3ODc3MTk5NzhdfQ==
 -->
