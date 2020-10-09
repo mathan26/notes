@@ -65,8 +65,8 @@ Using .map()
     function findLongestWordLength(str) {
       return Math.max(...str.split(" ").map(word => word.length));
     }
-
+## Heading
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYwNTE0NjY5LDEyODYzODM5MDcsMTY2OD
-YxMjA0MiwtMTc4NzcxOTk3OF19
+eyJoaXN0b3J5IjpbMTc3MTcyNjUzOSwyNjA1MTQ2NjksMTI4Nj
+M4MzkwNywxNjY4NjEyMDQyLC0xNzg3NzE5OTc4XX0=
 -->
