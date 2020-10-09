@@ -51,7 +51,22 @@
 	    
 	    console.log(factorialize(5));
 
+## Find the Longest Word in a String
+
+    function findLongestWordLength(s) {
+      return s.split(' ')
+        .reduce(function(x, y) {
+          return Math.max(x, y.length)
+        }, 0);
+    }
+
+Using .map()
+
+    function findLongestWordLength(str) {
+      return Math.max(...str.split(" ").map(word => word.length));
+    }
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NjM4MzkwNywxNjY4NjEyMDQyLC0xNz
-g3NzE5OTc4XX0=
+eyJoaXN0b3J5IjpbMjYwNTE0NjY5LDEyODYzODM5MDcsMTY2OD
+YxMjA0MiwtMTc4NzcxOTk3OF19
 -->
