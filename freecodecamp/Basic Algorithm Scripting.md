@@ -85,7 +85,9 @@ Using .map()
     console.log(largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]));
     largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]);
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIwODkyNTYxLDI2MDUxNDY2OSwxMjg2Mz
-gzOTA3LDE2Njg2MTIwNDIsLTE3ODc3MTk5NzhdfQ==
+eyJoaXN0b3J5IjpbMTE3MzY5MTUxOSwzMjA4OTI1NjEsMjYwNT
+E0NjY5LDEyODYzODM5MDcsMTY2ODYxMjA0MiwtMTc4NzcxOTk3
+OF19
 -->
