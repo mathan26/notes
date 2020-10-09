@@ -94,9 +94,15 @@ Using .map()
 	    }
 	    
 	    confirmEnding("Congratulation", "on");
+## Repeat a String Repeat a String
+
+    function repeatStringNumTimes(str, num) {
+      return num > 0 ? str + repeatStringNumTimes(str, num - 1) : '';
+    }
+    repeatStringNumTimes("abc", 3);
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMTU3ODgsMzIwODkyNTYxLDI2MDUxND
-Y2OSwxMjg2MzgzOTA3LDE2Njg2MTIwNDIsLTE3ODc3MTk5Nzhd
-fQ==
+eyJoaXN0b3J5IjpbLTE4MTU5MzE2NDUsLTMyMTU3ODgsMzIwOD
+kyNTYxLDI2MDUxNDY2OSwxMjg2MzgzOTA3LDE2Njg2MTIwNDIs
+LTE3ODc3MTk5NzhdfQ==
 -->
