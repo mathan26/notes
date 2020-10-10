@@ -163,13 +163,18 @@ The CLI generated three metadata properties:
 **Observable data**
   
 
+ - Observable is one of the key classes in the RxJS library.
+ - `import { Observable, of } from 'rxjs';`
 
+	    getHeroes(): Observable<Hero[]> {
+	      return of(HEROES);
+	    }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNzMwOTY2MiwxODMyMDM0MDU2LDg2Mz
-A2NzAyMywyNTIxNzI4NTMsNjE2NzE1NDA0LC00Mzk1NzQwNDYs
-LTE1NTQwNTM5NDcsMjAyNzYxNzc1Miw0NDA1OTEzNzAsODAyNz
-Q0MTMzLDYwNzUyNzQ3MSwtODEyNzMwOTEyLC0xNDc0MzQwNzYz
-LC0xOTExNjk5ODYxLDE1MzExNTQzMjksMTk4ODg4NDgwMSwtNz
-U3MjE0Nzg4XX0=
+eyJoaXN0b3J5IjpbMTA0MTA0MjE0NCwxOTE3MzA5NjYyLDE4Mz
+IwMzQwNTYsODYzMDY3MDIzLDI1MjE3Mjg1Myw2MTY3MTU0MDQs
+LTQzOTU3NDA0NiwtMTU1NDA1Mzk0NywyMDI3NjE3NzUyLDQ0MD
+U5MTM3MCw4MDI3NDQxMzMsNjA3NTI3NDcxLC04MTI3MzA5MTIs
+LTE0NzQzNDA3NjMsLTE5MTE2OTk4NjEsMTUzMTE1NDMyOSwxOT
+g4ODg0ODAxLC03NTcyMTQ3ODhdfQ==
 -->
