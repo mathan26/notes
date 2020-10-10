@@ -150,9 +150,28 @@ Using .map()
     // test here
     booWho(null);
 
-Title Case a Sentence
+## Title Case a Sentence
+
+> Return the provided string with the first letter of each word
+> capitalized. Make sure the rest of the word is in lower case.
+> 
+> For the purpose of this exercise, you should also capitalize
+> connecting words like "the" and "of".
+
+    function titleCase(str) {
+    
+      let convertedArray = str.toLowerCase().split(" ");
+      let result = convertedArray.map(e=>{
+        return e.replace(e.charAt(0),e.charAt(0).toUpperCase());
+      })
+    
+      return result.join(" ");
+    }
+    
+    console.log(titleCase("I'm a little tea pot"));
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDg3MzQzNzUsMTU5NDk4Mjc1LC05OT
+eyJoaXN0b3J5IjpbLTE1NzA4MzIyNDcsMTU5NDk4Mjc1LC05OT
 QyMjg1MTgsLTE3NzQwNDY0MTgsLTMyMTU3ODgsMzIwODkyNTYx
 LDI2MDUxNDY2OSwxMjg2MzgzOTA3LDE2Njg2MTIwNDIsLTE3OD
 c3MTk5NzhdfQ==
