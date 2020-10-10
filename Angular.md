@@ -221,12 +221,23 @@ Bind to the MessageService
     
     </div>
 ## Add in-app navigation with routing
+
+ - First, AppRoutingModule imports RouterModule and Routes so the app can have routing functionality. The next import, HeroesComponent, will give the Router somewhere to go once you configure the routes.
+
+**Routes**
+
+ - Routes tell the Router which view to display when a user clicks a link or pastes a URL into the browser address bar.
+
+	    const routes: Routes = [
+	      { path: 'heroes', component: HeroesComponent }
+	    ];
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0ODE2Nzk2NiwyMzEzMjU3OTgsMTMyOT
-c1OTc1MSw2ODA4MzU3NjAsMTA5NDUzODY2MiwxOTE3MzA5NjYy
-LDE4MzIwMzQwNTYsODYzMDY3MDIzLDI1MjE3Mjg1Myw2MTY3MT
-U0MDQsLTQzOTU3NDA0NiwtMTU1NDA1Mzk0NywyMDI3NjE3NzUy
-LDQ0MDU5MTM3MCw4MDI3NDQxMzMsNjA3NTI3NDcxLC04MTI3Mz
-A5MTIsLTE0NzQzNDA3NjMsLTE5MTE2OTk4NjEsMTUzMTE1NDMy
-OV19
+eyJoaXN0b3J5IjpbLTM3MjA3MjExLDE1NDgxNjc5NjYsMjMxMz
+I1Nzk4LDEzMjk3NTk3NTEsNjgwODM1NzYwLDEwOTQ1Mzg2NjIs
+MTkxNzMwOTY2MiwxODMyMDM0MDU2LDg2MzA2NzAyMywyNTIxNz
+I4NTMsNjE2NzE1NDA0LC00Mzk1NzQwNDYsLTE1NTQwNTM5NDcs
+MjAyNzYxNzc1Miw0NDA1OTEzNzAsODAyNzQ0MTMzLDYwNzUyNz
+Q3MSwtODEyNzMwOTEyLC0xNDc0MzQwNzYzLC0xOTExNjk5ODYx
+XX0=
 -->
