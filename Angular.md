@@ -137,17 +137,21 @@ The CLI generated three metadata properties:
 
 **Update HeroesComponent**
 
- - Delete the HEROES import, because you won't need that anymore. Import
-   the HeroService instead.
+ - Delete the HEROES import, because you won't need that anymore. Import the HeroService instead.
+
+**Inject the HeroService**
+
+ - constructor(private heroService: HeroService) {}
 
   
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYzMDY3MDIzLDI1MjE3Mjg1Myw2MTY3MT
-U0MDQsLTQzOTU3NDA0NiwtMTU1NDA1Mzk0NywyMDI3NjE3NzUy
-LDQ0MDU5MTM3MCw4MDI3NDQxMzMsNjA3NTI3NDcxLC04MTI3Mz
-A5MTIsLTE0NzQzNDA3NjMsLTE5MTE2OTk4NjEsMTUzMTE1NDMy
-OSwxOTg4ODg0ODAxLC03NTcyMTQ3ODhdfQ==
+eyJoaXN0b3J5IjpbLTIwMzM3ODg2NDksODYzMDY3MDIzLDI1Mj
+E3Mjg1Myw2MTY3MTU0MDQsLTQzOTU3NDA0NiwtMTU1NDA1Mzk0
+NywyMDI3NjE3NzUyLDQ0MDU5MTM3MCw4MDI3NDQxMzMsNjA3NT
+I3NDcxLC04MTI3MzA5MTIsLTE0NzQzNDA3NjMsLTE5MTE2OTk4
+NjEsMTUzMTE1NDMyOSwxOTg4ODg0ODAxLC03NTcyMTQ3ODhdfQ
+==
 -->
