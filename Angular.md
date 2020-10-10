@@ -93,14 +93,20 @@ The CLI generated three metadata properties:
   **Add the @Input() hero property**
   
 
- - The hero property must be an ***Input property***, annotated with the @Input() decorator, because the external HeroesComponent will bind to it like this.
+ - The hero property must be an ***Input property***, annotated with the `@Input()` decorator, because the external HeroesComponent will bind to it like this.
+
+	    <app-hero-detail [hero]="selectedHero"></app-hero-detail>
+	    
+
+ - List item
 
   
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI2NTU1MDU2LDIwMjc2MTc3NTIsNDQwNT
-kxMzcwLDgwMjc0NDEzMyw2MDc1Mjc0NzEsLTgxMjczMDkxMiwt
-MTQ3NDM0MDc2MywtMTkxMTY5OTg2MSwxNTMxMTU0MzI5LDE5OD
-g4ODQ4MDEsLTc1NzIxNDc4OF19
+eyJoaXN0b3J5IjpbLTIzMDM3NTkwNSwyMDI3NjE3NzUyLDQ0MD
+U5MTM3MCw4MDI3NDQxMzMsNjA3NTI3NDcxLC04MTI3MzA5MTIs
+LTE0NzQzNDA3NjMsLTE5MTE2OTk4NjEsMTUzMTE1NDMyOSwxOT
+g4ODg0ODAxLC03NTcyMTQ3ODhdfQ==
 -->
