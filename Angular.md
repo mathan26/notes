@@ -204,13 +204,29 @@ The CLI generated three metadata properties:
     		  return of(HEROES);
     		}
 
+**Display the message from HeroService**
+
+ - Open MessagesComponent and import the MessageService.
+ - constructor(public messageService: MessageService) {}
+> Angular only binds to public component properties.
+
+Bind to the MessageService
+
+    <div *ngIf="messageService.messages.length">
+    
+      <h2>Messages</h2>
+      <button class="clear"
+              (click)="messageService.clear()">clear</button>
+      <div *ngFor='let message of messageService.messages'> {{message}} </div>
+    
+    </div>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyOTc1OTc1MSw2ODA4MzU3NjAsMTA5ND
-UzODY2MiwxOTE3MzA5NjYyLDE4MzIwMzQwNTYsODYzMDY3MDIz
-LDI1MjE3Mjg1Myw2MTY3MTU0MDQsLTQzOTU3NDA0NiwtMTU1ND
-A1Mzk0NywyMDI3NjE3NzUyLDQ0MDU5MTM3MCw4MDI3NDQxMzMs
-NjA3NTI3NDcxLC04MTI3MzA5MTIsLTE0NzQzNDA3NjMsLTE5MT
-E2OTk4NjEsMTUzMTE1NDMyOSwxOTg4ODg0ODAxLC03NTcyMTQ3
-ODhdfQ==
+eyJoaXN0b3J5IjpbMjMxMzI1Nzk4LDEzMjk3NTk3NTEsNjgwOD
+M1NzYwLDEwOTQ1Mzg2NjIsMTkxNzMwOTY2MiwxODMyMDM0MDU2
+LDg2MzA2NzAyMywyNTIxNzI4NTMsNjE2NzE1NDA0LC00Mzk1Nz
+QwNDYsLTE1NTQwNTM5NDcsMjAyNzYxNzc1Miw0NDA1OTEzNzAs
+ODAyNzQ0MTMzLDYwNzUyNzQ3MSwtODEyNzMwOTEyLC0xNDc0Mz
+QwNzYzLC0xOTExNjk5ODYxLDE1MzExNTQzMjksMTk4ODg4NDgw
+MV19
 -->
