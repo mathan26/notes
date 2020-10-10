@@ -189,12 +189,17 @@ The CLI generated three metadata properties:
 
  - injecting MessageService into the HeroService displaying a message
    when HeroService fetches heroes successfully
+   **Inject it into the HeroService**
+   
+
+ - List item
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgwODM1NzYwLDEwOTQ1Mzg2NjIsMTkxNz
-MwOTY2MiwxODMyMDM0MDU2LDg2MzA2NzAyMywyNTIxNzI4NTMs
-NjE2NzE1NDA0LC00Mzk1NzQwNDYsLTE1NTQwNTM5NDcsMjAyNz
-YxNzc1Miw0NDA1OTEzNzAsODAyNzQ0MTMzLDYwNzUyNzQ3MSwt
-ODEyNzMwOTEyLC0xNDc0MzQwNzYzLC0xOTExNjk5ODYxLDE1Mz
-ExNTQzMjksMTk4ODg4NDgwMSwtNzU3MjE0Nzg4XX0=
+eyJoaXN0b3J5IjpbNDk0Mzg5NzI0LDY4MDgzNTc2MCwxMDk0NT
+M4NjYyLDE5MTczMDk2NjIsMTgzMjAzNDA1Niw4NjMwNjcwMjMs
+MjUyMTcyODUzLDYxNjcxNTQwNCwtNDM5NTc0MDQ2LC0xNTU0MD
+UzOTQ3LDIwMjc2MTc3NTIsNDQwNTkxMzcwLDgwMjc0NDEzMyw2
+MDc1Mjc0NzEsLTgxMjczMDkxMiwtMTQ3NDM0MDc2MywtMTkxMT
+Y5OTg2MSwxNTMxMTU0MzI5LDE5ODg4ODQ4MDEsLTc1NzIxNDc4
+OF19
 -->
