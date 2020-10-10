@@ -234,14 +234,24 @@ Bind to the MessageService
 **Add RouterOutlet**
 
  - The <router-outlet> tells the router where to display routed views.
+
 **Add a navigation link (routerLink)**
 
+**Routable HeroDetailComponent**
+
+ - Get the route that created it 
+ - Extract the id from the route Acquire
+ -  the hero with that id from the server via the HeroService
+import { ActivatedRoute } from '@angular/router';
+import { Location } from '@angular/common';
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMzU0NTMzNCwxNTQ4MTY3OTY2LDIzMT
-MyNTc5OCwxMzI5NzU5NzUxLDY4MDgzNTc2MCwxMDk0NTM4NjYy
-LDE5MTczMDk2NjIsMTgzMjAzNDA1Niw4NjMwNjcwMjMsMjUyMT
-cyODUzLDYxNjcxNTQwNCwtNDM5NTc0MDQ2LC0xNTU0MDUzOTQ3
-LDIwMjc2MTc3NTIsNDQwNTkxMzcwLDgwMjc0NDEzMyw2MDc1Mj
-c0NzEsLTgxMjczMDkxMiwtMTQ3NDM0MDc2MywtMTkxMTY5OTg2
-MV19
+eyJoaXN0b3J5IjpbLTE4OTMyNTA0MjYsMTU0ODE2Nzk2NiwyMz
+EzMjU3OTgsMTMyOTc1OTc1MSw2ODA4MzU3NjAsMTA5NDUzODY2
+MiwxOTE3MzA5NjYyLDE4MzIwMzQwNTYsODYzMDY3MDIzLDI1Mj
+E3Mjg1Myw2MTY3MTU0MDQsLTQzOTU3NDA0NiwtMTU1NDA1Mzk0
+NywyMDI3NjE3NzUyLDQ0MDU5MTM3MCw4MDI3NDQxMzMsNjA3NT
+I3NDcxLC04MTI3MzA5MTIsLTE0NzQzNDA3NjMsLTE5MTE2OTk4
+NjFdfQ==
 -->
