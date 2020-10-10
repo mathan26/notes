@@ -143,15 +143,21 @@ The CLI generated three metadata properties:
 
  - `constructor(private heroService: HeroService) {}`
  - The parameter simultaneously defines a private heroService property and identifies it as a HeroService injection site.
+**Add getHeroes()**
+
+	    getHeroes(): void {
+	      this.heroes = this.heroService.getHeroes();
+	    }
 
   
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMjAzNDA1Niw4NjMwNjcwMjMsMjUyMT
-cyODUzLDYxNjcxNTQwNCwtNDM5NTc0MDQ2LC0xNTU0MDUzOTQ3
-LDIwMjc2MTc3NTIsNDQwNTkxMzcwLDgwMjc0NDEzMyw2MDc1Mj
-c0NzEsLTgxMjczMDkxMiwtMTQ3NDM0MDc2MywtMTkxMTY5OTg2
-MSwxNTMxMTU0MzI5LDE5ODg4ODQ4MDEsLTc1NzIxNDc4OF19
+eyJoaXN0b3J5IjpbODEwMjg5MzY1LDE4MzIwMzQwNTYsODYzMD
+Y3MDIzLDI1MjE3Mjg1Myw2MTY3MTU0MDQsLTQzOTU3NDA0Niwt
+MTU1NDA1Mzk0NywyMDI3NjE3NzUyLDQ0MDU5MTM3MCw4MDI3ND
+QxMzMsNjA3NTI3NDcxLC04MTI3MzA5MTIsLTE0NzQzNDA3NjMs
+LTE5MTE2OTk4NjEsMTUzMTE1NDMyOSwxOTg4ODg0ODAxLC03NT
+cyMTQ3ODhdfQ==
 -->
