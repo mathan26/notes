@@ -170,8 +170,12 @@ The CLI generated three metadata properties:
 	      return of(HEROES);
 	    }
 
+**Subscribe in HeroesComponent**
+
+ - List item
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MTA0MjE0NCwxOTE3MzA5NjYyLDE4Mz
+eyJoaXN0b3J5IjpbMTA5NDUzODY2MiwxOTE3MzA5NjYyLDE4Mz
 IwMzQwNTYsODYzMDY3MDIzLDI1MjE3Mjg1Myw2MTY3MTU0MDQs
 LTQzOTU3NDA0NiwtMTU1NDA1Mzk0NywyMDI3NjE3NzUyLDQ0MD
 U5MTM3MCw4MDI3NDQxMzMsNjA3NTI3NDcxLC04MTI3MzA5MTIs
