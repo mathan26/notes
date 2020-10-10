@@ -101,14 +101,15 @@ The CLI generated three metadata properties:
  - Add a hero property, preceded by the @Input() decorator.
 
 	     @Input() hero: Hero;
+	     
 
   
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTQwNTM5NDcsMjAyNzYxNzc1Miw0ND
-A1OTEzNzAsODAyNzQ0MTMzLDYwNzUyNzQ3MSwtODEyNzMwOTEy
-LC0xNDc0MzQwNzYzLC0xOTExNjk5ODYxLDE1MzExNTQzMjksMT
-k4ODg4NDgwMSwtNzU3MjE0Nzg4XX0=
+eyJoaXN0b3J5IjpbLTcxNTI5NjE4NywtMTU1NDA1Mzk0NywyMD
+I3NjE3NzUyLDQ0MDU5MTM3MCw4MDI3NDQxMzMsNjA3NTI3NDcx
+LC04MTI3MzA5MTIsLTE0NzQzNDA3NjMsLTE5MTE2OTk4NjEsMT
+UzMTE1NDMyOSwxOTg4ODg0ODAxLC03NTcyMTQ3ODhdfQ==
 -->
