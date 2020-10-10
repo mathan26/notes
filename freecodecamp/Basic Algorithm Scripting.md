@@ -118,20 +118,26 @@ Using .map()
 > first element in it that passes a 'truth test'. This means that given
 > an element x, the 'truth test' is passed if func(x) is true. If no
 > element passes the test, return undefined.
-function findElement(arr, func) {
-  let num = 0;
 
-  for (var i = 0; i < arr.length; i++) {
-    num = arr[i];
-    if (func(num)) {
-      return num;
+	    function findElement(arr, func) {
+	      let num = 0;
+	    
+	      for (var i = 0; i < arr.length; i++) {
+	        num = arr[i];
+	        if (func(num)) {
+	          return num;
+	        }
+	      }
+	    
+	      return undefined;
+	    }
+     //Another solution
+    function findElement(arr, func) {
+      return arr.find(func);
     }
-  }
 
-  return undefined;
-}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTk0MTIwNDEsLTE3NzQwNDY0MTgsLT
-MyMTU3ODgsMzIwODkyNTYxLDI2MDUxNDY2OSwxMjg2MzgzOTA3
-LDE2Njg2MTIwNDIsLTE3ODc3MTk5NzhdfQ==
+eyJoaXN0b3J5IjpbLTk5NDIyODUxOCwtMTc3NDA0NjQxOCwtMz
+IxNTc4OCwzMjA4OTI1NjEsMjYwNTE0NjY5LDEyODYzODM5MDcs
+MTY2ODYxMjA0MiwtMTc4NzcxOTk3OF19
 -->
