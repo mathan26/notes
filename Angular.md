@@ -129,15 +129,19 @@ The CLI generated three metadata properties:
 **@Injectable() services**
 
  - The @Injectable() decorator accepts a metadata object for the service, the same way the @Component() decorator did for your component classes.
+ - Add a getHeroes method to return the mock heroes.
+**Provide the HeroService**
+
+ - List item
 
   
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUyMTcyODUzLDYxNjcxNTQwNCwtNDM5NT
-c0MDQ2LC0xNTU0MDUzOTQ3LDIwMjc2MTc3NTIsNDQwNTkxMzcw
-LDgwMjc0NDEzMyw2MDc1Mjc0NzEsLTgxMjczMDkxMiwtMTQ3ND
-M0MDc2MywtMTkxMTY5OTg2MSwxNTMxMTU0MzI5LDE5ODg4ODQ4
-MDEsLTc1NzIxNDc4OF19
+eyJoaXN0b3J5IjpbNjkyMTA4MDUwLDI1MjE3Mjg1Myw2MTY3MT
+U0MDQsLTQzOTU3NDA0NiwtMTU1NDA1Mzk0NywyMDI3NjE3NzUy
+LDQ0MDU5MTM3MCw4MDI3NDQxMzMsNjA3NTI3NDcxLC04MTI3Mz
+A5MTIsLTE0NzQzNDA3NjMsLTE5MTE2OTk4NjEsMTUzMTE1NDMy
+OSwxOTg4ODg0ODAxLC03NTcyMTQ3ODhdfQ==
 -->
