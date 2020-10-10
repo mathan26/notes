@@ -172,13 +172,16 @@ The CLI generated three metadata properties:
 
 **Subscribe in HeroesComponent**
 
- - List item
+	  getHeroes(): void {
+	  this.heroService.getHeroes()
+	      .subscribe(heroes => this.heroes = heroes);
+	}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NDUzODY2MiwxOTE3MzA5NjYyLDE4Mz
-IwMzQwNTYsODYzMDY3MDIzLDI1MjE3Mjg1Myw2MTY3MTU0MDQs
-LTQzOTU3NDA0NiwtMTU1NDA1Mzk0NywyMDI3NjE3NzUyLDQ0MD
-U5MTM3MCw4MDI3NDQxMzMsNjA3NTI3NDcxLC04MTI3MzA5MTIs
-LTE0NzQzNDA3NjMsLTE5MTE2OTk4NjEsMTUzMTE1NDMyOSwxOT
-g4ODg0ODAxLC03NTcyMTQ3ODhdfQ==
+eyJoaXN0b3J5IjpbMTA2MzQ5ODU2MSwxMDk0NTM4NjYyLDE5MT
+czMDk2NjIsMTgzMjAzNDA1Niw4NjMwNjcwMjMsMjUyMTcyODUz
+LDYxNjcxNTQwNCwtNDM5NTc0MDQ2LC0xNTU0MDUzOTQ3LDIwMj
+c2MTc3NTIsNDQwNTkxMzcwLDgwMjc0NDEzMyw2MDc1Mjc0NzEs
+LTgxMjczMDkxMiwtMTQ3NDM0MDc2MywtMTkxMTY5OTg2MSwxNT
+MxMTU0MzI5LDE5ODg4ODQ4MDEsLTc1NzIxNDc4OF19
 -->
