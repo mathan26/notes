@@ -159,16 +159,17 @@ The CLI generated three metadata properties:
  - The constructor shouldn't do anything. It certainly shouldn't call a
    function that makes HTTP requests to a remote server as a real data
    service would.
-
+   
+**Observable data**
   
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTkwNDYxMjUsMTgzMjAzNDA1Niw4Nj
-MwNjcwMjMsMjUyMTcyODUzLDYxNjcxNTQwNCwtNDM5NTc0MDQ2
-LC0xNTU0MDUzOTQ3LDIwMjc2MTc3NTIsNDQwNTkxMzcwLDgwMj
-c0NDEzMyw2MDc1Mjc0NzEsLTgxMjczMDkxMiwtMTQ3NDM0MDc2
-MywtMTkxMTY5OTg2MSwxNTMxMTU0MzI5LDE5ODg4ODQ4MDEsLT
-c1NzIxNDc4OF19
+eyJoaXN0b3J5IjpbMTkxNzMwOTY2MiwxODMyMDM0MDU2LDg2Mz
+A2NzAyMywyNTIxNzI4NTMsNjE2NzE1NDA0LC00Mzk1NzQwNDYs
+LTE1NTQwNTM5NDcsMjAyNzYxNzc1Miw0NDA1OTEzNzAsODAyNz
+Q0MTMzLDYwNzUyNzQ3MSwtODEyNzMwOTEyLC0xNDc0MzQwNzYz
+LC0xOTExNjk5ODYxLDE1MzExNTQzMjksMTk4ODg4NDgwMSwtNz
+U3MjE0Nzg4XX0=
 -->
