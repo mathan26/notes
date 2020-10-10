@@ -189,17 +189,28 @@ The CLI generated three metadata properties:
 
  - injecting MessageService into the HeroService displaying a message
    when HeroService fetches heroes successfully
-   **Inject it into the HeroService**
-   
+ 
+  **Inject it into the HeroService**
+ 
 
- - List item
+ - constructor(private messageService: MessageService) { }
+
+  **Send a message from HeroService**
+		 
+
+     getHeroes(): Observable<Hero[]> {
+    		  // TODO: send the message _after_ fetching the heroes
+    		  this.messageService.add('HeroService: fetched heroes');
+    		  return of(HEROES);
+    		}
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk0Mzg5NzI0LDY4MDgzNTc2MCwxMDk0NT
-M4NjYyLDE5MTczMDk2NjIsMTgzMjAzNDA1Niw4NjMwNjcwMjMs
-MjUyMTcyODUzLDYxNjcxNTQwNCwtNDM5NTc0MDQ2LC0xNTU0MD
-UzOTQ3LDIwMjc2MTc3NTIsNDQwNTkxMzcwLDgwMjc0NDEzMyw2
-MDc1Mjc0NzEsLTgxMjczMDkxMiwtMTQ3NDM0MDc2MywtMTkxMT
-Y5OTg2MSwxNTMxMTU0MzI5LDE5ODg4ODQ4MDEsLTc1NzIxNDc4
-OF19
+eyJoaXN0b3J5IjpbMTMyOTc1OTc1MSw2ODA4MzU3NjAsMTA5ND
+UzODY2MiwxOTE3MzA5NjYyLDE4MzIwMzQwNTYsODYzMDY3MDIz
+LDI1MjE3Mjg1Myw2MTY3MTU0MDQsLTQzOTU3NDA0NiwtMTU1ND
+A1Mzk0NywyMDI3NjE3NzUyLDQ0MDU5MTM3MCw4MDI3NDQxMzMs
+NjA3NTI3NDcxLC04MTI3MzA5MTIsLTE0NzQzNDA3NjMsLTE5MT
+E2OTk4NjEsMTUzMTE1NDMyOSwxOTg4ODg0ODAxLC03NTcyMTQ3
+ODhdfQ==
 -->
