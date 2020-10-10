@@ -135,9 +135,23 @@ Using .map()
     function findElement(arr, func) {
       return arr.find(func);
     }
-Boo who
+
+## Boo who
+
+> Check if a value is classified as a boolean primitive. Return true or
+> false.
+> 
+> Boolean primitives are true and false.
+
+    function booWho(bool) {
+      return typeof bool === "boolean";
+    }
+    
+    // test here
+    booWho(null);
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzUxMjg0NTQsLTk5NDIyODUxOCwtMT
-c3NDA0NjQxOCwtMzIxNTc4OCwzMjA4OTI1NjEsMjYwNTE0NjY5
-LDEyODYzODM5MDcsMTY2ODYxMjA0MiwtMTc4NzcxOTk3OF19
+eyJoaXN0b3J5IjpbMTU5NDk4Mjc1LC05OTQyMjg1MTgsLTE3Nz
+QwNDY0MTgsLTMyMTU3ODgsMzIwODkyNTYxLDI2MDUxNDY2OSwx
+Mjg2MzgzOTA3LDE2Njg2MTIwNDIsLTE3ODc3MTk5NzhdfQ==
 -->
