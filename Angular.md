@@ -176,12 +176,17 @@ The CLI generated three metadata properties:
 	  this.heroService.getHeroes()
 	      .subscribe(heroes => this.heroes = heroes);
 	}
+	
+
+ - The new version waits for the Observable to emit the array of heroes—which could happen now or several minutes from now. 
+ - The `subscribe()` method *passes the emitted array to the callback*, which sets the component's heroes property.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MzQ5ODU2MSwxMDk0NTM4NjYyLDE5MT
-czMDk2NjIsMTgzMjAzNDA1Niw4NjMwNjcwMjMsMjUyMTcyODUz
-LDYxNjcxNTQwNCwtNDM5NTc0MDQ2LC0xNTU0MDUzOTQ3LDIwMj
-c2MTc3NTIsNDQwNTkxMzcwLDgwMjc0NDEzMyw2MDc1Mjc0NzEs
-LTgxMjczMDkxMiwtMTQ3NDM0MDc2MywtMTkxMTY5OTg2MSwxNT
-MxMTU0MzI5LDE5ODg4ODQ4MDEsLTc1NzIxNDc4OF19
+eyJoaXN0b3J5IjpbODQ0MTEyMjMyLDEwOTQ1Mzg2NjIsMTkxNz
+MwOTY2MiwxODMyMDM0MDU2LDg2MzA2NzAyMywyNTIxNzI4NTMs
+NjE2NzE1NDA0LC00Mzk1NzQwNDYsLTE1NTQwNTM5NDcsMjAyNz
+YxNzc1Miw0NDA1OTEzNzAsODAyNzQ0MTMzLDYwNzUyNzQ3MSwt
+ODEyNzMwOTEyLC0xNDc0MzQwNzYzLC0xOTExNjk5ODYxLDE1Mz
+ExNTQzMjksMTk4ODg4NDgwMSwtNzU3MjE0Nzg4XX0=
 -->
