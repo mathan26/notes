@@ -182,13 +182,16 @@ The CLI generated three metadata properties:
  - The `subscribe()` method *passes the emitted array to the callback*, which sets the component's heroes property.
 **Show messages**
 
- - List item
+ - adding a MessagesComponent that displays app messages at the bottom of the screen
+creating an injectable, app-wide MessageService for sending messages to be displayed
+injecting MessageService into the HeroService
+displaying a message when HeroService fetches heroes successfully
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODkyOTY4NDUsMTA5NDUzODY2MiwxOT
-E3MzA5NjYyLDE4MzIwMzQwNTYsODYzMDY3MDIzLDI1MjE3Mjg1
-Myw2MTY3MTU0MDQsLTQzOTU3NDA0NiwtMTU1NDA1Mzk0NywyMD
-I3NjE3NzUyLDQ0MDU5MTM3MCw4MDI3NDQxMzMsNjA3NTI3NDcx
-LC04MTI3MzA5MTIsLTE0NzQzNDA3NjMsLTE5MTE2OTk4NjEsMT
-UzMTE1NDMyOSwxOTg4ODg0ODAxLC03NTcyMTQ3ODhdfQ==
+eyJoaXN0b3J5IjpbLTYwNTY1MjcwLDEwOTQ1Mzg2NjIsMTkxNz
+MwOTY2MiwxODMyMDM0MDU2LDg2MzA2NzAyMywyNTIxNzI4NTMs
+NjE2NzE1NDA0LC00Mzk1NzQwNDYsLTE1NTQwNTM5NDcsMjAyNz
+YxNzc1Miw0NDA1OTEzNzAsODAyNzQ0MTMzLDYwNzUyNzQ3MSwt
+ODEyNzMwOTEyLC0xNDc0MzQwNzYzLC0xOTExNjk5ODYxLDE1Mz
+ExNTQzMjksMTk4ODg4NDgwMSwtNzU3MjE0Nzg4XX0=
 -->
