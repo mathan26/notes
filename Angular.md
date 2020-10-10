@@ -231,13 +231,17 @@ Bind to the MessageService
 	    const routes: Routes = [
 	      { path: 'heroes', component: HeroesComponent }
 	    ];
+**Add RouterOutlet**
+
+ - The <router-outlet> tells the router where to display routed views.
+**Add a navigation link (routerLink)**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MjA3MjExLDE1NDgxNjc5NjYsMjMxMz
-I1Nzk4LDEzMjk3NTk3NTEsNjgwODM1NzYwLDEwOTQ1Mzg2NjIs
-MTkxNzMwOTY2MiwxODMyMDM0MDU2LDg2MzA2NzAyMywyNTIxNz
-I4NTMsNjE2NzE1NDA0LC00Mzk1NzQwNDYsLTE1NTQwNTM5NDcs
-MjAyNzYxNzc1Miw0NDA1OTEzNzAsODAyNzQ0MTMzLDYwNzUyNz
-Q3MSwtODEyNzMwOTEyLC0xNDc0MzQwNzYzLC0xOTExNjk5ODYx
-XX0=
+eyJoaXN0b3J5IjpbMTEwMzU0NTMzNCwxNTQ4MTY3OTY2LDIzMT
+MyNTc5OCwxMzI5NzU5NzUxLDY4MDgzNTc2MCwxMDk0NTM4NjYy
+LDE5MTczMDk2NjIsMTgzMjAzNDA1Niw4NjMwNjcwMjMsMjUyMT
+cyODUzLDYxNjcxNTQwNCwtNDM5NTc0MDQ2LC0xNTU0MDUzOTQ3
+LDIwMjc2MTc3NTIsNDQwNTkxMzcwLDgwMjc0NDEzMyw2MDc1Mj
+c0NzEsLTgxMjczMDkxMiwtMTQ3NDM0MDc2MywtMTkxMTY5OTg2
+MV19
 -->
