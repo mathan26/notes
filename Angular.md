@@ -148,13 +148,17 @@ The CLI generated three metadata properties:
 	    getHeroes(): void {
 	      this.heroes = this.heroService.getHeroes();
 	    }
+	    
+**Call it in ngOnInit()**
+
+ - List item
 
   
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEwMjg5MzY1LDE4MzIwMzQwNTYsODYzMD
+eyJoaXN0b3J5IjpbNDcyNzU5MzEyLDE4MzIwMzQwNTYsODYzMD
 Y3MDIzLDI1MjE3Mjg1Myw2MTY3MTU0MDQsLTQzOTU3NDA0Niwt
 MTU1NDA1Mzk0NywyMDI3NjE3NzUyLDQ0MDU5MTM3MCw4MDI3ND
 QxMzMsNjA3NTI3NDcxLC04MTI3MzA5MTIsLTE0NzQzNDA3NjMs
