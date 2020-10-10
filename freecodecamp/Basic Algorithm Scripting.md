@@ -135,9 +135,9 @@ Using .map()
     function findElement(arr, func) {
       return arr.find(func);
     }
-
+Boo who
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NDIyODUxOCwtMTc3NDA0NjQxOCwtMz
-IxNTc4OCwzMjA4OTI1NjEsMjYwNTE0NjY5LDEyODYzODM5MDcs
-MTY2ODYxMjA0MiwtMTc4NzcxOTk3OF19
+eyJoaXN0b3J5IjpbLTE1NzUxMjg0NTQsLTk5NDIyODUxOCwtMT
+c3NDA0NjQxOCwtMzIxNTc4OCwzMjA4OTI1NjEsMjYwNTE0NjY5
+LDEyODYzODM5MDcsMTY2ODYxMjA0MiwtMTc4NzcxOTk3OF19
 -->
