@@ -106,16 +106,20 @@ The CLI generated three metadata properties:
  - The two components will have a parent/child relationship. The parent HeroesComponent will control the child HeroDetailComponent by sending it a new hero to display whenever the user selects a hero from the list.
  - You won't change the HeroesComponent class but you will change its template.
 **Update the HeroesComponent template**
+		  `
 
-  `<app-hero-detail [hero]="selectedHero"></app-hero-detail>`
+	    <app-hero-detail [hero]="selectedHero"></app-hero-detail>
+	    
+
+> [hero]="selectedHero" is an Angular property binding.
 
   
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjY3OTI5MjksLTE1NTQwNTM5NDcsMj
-AyNzYxNzc1Miw0NDA1OTEzNzAsODAyNzQ0MTMzLDYwNzUyNzQ3
-MSwtODEyNzMwOTEyLC0xNDc0MzQwNzYzLC0xOTExNjk5ODYxLD
-E1MzExNTQzMjksMTk4ODg4NDgwMSwtNzU3MjE0Nzg4XX0=
+eyJoaXN0b3J5IjpbLTQzOTU3NDA0NiwtMTU1NDA1Mzk0NywyMD
+I3NjE3NzUyLDQ0MDU5MTM3MCw4MDI3NDQxMzMsNjA3NTI3NDcx
+LC04MTI3MzA5MTIsLTE0NzQzNDA3NjMsLTE5MTE2OTk4NjEsMT
+UzMTE1NDMyOSwxOTg4ODg0ODAxLC03NTcyMTQ3ODhdfQ==
 -->
