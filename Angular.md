@@ -151,17 +151,24 @@ The CLI generated three metadata properties:
 	    
 **Call it in ngOnInit()**
 
- - List item
+ - While you could call getHeroes() in the constructor, that's not the best practice.
+
+ - Reserve the constructor for simple initialization such as wiring
+   constructor parameters to properties.
+
+ - The constructor shouldn't do anything. It certainly shouldn't call a
+   function that makes HTTP requests to a remote server as a real data
+   service would.
 
   
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcyNzU5MzEyLDE4MzIwMzQwNTYsODYzMD
-Y3MDIzLDI1MjE3Mjg1Myw2MTY3MTU0MDQsLTQzOTU3NDA0Niwt
-MTU1NDA1Mzk0NywyMDI3NjE3NzUyLDQ0MDU5MTM3MCw4MDI3ND
-QxMzMsNjA3NTI3NDcxLC04MTI3MzA5MTIsLTE0NzQzNDA3NjMs
-LTE5MTE2OTk4NjEsMTUzMTE1NDMyOSwxOTg4ODg0ODAxLC03NT
-cyMTQ3ODhdfQ==
+eyJoaXN0b3J5IjpbLTE1OTkwNDYxMjUsMTgzMjAzNDA1Niw4Nj
+MwNjcwMjMsMjUyMTcyODUzLDYxNjcxNTQwNCwtNDM5NTc0MDQ2
+LC0xNTU0MDUzOTQ3LDIwMjc2MTc3NTIsNDQwNTkxMzcwLDgwMj
+c0NDEzMyw2MDc1Mjc0NzEsLTgxMjczMDkxMiwtMTQ3NDM0MDc2
+MywtMTkxMTY5OTg2MSwxNTMxMTU0MzI5LDE5ODg4ODQ4MDEsLT
+c1NzIxNDc4OF19
 -->
