@@ -98,15 +98,17 @@ The CLI generated three metadata properties:
 	    <app-hero-detail [hero]="selectedHero"></app-hero-detail>
 	    
 
- - List item
+ - Add a hero property, preceded by the @Input() decorator.
+
+	     @Input() hero: Hero;
 
   
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMDM3NTkwNSwyMDI3NjE3NzUyLDQ0MD
-U5MTM3MCw4MDI3NDQxMzMsNjA3NTI3NDcxLC04MTI3MzA5MTIs
-LTE0NzQzNDA3NjMsLTE5MTE2OTk4NjEsMTUzMTE1NDMyOSwxOT
-g4ODg0ODAxLC03NTcyMTQ3ODhdfQ==
+eyJoaXN0b3J5IjpbLTE1NTQwNTM5NDcsMjAyNzYxNzc1Miw0ND
+A1OTEzNzAsODAyNzQ0MTMzLDYwNzUyNzQ3MSwtODEyNzMwOTEy
+LC0xNDc0MzQwNzYzLC0xOTExNjk5ODYxLDE1MzExNTQzMjksMT
+k4ODg4NDgwMSwtNzU3MjE0Nzg4XX0=
 -->
