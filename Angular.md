@@ -132,14 +132,20 @@ The CLI generated three metadata properties:
  - Add a getHeroes method to return the mock heroes.
 **Provide the HeroService**
 
- - List item
+ - You must make the HeroService available to the dependency injection system before Angular can inject it into the HeroesComponent by registering a provider. 
+ - A provider is something that can create or deliver a service; in this case, it instantiates the HeroService class to provide the service.
+
+**Update HeroesComponent**
+
+ - Delete the HEROES import, because you won't need that anymore. Import
+   the HeroService instead.
 
   
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkyMTA4MDUwLDI1MjE3Mjg1Myw2MTY3MT
+eyJoaXN0b3J5IjpbODYzMDY3MDIzLDI1MjE3Mjg1Myw2MTY3MT
 U0MDQsLTQzOTU3NDA0NiwtMTU1NDA1Mzk0NywyMDI3NjE3NzUy
 LDQ0MDU5MTM3MCw4MDI3NDQxMzMsNjA3NTI3NDcxLC04MTI3Mz
 A5MTIsLTE0NzQzNDA3NjMsLTE5MTE2OTk4NjEsMTUzMTE1NDMy
