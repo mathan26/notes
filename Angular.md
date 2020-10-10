@@ -122,15 +122,17 @@ The CLI generated three metadata properties:
     view.
  4. You can re-use the HeroDetailComponent in the template of some
     future component.
+## Add services
+
 
   
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwOTUwNDIwMSwtNDM5NTc0MDQ2LC0xNT
-U0MDUzOTQ3LDIwMjc2MTc3NTIsNDQwNTkxMzcwLDgwMjc0NDEz
-Myw2MDc1Mjc0NzEsLTgxMjczMDkxMiwtMTQ3NDM0MDc2MywtMT
-kxMTY5OTg2MSwxNTMxMTU0MzI5LDE5ODg4ODQ4MDEsLTc1NzIx
-NDc4OF19
+eyJoaXN0b3J5IjpbNjE2NzE1NDA0LC00Mzk1NzQwNDYsLTE1NT
+QwNTM5NDcsMjAyNzYxNzc1Miw0NDA1OTEzNzAsODAyNzQ0MTMz
+LDYwNzUyNzQ3MSwtODEyNzMwOTEyLC0xNDc0MzQwNzYzLC0xOT
+ExNjk5ODYxLDE1MzExNTQzMjksMTk4ODg4NDgwMSwtNzU3MjE0
+Nzg4XX0=
 -->
