@@ -77,12 +77,26 @@ The CLI generated three metadata properties:
     ng generate component hero-detail
 
  - Write the template
- - Add the @Input() hero property
+
+	     <div *ngIf="hero">
+	    
+	      <h2>{{hero.name | uppercase}} Details</h2>
+	      <div><span>id: </span>{{hero.id}}</div>
+	      <div>
+	        <label>name:
+	          <input [(ngModel)]="hero.name" placeholder="name"/>
+	        </label>
+	      </div>
+	    
+	    </div>
+
+  **Add the @Input() hero property**
+  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNzYxNzc1Miw0NDA1OTEzNzAsODAyNz
-Q0MTMzLDYwNzUyNzQ3MSwtODEyNzMwOTEyLC0xNDc0MzQwNzYz
-LC0xOTExNjk5ODYxLDE1MzExNTQzMjksMTk4ODg4NDgwMSwtNz
-U3MjE0Nzg4XX0=
+eyJoaXN0b3J5IjpbLTExMDY0MTA5MjksMjAyNzYxNzc1Miw0ND
+A1OTEzNzAsODAyNzQ0MTMzLDYwNzUyNzQ3MSwtODEyNzMwOTEy
+LC0xNDc0MzQwNzYzLC0xOTExNjk5ODYxLDE1MzExNTQzMjksMT
+k4ODg4NDgwMSwtNzU3MjE0Nzg4XX0=
 -->
