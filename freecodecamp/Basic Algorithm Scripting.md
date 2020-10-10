@@ -190,10 +190,24 @@ Using .map()
       }
       return localArray;
     }
-Falsy Bouncer
+
+## Falsy Bouncer
+
+> Remove all falsy values from an array.
+> 
+> Falsy values in JavaScript are false, null, 0, "", undefined, and NaN.
+> 
+> Hint: Try converting each value to a Boolean.
+
+    function bouncer(arr) {
+      return arr.filter(a=>a);
+    }
+    
+     console.log(bouncer([7, "ate", "", false, 9]));
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MjkyNjUwNCwtMTgyODU3OTg2MSwtMT
-U3MDgzMjI0NywxNTk0OTgyNzUsLTk5NDIyODUxOCwtMTc3NDA0
-NjQxOCwtMzIxNTc4OCwzMjA4OTI1NjEsMjYwNTE0NjY5LDEyOD
-YzODM5MDcsMTY2ODYxMjA0MiwtMTc4NzcxOTk3OF19
+eyJoaXN0b3J5IjpbNjM4MzIwNTMzLC0xODI4NTc5ODYxLC0xNT
+cwODMyMjQ3LDE1OTQ5ODI3NSwtOTk0MjI4NTE4LC0xNzc0MDQ2
+NDE4LC0zMjE1Nzg4LDMyMDg5MjU2MSwyNjA1MTQ2NjksMTI4Nj
+M4MzkwNywxNjY4NjEyMDQyLC0xNzg3NzE5OTc4XX0=
 -->
