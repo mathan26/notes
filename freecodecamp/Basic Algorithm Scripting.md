@@ -205,11 +205,32 @@ Using .map()
     
      console.log(bouncer([7, "ate", "", false, 9]));
 
-Where do I Belong
+## Where do I Belong
+
+> Return the lowest index at which a value (second argument) should be
+> inserted into an array (first argument) once it has been sorted. The
+> returned value should be a number.
+> 
+> For example, getIndexToIns([1,2,3,4], 1.5) should return 1 because it
+> is greater than 1 (index 0), but less than 2 (index 1).
+> 
+> Likewise, getIndexToIns([20,3,5], 19) should return 2 because once the
+> array has been sorted it will look like [3,5,20] and 19 is less than
+> 20 (index 2) and greater than 5 (index 1).
+
+    function getIndexToIns(arr, num) {
+      return arr
+        .concat(num)
+        .sort((a, b) => a - b)
+        .indexOf(num);
+    }
+    
+    getIndexToIns([40, 60], 50);
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY0NTM1NjE1LDYzODMyMDUzMywtMTgyOD
-U3OTg2MSwtMTU3MDgzMjI0NywxNTk0OTgyNzUsLTk5NDIyODUx
-OCwtMTc3NDA0NjQxOCwtMzIxNTc4OCwzMjA4OTI1NjEsMjYwNT
-E0NjY5LDEyODYzODM5MDcsMTY2ODYxMjA0MiwtMTc4NzcxOTk3
-OF19
+eyJoaXN0b3J5IjpbLTE0NzgwNDI5MjAsNjM4MzIwNTMzLC0xOD
+I4NTc5ODYxLC0xNTcwODMyMjQ3LDE1OTQ5ODI3NSwtOTk0MjI4
+NTE4LC0xNzc0MDQ2NDE4LC0zMjE1Nzg4LDMyMDg5MjU2MSwyNj
+A1MTQ2NjksMTI4NjM4MzkwNywxNjY4NjEyMDQyLC0xNzg3NzE5
+OTc4XX0=
 -->
