@@ -115,24 +115,29 @@ The CLI generated three metadata properties:
 
 *Refactoring the original HeroesComponent into two components yields benefits, both now and in the future:*
 
- 1. You simplified the HeroesComponent by reducing its responsibilities.
- 2. You can evolve the HeroDetailComponent into a rich hero editor
+ - You simplified the HeroesComponent by reducing its responsibilities.
+ - You can evolve the HeroDetailComponent into a rich hero editor
     without touching the parent HeroesComponent.
- 3. You can evolve the HeroesComponent without touching the hero detail
+ - You can evolve the HeroesComponent without touching the hero detail
     view.
- 4. You can re-use the HeroDetailComponent in the template of some
+ - You can re-use the HeroDetailComponent in the template of some
     future component.
 ## Add services
 
+    ng generate service hero
+
+**@Injectable() services**
+
+ - The @Injectable() decorator accepts a metadata object for the service, the same way the @Component() decorator did for your component classes.
 
   
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE2NzE1NDA0LC00Mzk1NzQwNDYsLTE1NT
-QwNTM5NDcsMjAyNzYxNzc1Miw0NDA1OTEzNzAsODAyNzQ0MTMz
-LDYwNzUyNzQ3MSwtODEyNzMwOTEyLC0xNDc0MzQwNzYzLC0xOT
-ExNjk5ODYxLDE1MzExNTQzMjksMTk4ODg4NDgwMSwtNzU3MjE0
-Nzg4XX0=
+eyJoaXN0b3J5IjpbMjUyMTcyODUzLDYxNjcxNTQwNCwtNDM5NT
+c0MDQ2LC0xNTU0MDUzOTQ3LDIwMjc2MTc3NTIsNDQwNTkxMzcw
+LDgwMjc0NDEzMyw2MDc1Mjc0NzEsLTgxMjczMDkxMiwtMTQ3ND
+M0MDc2MywtMTkxMTY5OTg2MSwxNTMxMTU0MzI5LDE5ODg4ODQ4
+MDEsLTc1NzIxNDc4OF19
 -->
