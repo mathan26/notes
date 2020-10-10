@@ -180,13 +180,15 @@ The CLI generated three metadata properties:
 
  - The new version waits for the Observable to emit the array of heroes—which could happen now or several minutes from now. 
  - The `subscribe()` method *passes the emitted array to the callback*, which sets the component's heroes property.
+**Show messages**
 
+ - List item
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ0MTEyMjMyLDEwOTQ1Mzg2NjIsMTkxNz
-MwOTY2MiwxODMyMDM0MDU2LDg2MzA2NzAyMywyNTIxNzI4NTMs
-NjE2NzE1NDA0LC00Mzk1NzQwNDYsLTE1NTQwNTM5NDcsMjAyNz
-YxNzc1Miw0NDA1OTEzNzAsODAyNzQ0MTMzLDYwNzUyNzQ3MSwt
-ODEyNzMwOTEyLC0xNDc0MzQwNzYzLC0xOTExNjk5ODYxLDE1Mz
-ExNTQzMjksMTk4ODg4NDgwMSwtNzU3MjE0Nzg4XX0=
+eyJoaXN0b3J5IjpbLTE5ODkyOTY4NDUsMTA5NDUzODY2MiwxOT
+E3MzA5NjYyLDE4MzIwMzQwNTYsODYzMDY3MDIzLDI1MjE3Mjg1
+Myw2MTY3MTU0MDQsLTQzOTU3NDA0NiwtMTU1NDA1Mzk0NywyMD
+I3NjE3NzUyLDQ0MDU5MTM3MCw4MDI3NDQxMzMsNjA3NTI3NDcx
+LC04MTI3MzA5MTIsLTE0NzQzNDA3NjMsLTE5MTE2OTk4NjEsMT
+UzMTE1NDMyOSwxOTg4ODg0ODAxLC03NTcyMTQ3ODhdfQ==
 -->
