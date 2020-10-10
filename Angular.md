@@ -180,15 +180,18 @@ The CLI generated three metadata properties:
 
  - The new version waits for the Observable to emit the array of heroes—which could happen now or several minutes from now. 
  - The `subscribe()` method *passes the emitted array to the callback*, which sets the component's heroes property.
+
 **Show messages**
 
  - adding a MessagesComponent that displays app messages at the bottom of the screen
-creating an injectable, app-wide MessageService for sending messages to be displayed
-injecting MessageService into the HeroService
-displaying a message when HeroService fetches heroes successfully
+
+ - creating an injectable, app-wide MessageService for sending messages to be displayed
+
+ - injecting MessageService into the HeroService displaying a message
+   when HeroService fetches heroes successfully
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNTY1MjcwLDEwOTQ1Mzg2NjIsMTkxNz
+eyJoaXN0b3J5IjpbNjgwODM1NzYwLDEwOTQ1Mzg2NjIsMTkxNz
 MwOTY2MiwxODMyMDM0MDU2LDg2MzA2NzAyMywyNTIxNzI4NTMs
 NjE2NzE1NDA0LC00Mzk1NzQwNDYsLTE1NTQwNTM5NDcsMjAyNz
 YxNzc1Miw0NDA1OTEzNzAsODAyNzQ0MTMzLDYwNzUyNzQ3MSwt
