@@ -227,10 +227,40 @@ Using .map()
     
     getIndexToIns([40, 60], 50);
 
+## Mutations
+
+> Return true if the string in the first element of the array contains
+> all of the letters of the string in the second element of the array.
+> 
+> For example, ["hello", "Hello"], should return true because all of the
+> letters in the second string are present in the first, ignoring case.
+> 
+> The arguments ["hello", "hey"] should return false because the string
+> "hello" does not contain a "y".
+> 
+> Lastly, ["Alien", "line"], should return true because all of the
+> letters in "line" are present in "Alien".
+
+    function mutation(arr) {
+      return arr[1]
+        .toLowerCase()
+        .split("")
+        .every(function(letter) {
+          return arr[0].toLowerCase().indexOf(letter) != -1;
+        });
+    }
+    mutation(["hello", "hey"]);
+
+## Chunky Monkey
+
+> Write a function that splits an array (first argument) into groups the
+> length of size (second argument) and returns them as a two-dimensional
+> array.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzgwNDI5MjAsNjM4MzIwNTMzLC0xOD
-I4NTc5ODYxLC0xNTcwODMyMjQ3LDE1OTQ5ODI3NSwtOTk0MjI4
-NTE4LC0xNzc0MDQ2NDE4LC0zMjE1Nzg4LDMyMDg5MjU2MSwyNj
-A1MTQ2NjksMTI4NjM4MzkwNywxNjY4NjEyMDQyLC0xNzg3NzE5
-OTc4XX0=
+eyJoaXN0b3J5IjpbNDQzNzIzMDM5LC0xNDc4MDQyOTIwLDYzOD
+MyMDUzMywtMTgyODU3OTg2MSwtMTU3MDgzMjI0NywxNTk0OTgy
+NzUsLTk5NDIyODUxOCwtMTc3NDA0NjQxOCwtMzIxNTc4OCwzMj
+A4OTI1NjEsMjYwNTE0NjY5LDEyODYzODM5MDcsMTY2ODYxMjA0
+MiwtMTc4NzcxOTk3OF19
 -->
