@@ -101,15 +101,21 @@ The CLI generated three metadata properties:
  - Add a hero property, preceded by the @Input() decorator.
 
 	     @Input() hero: Hero;
-	     
+**Show the HeroDetailComponent**
+
+ - The two components will have a parent/child relationship. The parent HeroesComponent will control the child HeroDetailComponent by sending it a new hero to display whenever the user selects a hero from the list.
+ - You won't change the HeroesComponent class but you will change its template.
+**Update the HeroesComponent template**
+
+  `<app-hero-detail [hero]="selectedHero"></app-hero-detail>`
 
   
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNTI5NjE4NywtMTU1NDA1Mzk0NywyMD
-I3NjE3NzUyLDQ0MDU5MTM3MCw4MDI3NDQxMzMsNjA3NTI3NDcx
-LC04MTI3MzA5MTIsLTE0NzQzNDA3NjMsLTE5MTE2OTk4NjEsMT
-UzMTE1NDMyOSwxOTg4ODg0ODAxLC03NTcyMTQ3ODhdfQ==
+eyJoaXN0b3J5IjpbLTEwMjY3OTI5MjksLTE1NTQwNTM5NDcsMj
+AyNzYxNzc1Miw0NDA1OTEzNzAsODAyNzQ0MTMzLDYwNzUyNzQ3
+MSwtODEyNzMwOTEyLC0xNDc0MzQwNzYzLC0xOTExNjk5ODYxLD
+E1MzExNTQzMjksMTk4ODg4NDgwMSwtNzU3MjE0Nzg4XX0=
 -->
