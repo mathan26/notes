@@ -113,13 +113,24 @@ The CLI generated three metadata properties:
 
 > [hero]="selectedHero" is an Angular property binding.
 
+*Refactoring the original HeroesComponent into two components yields benefits, both now and in the future:*
+
+ 1. You simplified the HeroesComponent by reducing its responsibilities.
+ 2. You can evolve the HeroDetailComponent into a rich hero editor
+    without touching the parent HeroesComponent.
+ 3. You can evolve the HeroesComponent without touching the hero detail
+    view.
+ 4. You can re-use the HeroDetailComponent in the template of some
+    future component.
+
   
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzOTU3NDA0NiwtMTU1NDA1Mzk0NywyMD
-I3NjE3NzUyLDQ0MDU5MTM3MCw4MDI3NDQxMzMsNjA3NTI3NDcx
-LC04MTI3MzA5MTIsLTE0NzQzNDA3NjMsLTE5MTE2OTk4NjEsMT
-UzMTE1NDMyOSwxOTg4ODg0ODAxLC03NTcyMTQ3ODhdfQ==
+eyJoaXN0b3J5IjpbLTYwOTUwNDIwMSwtNDM5NTc0MDQ2LC0xNT
+U0MDUzOTQ3LDIwMjc2MTc3NTIsNDQwNTkxMzcwLDgwMjc0NDEz
+Myw2MDc1Mjc0NzEsLTgxMjczMDkxMiwtMTQ3NDM0MDc2MywtMT
+kxMTY5OTg2MSwxNTMxMTU0MzI5LDE5ODg4ODQ4MDEsLTc1NzIx
+NDc4OF19
 -->
