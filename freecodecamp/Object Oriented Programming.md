@@ -144,8 +144,10 @@
 	    // Only change code above this line
 	    let beagle = new Dog("Snoopy");
 
+## Iterate Over All Properties
+Add all of the own properties of beagle to the array ownProps. Add all of the prototype properties of Dog to the array prototypeProps.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODE0OTc0OTcsNjE4MDA0NzUsNDQyOD
-E5Njk3LC03OTI2ODM5NTQsLTIwNzYxMzAwOTAsLTEwMTM4ODA5
-NzUsMTIzNTU2NjQ4OF19
+eyJoaXN0b3J5IjpbLTczNjY0ODQyNSwtMjA4MTQ5NzQ5Nyw2MT
+gwMDQ3NSw0NDI4MTk2OTcsLTc5MjY4Mzk1NCwtMjA3NjEzMDA5
+MCwtMTAxMzg4MDk3NSwxMjM1NTY2NDg4XX0=
 -->
