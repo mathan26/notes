@@ -259,10 +259,11 @@
 ## Set the Child's Prototype to an Instance of the Parent
 
     Bird.prototype = Object.create(Animal.prototype);
-
+Add Methods After Inheritance
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MjE4OTA1OSwxNDYwNjI4OTcwLDEyMT
-U5MTA4MTksMTcxNTM1MTc4MSwxNzA3NTg5NDkxLC0yMDgxNDk3
-NDk3LDYxODAwNDc1LDQ0MjgxOTY5NywtNzkyNjgzOTU0LC0yMD
-c2MTMwMDkwLC0xMDEzODgwOTc1LDEyMzU1NjY0ODhdfQ==
+eyJoaXN0b3J5IjpbNTU1NzY2ODQ2LC0zNTIxODkwNTksMTQ2MD
+YyODk3MCwxMjE1OTEwODE5LDE3MTUzNTE3ODEsMTcwNzU4OTQ5
+MSwtMjA4MTQ5NzQ5Nyw2MTgwMDQ3NSw0NDI4MTk2OTcsLTc5Mj
+Y4Mzk1NCwtMjA3NjEzMDA5MCwtMTAxMzg4MDk3NSwxMjM1NTY2
+NDg4XX0=
 -->
