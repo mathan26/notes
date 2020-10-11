@@ -31,8 +31,27 @@
 	    };
 	    
 	    dog.sayLegs();
-Make Code More Reusable with the this Keyword
+
+## Make Code More Reusable with the this Keyword
+
+ - this is a deep topic, and the above example is only one way to use
+   it. In the current context, this refers to the object that the method
+   is associated with: duck.
+    
+ -  It makes the code reusable and easier to read.
+
+> Modify the dog.sayLegs method to remove any references to dog. Use the
+> duck example for guidance.
+
+    let dog = {
+      name: "Spot",
+      numLegs: 4,
+      sayLegs: function() {return "This dog has " + this.numLegs + " legs.";}
+    };
+    
+    dog.sayLegs();
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNDY5NTkzOCwtMTAxMzg4MDk3NSwxMj
-M1NTY2NDg4XX0=
+eyJoaXN0b3J5IjpbLTIwNzYxMzAwOTAsLTEwMTM4ODA5NzUsMT
+IzNTU2NjQ4OF19
 -->
