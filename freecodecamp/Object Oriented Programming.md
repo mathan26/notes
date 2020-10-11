@@ -174,9 +174,26 @@
  - There is a special constructor property located on the object instances duck and beagle that were created in the previous challenges:
  - Since the constructor property can be overwritten (which will be covered in the next two challenges) *it’s generally better to use the instanceof method to check the type of an object*.
 
+> Write a joinDogFraternity function that takes a candidate parameter
+> and, using the constructor property, return true if the candidate is a
+> Dog, otherwise return false.
+
+    function Dog(name) {
+      this.name = name;
+    }
+    
+    // Only change code below this line
+    function joinDogFraternity(candidate) {
+      if(candidate.constructor === Dog){
+        return true;
+      }else{
+        return false;
+      }
+    }
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDM3Mjg4MjUsMTcwNzU4OTQ5MSwtMj
-A4MTQ5NzQ5Nyw2MTgwMDQ3NSw0NDI4MTk2OTcsLTc5MjY4Mzk1
-NCwtMjA3NjEzMDA5MCwtMTAxMzg4MDk3NSwxMjM1NTY2NDg4XX
-0=
+eyJoaXN0b3J5IjpbMTcxNTM1MTc4MSwxNzA3NTg5NDkxLC0yMD
+gxNDk3NDk3LDYxODAwNDc1LDQ0MjgxOTY5NywtNzkyNjgzOTU0
+LC0yMDc2MTMwMDkwLC0xMDEzODgwOTc1LDEyMzU1NjY0ODhdfQ
+==
 -->
