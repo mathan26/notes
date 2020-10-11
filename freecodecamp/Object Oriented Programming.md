@@ -64,7 +64,16 @@
  - [ ] Constructors define properties and behaviors instead of returning
        a value as other functions might
 
+> Create a constructor, Dog, with properties name, color, and numLegs
+> that are set to a string, a string, and a number, respectively.
+
+    function Dog(){
+        this.name  = 'Peter';
+        this.color = 'w';
+        this.numLegs = 2;
+    }
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUzOTkxNDM2LC0yMDc2MTMwMDkwLC0xMD
-EzODgwOTc1LDEyMzU1NjY0ODhdfQ==
+eyJoaXN0b3J5IjpbLTE5OTAyNzU3MzUsLTIwNzYxMzAwOTAsLT
+EwMTM4ODA5NzUsMTIzNTU2NjQ4OF19
 -->
