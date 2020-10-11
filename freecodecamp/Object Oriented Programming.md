@@ -169,8 +169,11 @@
       }
     }
 
+## Understand the Constructor Property
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNzU4OTQ5MSwtMjA4MTQ5NzQ5Nyw2MT
-gwMDQ3NSw0NDI4MTk2OTcsLTc5MjY4Mzk1NCwtMjA3NjEzMDA5
-MCwtMTAxMzg4MDk3NSwxMjM1NTY2NDg4XX0=
+eyJoaXN0b3J5IjpbMTk4Mzg3ODcyMywxNzA3NTg5NDkxLC0yMD
+gxNDk3NDk3LDYxODAwNDc1LDQ0MjgxOTY5NywtNzkyNjgzOTU0
+LC0yMDc2MTMwMDkwLC0xMDEzODgwOTc1LDEyMzU1NjY0ODhdfQ
+==
 -->
