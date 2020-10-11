@@ -171,9 +171,12 @@
 
 ## Understand the Constructor Property
 
+ - There is a special constructor property located on the object instances duck and beagle that were created in the previous challenges:
+ - Since the constructor property can be overwritten (which will be covered in the next two challenges) *it’s generally better to use the instanceof method to check the type of an object*.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4Mzg3ODcyMywxNzA3NTg5NDkxLC0yMD
-gxNDk3NDk3LDYxODAwNDc1LDQ0MjgxOTY5NywtNzkyNjgzOTU0
-LC0yMDc2MTMwMDkwLC0xMDEzODgwOTc1LDEyMzU1NjY0ODhdfQ
-==
+eyJoaXN0b3J5IjpbLTE3NDM3Mjg4MjUsMTcwNzU4OTQ5MSwtMj
+A4MTQ5NzQ5Nyw2MTgwMDQ3NSw0NDI4MTk2OTcsLTc5MjY4Mzk1
+NCwtMjA3NjEzMDA5MCwtMTAxMzg4MDk3NSwxMjM1NTY2NDg4XX
+0=
 -->
