@@ -317,8 +317,15 @@
     
     console.log(new Bird().getWeight());
 
+## Understand the Immediately Invoked Function Expression (IIFE)
+
+    (function () {
+      console.log("Chirp, chirp!");
+    })(); // this is an anonymous function expression that executes right away
+    // Outputs "Chirp, chirp!" immediately
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNjczNjQxOCwtNzYyOTU0MjQ4LC0yMT
+eyJoaXN0b3J5IjpbLTE1ODI5OTg3NSwtNzYyOTU0MjQ4LC0yMT
 QxNTQ4NjEwLDE4NjY1Njg2MjMsMTE3NzY1NTI1LC0zNTIxODkw
 NTksMTQ2MDYyODk3MCwxMjE1OTEwODE5LDE3MTUzNTE3ODEsMT
 cwNzU4OTQ5MSwtMjA4MTQ5NzQ5Nyw2MTgwMDQ3NSw0NDI4MTk2
