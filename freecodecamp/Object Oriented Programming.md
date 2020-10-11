@@ -69,11 +69,11 @@
 
     function Dog(){
         this.name  = 'Peter';
-        this.color = 'w';
+        this.color = 'white';
         this.numLegs = 2;
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTAyNzU3MzUsLTIwNzYxMzAwOTAsLT
-EwMTM4ODA5NzUsMTIzNTU2NjQ4OF19
+eyJoaXN0b3J5IjpbMjk3NTkyNDM5LC0yMDc2MTMwMDkwLC0xMD
+EzODgwOTc1LDEyMzU1NjY0ODhdfQ==
 -->
