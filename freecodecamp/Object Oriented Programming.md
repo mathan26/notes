@@ -31,7 +31,8 @@
 	    };
 	    
 	    dog.sayLegs();
-
+Make Code More Reusable with the this Keyword
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTM4ODA5NzUsMTIzNTU2NjQ4OF19
+eyJoaXN0b3J5IjpbLTgzNDY5NTkzOCwtMTAxMzg4MDk3NSwxMj
+M1NTY2NDg4XX0=
 -->
