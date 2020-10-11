@@ -51,7 +51,9 @@
     
     dog.sayLegs();
 
+## Define a Constructor Function
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzYxMzAwOTAsLTEwMTM4ODA5NzUsMT
-IzNTU2NjQ4OF19
+eyJoaXN0b3J5IjpbMTc0NDg5ODE2MCwtMjA3NjEzMDA5MCwtMT
+AxMzg4MDk3NSwxMjM1NTY2NDg4XX0=
 -->
