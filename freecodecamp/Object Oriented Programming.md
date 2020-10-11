@@ -107,7 +107,25 @@
 
 ## Understand Own Properties
 
+ - Add the own properties of canary to the array ownProps
+
+	    function Bird(name) {
+	      this.name = name;
+	      this.numLegs = 2;
+	    }
+	    
+	    let canary = new Bird("Tweety");
+	    let ownProps = [];
+	    // Only change code below this line
+	    for(let prop in canary){
+	      if(canary.hasOwnProperty(prop)){
+	        ownProps.push(prop);
+	      }
+	    }
+	    console.log(ownProps);
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQyODE5Njk3LC03OTI2ODM5NTQsLTIwNz
-YxMzAwOTAsLTEwMTM4ODA5NzUsMTIzNTU2NjQ4OF19
+eyJoaXN0b3J5IjpbNjE4MDA0NzUsNDQyODE5Njk3LC03OTI2OD
+M5NTQsLTIwNzYxMzAwOTAsLTEwMTM4ODA5NzUsMTIzNTU2NjQ4
+OF19
 -->
