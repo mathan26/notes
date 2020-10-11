@@ -274,21 +274,22 @@
 	    // Only change code below this line
 	    
 	    Dog.prototype = Object.create(Animal.prototype);
-	    
+	    Dog.prototype.constructor = Dog;
 	    Dog.prototype.bark = function(){
-	        console.log('bark');
+	        console.log('Woof!');
 	    }
+	    
 	    
 	    
 	    // Only change code above this line
 	    
 	    let beagle = new Dog();
-	    beagle.bark();
+	    beagle.eat();
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NzY1NTI1LC0zNTIxODkwNTksMTQ2MD
-YyODk3MCwxMjE1OTEwODE5LDE3MTUzNTE3ODEsMTcwNzU4OTQ5
-MSwtMjA4MTQ5NzQ5Nyw2MTgwMDQ3NSw0NDI4MTk2OTcsLTc5Mj
-Y4Mzk1NCwtMjA3NjEzMDA5MCwtMTAxMzg4MDk3NSwxMjM1NTY2
-NDg4XX0=
+eyJoaXN0b3J5IjpbMTg2NjU2ODYyMywxMTc3NjU1MjUsLTM1Mj
+E4OTA1OSwxNDYwNjI4OTcwLDEyMTU5MTA4MTksMTcxNTM1MTc4
+MSwxNzA3NTg5NDkxLC0yMDgxNDk3NDk3LDYxODAwNDc1LDQ0Mj
+gxOTY5NywtNzkyNjgzOTU0LC0yMDc2MTMwMDkwLC0xMDEzODgw
+OTc1LDEyMzU1NjY0ODhdfQ==
 -->
