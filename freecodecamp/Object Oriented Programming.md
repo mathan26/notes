@@ -285,11 +285,24 @@
 	    
 	    let beagle = new Dog();
 	    beagle.eat();
-Override Inherited Methods
+
+## Override Inherited Methods
+
+ - If you have an instance let duck = new Bird(); and you call
+   duck.eat(), this is how JavaScript looks for the method on duck’s
+   prototype chain:
+ - [ ] duck => Is eat() defined here? No.
+ - [ ] Bird => Is eat() defined here? => Yes. Execute it and stop
+       searching.
+ - [ ] Animal => eat() is also defined, but JavaScript stopped searching
+       before reaching this level.
+ - [ ] Object => JavaScript stopped searching before reaching this
+       level.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk0MDYyMTk5LDE4NjY1Njg2MjMsMTE3Nz
-Y1NTI1LC0zNTIxODkwNTksMTQ2MDYyODk3MCwxMjE1OTEwODE5
-LDE3MTUzNTE3ODEsMTcwNzU4OTQ5MSwtMjA4MTQ5NzQ5Nyw2MT
-gwMDQ3NSw0NDI4MTk2OTcsLTc5MjY4Mzk1NCwtMjA3NjEzMDA5
-MCwtMTAxMzg4MDk3NSwxMjM1NTY2NDg4XX0=
+eyJoaXN0b3J5IjpbLTIxNDE1NDg2MTAsMTg2NjU2ODYyMywxMT
+c3NjU1MjUsLTM1MjE4OTA1OSwxNDYwNjI4OTcwLDEyMTU5MTA4
+MTksMTcxNTM1MTc4MSwxNzA3NTg5NDkxLC0yMDgxNDk3NDk3LD
+YxODAwNDc1LDQ0MjgxOTY5NywtNzkyNjgzOTU0LC0yMDc2MTMw
+MDkwLC0xMDEzODgwOTc1LDEyMzU1NjY0ODhdfQ==
 -->
