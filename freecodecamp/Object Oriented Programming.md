@@ -135,8 +135,17 @@
 
 > Add a numLegs property to the prototype of Dog
 
+	    function Dog(name) {
+	      this.name = name;
+	    }
+	    
+	    Dog.prototype.numLegs = 4;
+	    
+	    // Only change code above this line
+	    let beagle = new Dog("Snoopy");
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg2MzMzNTc0LDYxODAwNDc1LDQ0MjgxOT
-Y5NywtNzkyNjgzOTU0LC0yMDc2MTMwMDkwLC0xMDEzODgwOTc1
-LDEyMzU1NjY0ODhdfQ==
+eyJoaXN0b3J5IjpbLTIwODE0OTc0OTcsNjE4MDA0NzUsNDQyOD
+E5Njk3LC03OTI2ODM5NTQsLTIwNzYxMzAwOTAsLTEwMTM4ODA5
+NzUsMTIzNTU2NjQ4OF19
 -->
