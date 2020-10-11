@@ -200,9 +200,24 @@
 > Add the property numLegs and the two methods eat() and describe() to
 > the prototype of Dog by setting the prototype to a new object.
 
+    function Dog(name) {
+      this.name = name;
+    }
+    
+    Dog.prototype = {
+      // Only change code below this line
+      numLegs: 4,
+      eat:function(){
+        console.log('nom nom nom')
+      },
+      describe: function(){
+        console.log('My Name is ' )
+      }
+    };
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE5MjQ4NDksMTcxNTM1MTc4MSwxNzA3NT
-g5NDkxLC0yMDgxNDk3NDk3LDYxODAwNDc1LDQ0MjgxOTY5Nywt
-NzkyNjgzOTU0LC0yMDc2MTMwMDkwLC0xMDEzODgwOTc1LDEyMz
-U1NjY0ODhdfQ==
+eyJoaXN0b3J5IjpbMjE0NjkxMDQyMiwxNzE1MzUxNzgxLDE3MD
+c1ODk0OTEsLTIwODE0OTc0OTcsNjE4MDA0NzUsNDQyODE5Njk3
+LC03OTI2ODM5NTQsLTIwNzYxMzAwOTAsLTEwMTM4ODA5NzUsMT
+IzNTU2NjQ4OF19
 -->
