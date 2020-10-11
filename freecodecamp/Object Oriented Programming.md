@@ -75,10 +75,20 @@
 
 ## Extend Constructors to Receive Arguments
 
-    Create another Dog constructor. This time, set it up to take the parameters name and color, and have the property numLegs fixed at 4. Then create a new Dog saved in a variable terrier. Pass it two strings as arguments for the name and color properties.
+>Create another Dog constructor. This time, set it up to take the parameters name and color, and have the property numLegs fixed at 4.
+> Then create a new Dog saved in a variable terrier. Pass it two strings
+> as arguments for the name and color properties.
 
+
+    function Dog(name, color) {
+        this.name = name;
+        this.color = color;
+        this.numLegs = 4;
+    }
+    
+    let terrier   = new Dog('Robert','brown');
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNTkxMTUwMSwtMjA3NjEzMDA5MCwtMT
+eyJoaXN0b3J5IjpbLTc5MjY4Mzk1NCwtMjA3NjEzMDA5MCwtMT
 AxMzg4MDk3NSwxMjM1NTY2NDg4XX0=
 -->
