@@ -124,9 +124,19 @@
 	    }
 	    console.log(ownProps);
 
-Use Prototype Properties to Reduce Duplicate Code
+## Use Prototype Properties to Reduce Duplicate Code
+
+ - Since all instances automatically have the properties on the
+   prototype, think of a prototype as a "recipe" for creating objects.
+   Note that the prototype for duck and canary is part of the Bird
+   constructor as Bird.prototype. Nearly every object in JavaScript has
+   a prototype property which is part of the constructor function that
+   created it.
+
+> Add a numLegs property to the prototype of Dog
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwOTA5NDg3OCw2MTgwMDQ3NSw0NDI4MT
-k2OTcsLTc5MjY4Mzk1NCwtMjA3NjEzMDA5MCwtMTAxMzg4MDk3
-NSwxMjM1NTY2NDg4XX0=
+eyJoaXN0b3J5IjpbNDg2MzMzNTc0LDYxODAwNDc1LDQ0MjgxOT
+Y5NywtNzkyNjgzOTU0LC0yMDc2MTMwMDkwLC0xMDEzODgwOTc1
+LDEyMzU1NjY0ODhdfQ==
 -->
