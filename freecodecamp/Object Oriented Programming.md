@@ -302,11 +302,26 @@
  -  This way, the variable can only be accessed and changed by methods also within the constructor function.
  - *In JavaScript, a function always has access to the context in which it was created. This is called closure.*
 
+> Change how weight is declared in the Bird function so it is a private
+> variable. Then, create a method getWeight that returns the value of
+> weight 15.
+
+    function Bird() {
+      let weight = 15;
+    
+      this.getWeight = function(){
+        return weight;
+      }
+    
+    }
+    
+    console.log(new Bird().getWeight());
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTQ1MzgyNjIsLTc2Mjk1NDI0OCwtMj
-E0MTU0ODYxMCwxODY2NTY4NjIzLDExNzc2NTUyNSwtMzUyMTg5
-MDU5LDE0NjA2Mjg5NzAsMTIxNTkxMDgxOSwxNzE1MzUxNzgxLD
-E3MDc1ODk0OTEsLTIwODE0OTc0OTcsNjE4MDA0NzUsNDQyODE5
-Njk3LC03OTI2ODM5NTQsLTIwNzYxMzAwOTAsLTEwMTM4ODA5Nz
-UsMTIzNTU2NjQ4OF19
+eyJoaXN0b3J5IjpbLTYzNjczNjQxOCwtNzYyOTU0MjQ4LC0yMT
+QxNTQ4NjEwLDE4NjY1Njg2MjMsMTE3NzY1NTI1LC0zNTIxODkw
+NTksMTQ2MDYyODk3MCwxMjE1OTEwODE5LDE3MTUzNTE3ODEsMT
+cwNzU4OTQ5MSwtMjA4MTQ5NzQ5Nyw2MTgwMDQ3NSw0NDI4MTk2
+OTcsLTc5MjY4Mzk1NCwtMjA3NjEzMDA5MCwtMTAxMzg4MDk3NS
+wxMjM1NTY2NDg4XX0=
 -->
