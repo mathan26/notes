@@ -53,7 +53,18 @@
 
 ## Define a Constructor Function
 
+ - Constructors are functions that create new objects. They define
+   properties and behaviors that will belong to the new object. Think of
+   them as a blueprint for the creation of new objects.
+ - [ ] Constructors are defined with a capitalized name to distinguish
+       them from other functions that are not constructors.
+ - [ ] Constructors use the keyword this to set properties of the object
+       they will create. Inside the constructor, this refers to the new
+       object it will create.
+ - [ ] Constructors define properties and behaviors instead of returning
+       a value as other functions might
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NDg5ODE2MCwtMjA3NjEzMDA5MCwtMT
-AxMzg4MDk3NSwxMjM1NTY2NDg4XX0=
+eyJoaXN0b3J5IjpbODUzOTkxNDM2LC0yMDc2MTMwMDkwLC0xMD
+EzODgwOTc1LDEyMzU1NjY0ODhdfQ==
 -->
