@@ -124,8 +124,9 @@
 	    }
 	    console.log(ownProps);
 
+Use Prototype Properties to Reduce Duplicate Code
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE4MDA0NzUsNDQyODE5Njk3LC03OTI2OD
-M5NTQsLTIwNzYxMzAwOTAsLTEwMTM4ODA5NzUsMTIzNTU2NjQ4
-OF19
+eyJoaXN0b3J5IjpbMTYwOTA5NDg3OCw2MTgwMDQ3NSw0NDI4MT
+k2OTcsLTc5MjY4Mzk1NCwtMjA3NjEzMDA5MCwtMTAxMzg4MDk3
+NSwxMjM1NTY2NDg4XX0=
 -->
