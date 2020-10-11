@@ -299,11 +299,14 @@
  - [ ] Object => JavaScript stopped searching before reaching this
        level.
 ## Use Closure to Protect Properties Within an Object from Being Modified Externally
+ -  This way, the variable can only be accessed and changed by methods also within the constructor function.
+ - *In JavaScript, a function always has access to the context in which it was created. This is called closure.*
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2Mjk1NDI0OCwtMjE0MTU0ODYxMCwxOD
-Y2NTY4NjIzLDExNzc2NTUyNSwtMzUyMTg5MDU5LDE0NjA2Mjg5
-NzAsMTIxNTkxMDgxOSwxNzE1MzUxNzgxLDE3MDc1ODk0OTEsLT
-IwODE0OTc0OTcsNjE4MDA0NzUsNDQyODE5Njk3LC03OTI2ODM5
-NTQsLTIwNzYxMzAwOTAsLTEwMTM4ODA5NzUsMTIzNTU2NjQ4OF
-19
+eyJoaXN0b3J5IjpbLTEzOTQ1MzgyNjIsLTc2Mjk1NDI0OCwtMj
+E0MTU0ODYxMCwxODY2NTY4NjIzLDExNzc2NTUyNSwtMzUyMTg5
+MDU5LDE0NjA2Mjg5NzAsMTIxNTkxMDgxOSwxNzE1MzUxNzgxLD
+E3MDc1ODk0OTEsLTIwODE0OTc0OTcsNjE4MDA0NzUsNDQyODE5
+Njk3LC03OTI2ODM5NTQsLTIwNzYxMzAwOTAsLTEwMTM4ODA5Nz
+UsMTIzNTU2NjQ4OF19
 -->
