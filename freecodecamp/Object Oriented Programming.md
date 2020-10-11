@@ -298,11 +298,12 @@
        before reaching this level.
  - [ ] Object => JavaScript stopped searching before reaching this
        level.
-
+## Use Closure to Protect Properties Within an Object from Being Modified Externally
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDE1NDg2MTAsMTg2NjU2ODYyMywxMT
-c3NjU1MjUsLTM1MjE4OTA1OSwxNDYwNjI4OTcwLDEyMTU5MTA4
-MTksMTcxNTM1MTc4MSwxNzA3NTg5NDkxLC0yMDgxNDk3NDk3LD
-YxODAwNDc1LDQ0MjgxOTY5NywtNzkyNjgzOTU0LC0yMDc2MTMw
-MDkwLC0xMDEzODgwOTc1LDEyMzU1NjY0ODhdfQ==
+eyJoaXN0b3J5IjpbLTc2Mjk1NDI0OCwtMjE0MTU0ODYxMCwxOD
+Y2NTY4NjIzLDExNzc2NTUyNSwtMzUyMTg5MDU5LDE0NjA2Mjg5
+NzAsMTIxNTkxMDgxOSwxNzE1MzUxNzgxLDE3MDc1ODk0OTEsLT
+IwODE0OTc0OTcsNjE4MDA0NzUsNDQyODE5Njk3LC03OTI2ODM5
+NTQsLTIwNzYxMzAwOTAsLTEwMTM4ODA5NzUsMTIzNTU2NjQ4OF
+19
 -->
