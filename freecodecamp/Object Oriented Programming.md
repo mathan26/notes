@@ -259,9 +259,34 @@
 ## Set the Child's Prototype to an Instance of the Parent
 
     Bird.prototype = Object.create(Animal.prototype);
-Add Methods After Inheritance
+
+## Add Methods After Inheritance
+
+ - A constructor function that inherits its prototype object from a
+   supertype constructor function can still have its own methods in
+   addition to inherited methods.
+
+	    function Animal() { }
+	    Animal.prototype.eat = function() { console.log("nom nom nom"); };
+	    
+	    function Dog() { }
+	    
+	    // Only change code below this line
+	    
+	    Dog.prototype = Object.create(Animal.prototype);
+	    
+	    Dog.prototype.bark = function(){
+	        console.log('bark');
+	    }
+	    
+	    
+	    // Only change code above this line
+	    
+	    let beagle = new Dog();
+	    beagle.bark();
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU1NzY2ODQ2LC0zNTIxODkwNTksMTQ2MD
+eyJoaXN0b3J5IjpbMTE3NzY1NTI1LC0zNTIxODkwNTksMTQ2MD
 YyODk3MCwxMjE1OTEwODE5LDE3MTUzNTE3ODEsMTcwNzU4OTQ5
 MSwtMjA4MTQ5NzQ5Nyw2MTgwMDQ3NSw0NDI4MTk2OTcsLTc5Mj
 Y4Mzk1NCwtMjA3NjEzMDA5MCwtMTAxMzg4MDk3NSwxMjM1NTY2
