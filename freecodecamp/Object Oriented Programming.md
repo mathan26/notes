@@ -255,10 +255,10 @@
     
     // Fix the code below so that it evaluates to true
     Object.prototype.isPrototypeOf(Dog.prototype);
-
+Set the Child's Prototype to an Instance of the Parent
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MDYyODk3MCwxMjE1OTEwODE5LDE3MT
-UzNTE3ODEsMTcwNzU4OTQ5MSwtMjA4MTQ5NzQ5Nyw2MTgwMDQ3
-NSw0NDI4MTk2OTcsLTc5MjY4Mzk1NCwtMjA3NjEzMDA5MCwtMT
-AxMzg4MDk3NSwxMjM1NTY2NDg4XX0=
+eyJoaXN0b3J5IjpbLTE4MDc2MzQ1OTAsMTQ2MDYyODk3MCwxMj
+E1OTEwODE5LDE3MTUzNTE3ODEsMTcwNzU4OTQ5MSwtMjA4MTQ5
+NzQ5Nyw2MTgwMDQ3NSw0NDI4MTk2OTcsLTc5MjY4Mzk1NCwtMj
+A3NjEzMDA5MCwtMTAxMzg4MDk3NSwxMjM1NTY2NDg4XX0=
 -->
