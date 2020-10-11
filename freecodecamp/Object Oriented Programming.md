@@ -7,7 +7,15 @@
    sell items. Birds have wings.
   
  - These qualities, or properties, define what makes up an object.
-Create a dog object with name and numLegs properties, and set them to a string and a number, respectively.
+
+> Create a dog object with name and numLegs properties, and set them to
+> a string and a number, respectively.
+
+    let dog = {
+        name: 'Jimmy',
+        numLegs: 4
+    };
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNjY5NjQxNV19
+eyJoaXN0b3J5IjpbMTIzNTU2NjQ4OF19
 -->
