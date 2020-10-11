@@ -255,10 +255,14 @@
     
     // Fix the code below so that it evaluates to true
     Object.prototype.isPrototypeOf(Dog.prototype);
-Set the Child's Prototype to an Instance of the Parent
+
+## Set the Child's Prototype to an Instance of the Parent
+
+    Bird.prototype = Object.create(Animal.prototype);
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDc2MzQ1OTAsMTQ2MDYyODk3MCwxMj
-E1OTEwODE5LDE3MTUzNTE3ODEsMTcwNzU4OTQ5MSwtMjA4MTQ5
-NzQ5Nyw2MTgwMDQ3NSw0NDI4MTk2OTcsLTc5MjY4Mzk1NCwtMj
-A3NjEzMDA5MCwtMTAxMzg4MDk3NSwxMjM1NTY2NDg4XX0=
+eyJoaXN0b3J5IjpbLTM1MjE4OTA1OSwxNDYwNjI4OTcwLDEyMT
+U5MTA4MTksMTcxNTM1MTc4MSwxNzA3NTg5NDkxLC0yMDgxNDk3
+NDk3LDYxODAwNDc1LDQ0MjgxOTY5NywtNzkyNjgzOTU0LC0yMD
+c2MTMwMDkwLC0xMDEzODgwOTc1LDEyMzU1NjY0ODhdfQ==
 -->
