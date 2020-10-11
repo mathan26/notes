@@ -145,9 +145,32 @@
 	    let beagle = new Dog("Snoopy");
 
 ## Iterate Over All Properties
-Add all of the own properties of beagle to the array ownProps. Add all of the prototype properties of Dog to the array prototypeProps.
+
+> Add all of the own properties of beagle to the array ownProps. Add all
+> of the prototype properties of Dog to the array prototypeProps.
+
+    function Dog(name) {
+      this.name = name;
+    }
+    
+    Dog.prototype.numLegs = 4;
+    
+    let beagle = new Dog("Snoopy");
+    
+    let ownProps = [];
+    let prototypeProps = [];
+    
+    // Only change code below this line
+    for(let prop in beagle){
+      if(beagle.hasOwnProperty(prop)){
+        ownProps.push(prop);
+      }else{
+        prototypeProps.push(prop);
+      }
+    }
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNjY0ODQyNSwtMjA4MTQ5NzQ5Nyw2MT
+eyJoaXN0b3J5IjpbMTcwNzU4OTQ5MSwtMjA4MTQ5NzQ5Nyw2MT
 gwMDQ3NSw0NDI4MTk2OTcsLTc5MjY4Mzk1NCwtMjA3NjEzMDA5
 MCwtMTAxMzg4MDk3NSwxMjM1NTY2NDg4XX0=
 -->
