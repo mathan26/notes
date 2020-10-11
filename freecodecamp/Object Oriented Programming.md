@@ -15,7 +15,23 @@
         name: 'Jimmy',
         numLegs: 4
     };
+## Create a Method on an Object
+
+ - Objects can have a special type of property, called a method.
+
+> Using the dog object, give it a method called sayLegs. The method
+> should return the sentence "This dog has 4 legs."
+
+	    let dog = {
+	      name: "Spot",
+	      numLegs: 4,
+	      sayLegs: function(){
+	        return `This dog has ${dog.numLegs} legs.`;
+	      }
+	    };
+	    
+	    dog.sayLegs();
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNTU2NjQ4OF19
+eyJoaXN0b3J5IjpbLTEwMTM4ODA5NzUsMTIzNTU2NjQ4OF19
 -->
