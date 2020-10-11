@@ -215,8 +215,31 @@
       }
     };
 
+## Remember to Set the Constructor Property when Changing the Prototype
+
+ - To fix this, whenever a prototype is manually set to a new object,
+   remember to define the constructor property:
+
+> Define the constructor property on the Dog prototype.
+
+    function Dog(name) {
+      this.name = name;
+    }
+    
+    // Only change code below this line
+    Dog.prototype = {
+      constructor:Dog,
+      numLegs: 4,
+      eat: function() {
+        console.log("nom nom nom");
+      },
+      describe: function() {
+        console.log("My name is " + this.name);
+      }
+    };
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NjkxMDQyMiwxNzE1MzUxNzgxLDE3MD
+eyJoaXN0b3J5IjpbMTIxNTkxMDgxOSwxNzE1MzUxNzgxLDE3MD
 c1ODk0OTEsLTIwODE0OTc0OTcsNjE4MDA0NzUsNDQyODE5Njk3
 LC03OTI2ODM5NTQsLTIwNzYxMzAwOTAsLTEwMTM4ODA5NzUsMT
 IzNTU2NjQ4OF19
