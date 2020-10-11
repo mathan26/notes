@@ -191,9 +191,18 @@
       }
     }
 
+## Change the Prototype to a New Object
+
+ - A more efficient way is to set the prototype to a new object that
+   already contains the properties. This way, the properties are added
+   all at once:
+
+> Add the property numLegs and the two methods eat() and describe() to
+> the prototype of Dog by setting the prototype to a new object.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNTM1MTc4MSwxNzA3NTg5NDkxLC0yMD
-gxNDk3NDk3LDYxODAwNDc1LDQ0MjgxOTY5NywtNzkyNjgzOTU0
-LC0yMDc2MTMwMDkwLC0xMDEzODgwOTc1LDEyMzU1NjY0ODhdfQ
-==
+eyJoaXN0b3J5IjpbNzE5MjQ4NDksMTcxNTM1MTc4MSwxNzA3NT
+g5NDkxLC0yMDgxNDk3NDk3LDYxODAwNDc1LDQ0MjgxOTY5Nywt
+NzkyNjgzOTU0LC0yMDc2MTMwMDkwLC0xMDEzODgwOTc1LDEyMz
+U1NjY0ODhdfQ==
 -->
