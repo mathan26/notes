@@ -87,8 +87,27 @@
     }
     
     let terrier   = new Dog('Robert','brown');
+## Verify an Object's Constructor with instanceof
+
+ - JavaScript gives a convenient way to verify this with the instanceof
+   operator.
+
+> Create a new instance of the House constructor, calling it myHouse and
+> passing a number of bedrooms. Then, use instanceof to verify that it
+> is an instance of House.
+
+	    function House(numBedrooms) {
+	      this.numBedrooms = numBedrooms;
+	    }
+	    
+	    // Only change code below this line
+	    var myHouse = new House(4);
+	    
+	    myHouse  instanceof House;
+
+## Understand Own Properties
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MjY4Mzk1NCwtMjA3NjEzMDA5MCwtMT
-AxMzg4MDk3NSwxMjM1NTY2NDg4XX0=
+eyJoaXN0b3J5IjpbNDQyODE5Njk3LC03OTI2ODM5NTQsLTIwNz
+YxMzAwOTAsLTEwMTM4ODA5NzUsMTIzNTU2NjQ4OF19
 -->
