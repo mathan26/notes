@@ -238,9 +238,27 @@
       }
     };
 
+## Understand the Prototype Chain
+
+ - Object is a supertype for both Bird and duck. Object is a supertype
+   for all objects in JavaScript
+
+ - Modify the code to show the correct prototype chain.
+
+    function Dog(name) {
+      this.name = name;
+    }
+    
+    let beagle = new Dog("Snoopy");
+    
+    Dog.prototype.isPrototypeOf(beagle);  // yields true
+    
+    // Fix the code below so that it evaluates to true
+    Object.prototype.isPrototypeOf(Dog.prototype);
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNTkxMDgxOSwxNzE1MzUxNzgxLDE3MD
-c1ODk0OTEsLTIwODE0OTc0OTcsNjE4MDA0NzUsNDQyODE5Njk3
-LC03OTI2ODM5NTQsLTIwNzYxMzAwOTAsLTEwMTM4ODA5NzUsMT
-IzNTU2NjQ4OF19
+eyJoaXN0b3J5IjpbMTQ2MDYyODk3MCwxMjE1OTEwODE5LDE3MT
+UzNTE3ODEsMTcwNzU4OTQ5MSwtMjA4MTQ5NzQ5Nyw2MTgwMDQ3
+NSw0NDI4MTk2OTcsLTc5MjY4Mzk1NCwtMjA3NjEzMDA5MCwtMT
+AxMzg4MDk3NSwxMjM1NTY2NDg4XX0=
 -->
