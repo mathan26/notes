@@ -33,7 +33,8 @@
 		    // Only change code below this line
 		    const tea4TeamFCC = getTea(40);
 		    // Only change code above this line
-
+## Understand Functional Programming Terminology
+## Heading
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDAzNDcyOTBdfQ==
+eyJoaXN0b3J5IjpbLTc3MjkzMTE2NywtMTE0MDM0NzI5MF19
 -->
