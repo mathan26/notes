@@ -47,7 +47,12 @@
 > function, or returned from another function just like any other normal
 > value, are called first class functions. In JavaScript, all functions
 > are first class functions.
+> 
+**higher order functions**
+> The functions that take a function as an argument, or return a
+> function as a return value are called higher order functions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MjM5MDg5NiwtMTE0MDM0NzI5MF19
+eyJoaXN0b3J5IjpbLTE4ODg0NzUzMTIsLTExNDAzNDcyOTBdfQ
+==
 -->
