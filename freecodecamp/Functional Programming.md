@@ -34,7 +34,20 @@
 		    const tea4TeamFCC = getTea(40);
 		    // Only change code above this line
 ## Understand Functional Programming Terminology
-## Heading
+
+**Callbacks**
+
+> Callbacks are the functions that are slipped or passed into another
+> function to decide the invocation of that function. You may have seen
+> them passed to other methods, for example in filter, the callback
+> function tells JavaScript the criteria for how to filter an array.
+ 
+ **first class functions**
+>  Functions that can be assigned to a variable, passed into another
+> function, or returned from another function just like any other normal
+> value, are called first class functions. In JavaScript, all functions
+> are first class functions.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MjkzMTE2NywtMTE0MDM0NzI5MF19
+eyJoaXN0b3J5IjpbLTQ0MjM5MDg5NiwtMTE0MDM0NzI5MF19
 -->
