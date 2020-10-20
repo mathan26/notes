@@ -313,10 +313,10 @@ In addition to the callback function, reduce has an additional parameter which t
       // Add your code above this line
       return averageRating;
     }
-
+## Use Higher-Order Functions map, filter, or reduce to Solve a Complex Problem
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjI4NTMyMjgsLTk4NDc1MjUyOCwzMj
-czNTIyNzgsNDMyOTUyMzA4LC0xNjAyNDQyNDAyLDkxNjM3MTQ4
-OCwxNzkzNjE4MjMyLC03NzE1MTg4NTAsNDA3NDA1NzE3LC0xOD
-g4NDc1MzEyLC0xMTQwMzQ3MjkwXX0=
+eyJoaXN0b3J5IjpbMTMyNTkzMzgxNywtMTQyMjg1MzIyOCwtOT
+g0NzUyNTI4LDMyNzM1MjI3OCw0MzI5NTIzMDgsLTE2MDI0NDI0
+MDIsOTE2MzcxNDg4LDE3OTM2MTgyMzIsLTc3MTUxODg1MCw0MD
+c0MDU3MTcsLTE4ODg0NzUzMTIsLTExNDAzNDcyOTBdfQ==
 -->
