@@ -273,9 +273,35 @@ U
 	    var second = [4, 5];
 	    nonMutatingPush(first, second);
 ## Use the reduce Method to Analyze Data
+The reduce method allows for more general forms of array processing, and it's possible to show that both filter and map can be derived as special applications of reduce. The reduce method iterates over each item in an array and returns a single value (i.e. string, number, object, array). This is achieved via a callback function that is called on each iteration.
+
+In addition to the callback function, reduce has an additional parameter which takes an initial value for the accumulator. If this second parameter is not used, then the first iteration is skipped and the second iteration gets passed the first element of the array as the accumulator.
+
+> The variable watchList holds an array of objects with information on
+> several movies. Use reduce to find the average IMDB rating of the
+> movies directed by Christopher Nolan. Recall from prior challenges how
+> to filter data and map over it to pull what you need. You may need to
+> create other variables, and return the average rating from getRating
+> function. Note that the rating values are saved as strings in the
+> object and need to be converted into numbers before they are used in
+> any mathematical operations.
+
+    function getRating(watchList){
+     var averageRating =
+      watchList
+        .filter(film => film.Director === "Christopher Nolan")
+        .map(film => Number(film.imdbRating))
+        // Use reduce to add together their ratings
+        .reduce((sumOfRatings, rating) => sumOfRatings + rating) /
+      // Divide by the number of Nolan films to get the average rating
+      watchList.filter(film => film.Director === "Christopher Nolan").length;
+      // Add your code above this line
+      return averageRating;
+    }
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NzU1MTMwLC05ODQ3NTI1MjgsMzI3Mz
-UyMjc4LDQzMjk1MjMwOCwtMTYwMjQ0MjQwMiw5MTYzNzE0ODgs
-MTc5MzYxODIzMiwtNzcxNTE4ODUwLDQwNzQwNTcxNywtMTg4OD
-Q3NTMxMiwtMTE0MDM0NzI5MF19
+eyJoaXN0b3J5IjpbLTIxMjE4NzgyMTMsLTk4NDc1MjUyOCwzMj
+czNTIyNzgsNDMyOTUyMzA4LC0xNjAyNDQyNDAyLDkxNjM3MTQ4
+OCwxNzkzNjE4MjMyLC03NzE1MTg4NTAsNDA3NDA1NzE3LC0xOD
+g4NDc1MzEyLC0xMTQwMzQ3MjkwXX0=
 -->
