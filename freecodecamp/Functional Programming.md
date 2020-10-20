@@ -127,9 +127,10 @@
       title: item["Title"],
       rating: item["imdbRating"]
     }));
-
+    // Another approach
+    const ratings = watchList.map(({ Title: title, imdbRating: rating }) => ({title, rating}));
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNTU2NzM0NCwtNzcxNTE4ODUwLDQwNz
+eyJoaXN0b3J5IjpbMTc5MzYxODIzMiwtNzcxNTE4ODUwLDQwNz
 QwNTcxNywtMTg4ODQ3NTMxMiwtMTE0MDM0NzI5MF19
 -->
