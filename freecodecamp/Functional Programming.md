@@ -203,11 +203,23 @@ var s = [23, 65, 98, 5];
  - The slice method returns a copy of certain elements of an array. 
  - It can take two arguments, the first gives the index of where to begin the slice, the second is the index for where to end the slice (and it's non-inclusive). 
  - *If the arguments are not provided*, the default is to start at the beginning of the array through the end, which is an easy way to make a *copy of the entire array*. 
- - The **slice method does not mutate the original array**, but returns a new one.
+ - The *slice method does not mutate the original array*, but returns a new one.
+
+> Use the slice method in the sliceArray function to return part of the
+> anim array given the provided beginSlice and endSlice indices. The
+> function should return an array.
+function sliceArray(anim, beginSlice, endSlice) {
+  // Only change code below this line
+
+    return anim.slice(beginSlice,endSlice);
+  // Only change code above this line
+}
+var inputAnim = ["Cat", "Dog", "Tiger", "Zebra", "Ant"];
+sliceArray(inputAnim, 1, 3);
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDE1MzgxMDEsNDMyOTUyMzA4LC0xNj
-AyNDQyNDAyLDkxNjM3MTQ4OCwxNzkzNjE4MjMyLC03NzE1MTg4
-NTAsNDA3NDA1NzE3LC0xODg4NDc1MzEyLC0xMTQwMzQ3MjkwXX
-0=
+eyJoaXN0b3J5IjpbMjA1Njc2MTQ1NCw0MzI5NTIzMDgsLTE2MD
+I0NDI0MDIsOTE2MzcxNDg4LDE3OTM2MTgyMzIsLTc3MTUxODg1
+MCw0MDc0MDU3MTcsLTE4ODg0NzUzMTIsLTExNDAzNDcyOTBdfQ
+==
 -->
