@@ -298,9 +298,24 @@ In addition to the callback function, reduce has an additional parameter which t
       // Add your code above this line
       return averageRating;
     }
+**Another Approach:**
+
+    function getRating(watchList){
+      // Add your code below this line
+      var count = 0;
+      var averageRating = watchList.reduce((sum,movie) =>  {
+        if (movie.Director == "Christopher Nolan") {
+          count+=1;
+          return sum + parseFloat(movie.imdbRating);
+        }
+        return sum;
+      }, 0) / count;
+      // Add your code above this line
+      return averageRating;
+    }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjE4NzgyMTMsLTk4NDc1MjUyOCwzMj
+eyJoaXN0b3J5IjpbLTE0MjI4NTMyMjgsLTk4NDc1MjUyOCwzMj
 czNTIyNzgsNDMyOTUyMzA4LC0xNjAyNDQyNDAyLDkxNjM3MTQ4
 OCwxNzkzNjE4MjMyLC03NzE1MTg4NTAsNDA3NDA1NzE3LC0xOD
 g4NDc1MzEyLC0xMTQwMzQ3MjkwXX0=
