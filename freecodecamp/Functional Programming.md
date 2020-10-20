@@ -336,10 +336,11 @@ In addition to the callback function, reduce has an additional parameter which t
     console.log(squaredIntegers);
 
  - num % parseInt(num) === 0 find the given value is decimal or not
-
+## Sort an Array Alphabetically using the sort Method
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NTUxMTAwNywtMTQyMjg1MzIyOCwtOT
-g0NzUyNTI4LDMyNzM1MjI3OCw0MzI5NTIzMDgsLTE2MDI0NDI0
-MDIsOTE2MzcxNDg4LDE3OTM2MTgyMzIsLTc3MTUxODg1MCw0MD
-c0MDU3MTcsLTE4ODg0NzUzMTIsLTExNDAzNDcyOTBdfQ==
+eyJoaXN0b3J5IjpbLTExMjQ1MTc4MjQsMTQ3NTUxMTAwNywtMT
+QyMjg1MzIyOCwtOTg0NzUyNTI4LDMyNzM1MjI3OCw0MzI5NTIz
+MDgsLTE2MDI0NDI0MDIsOTE2MzcxNDg4LDE3OTM2MTgyMzIsLT
+c3MTUxODg1MCw0MDc0MDU3MTcsLTE4ODg0NzUzMTIsLTExNDAz
+NDcyOTBdfQ==
 -->
