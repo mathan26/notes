@@ -156,9 +156,10 @@ var s = [23, 65, 98, 5];
  - Result is stored in the newArray.
  - Finally the new array has been returned.
  - [Refer](https://forum.freecodecamp.org/t/implement-map-on-a-prototype-detailed-description/336272/6) detailed explantion on `this` keyword.
+## Use the filter Method to Extract Data from an Array
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE2MzcxNDg4LDE3OTM2MTgyMzIsLTc3MT
-UxODg1MCw0MDc0MDU3MTcsLTE4ODg0NzUzMTIsLTExNDAzNDcy
-OTBdfQ==
+eyJoaXN0b3J5IjpbMTIzMzQyNTY2Nyw5MTYzNzE0ODgsMTc5Mz
+YxODIzMiwtNzcxNTE4ODUwLDQwNzQwNTcxNywtMTg4ODQ3NTMx
+MiwtMTE0MDM0NzI5MF19
 -->
