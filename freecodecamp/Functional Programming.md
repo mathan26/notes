@@ -337,10 +337,30 @@ In addition to the callback function, reduce has an additional parameter which t
 
  - num % parseInt(num) === 0 find the given value is decimal or not
 ## Sort an Array Alphabetically using the sort Method
+ - The sort method sorts the elements of an array according to the
+   callback function.
+
+   
+
+ - JavaScript's default sorting method is by string Unicode point value,
+   which may return unexpected results. Therefore, it is encouraged to
+   provide a callback function to specify how to sort the array items.
+   
+ - When such a callback function, normally called compareFunction, is   
+   supplied, the array elements are sorted according to the return value
+   of the compareFunction:
+
+ If compareFunction(a,b) returns a value less
+   than 0 for two elements a and b, then a will come before b. If
+   compareFunction(a,b) returns a value greater than 0 for two elements
+   a and b, then b will come before a. If compareFunction(a,b) returns a
+   value equal to 0 for two elements a and b, then a and b will remain
+   unchanged.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjQ1MTc4MjQsMTQ3NTUxMTAwNywtMT
-QyMjg1MzIyOCwtOTg0NzUyNTI4LDMyNzM1MjI3OCw0MzI5NTIz
-MDgsLTE2MDI0NDI0MDIsOTE2MzcxNDg4LDE3OTM2MTgyMzIsLT
-c3MTUxODg1MCw0MDc0MDU3MTcsLTE4ODg0NzUzMTIsLTExNDAz
-NDcyOTBdfQ==
+eyJoaXN0b3J5IjpbLTgzMTE5NDUxNywxNDc1NTExMDA3LC0xND
+IyODUzMjI4LC05ODQ3NTI1MjgsMzI3MzUyMjc4LDQzMjk1MjMw
+OCwtMTYwMjQ0MjQwMiw5MTYzNzE0ODgsMTc5MzYxODIzMiwtNz
+cxNTE4ODUwLDQwNzQwNTcxNywtMTg4ODQ3NTMxMiwtMTE0MDM0
+NzI5MF19
 -->
