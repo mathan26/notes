@@ -198,9 +198,10 @@ var s = [23, 65, 98, 5];
 	    var new_s = s.myFilter(function(item){
 	      return item % 2 === 1;
 	    });
-
+## Return Part of an Array Using the slice Method
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMyOTUyMzA4LC0xNjAyNDQyNDAyLDkxNj
-M3MTQ4OCwxNzkzNjE4MjMyLC03NzE1MTg4NTAsNDA3NDA1NzE3
-LC0xODg4NDc1MzEyLC0xMTQwMzQ3MjkwXX0=
+eyJoaXN0b3J5IjpbMTIxMDE4Mjc0NCw0MzI5NTIzMDgsLTE2MD
+I0NDI0MDIsOTE2MzcxNDg4LDE3OTM2MTgyMzIsLTc3MTUxODg1
+MCw0MDc0MDU3MTcsLTE4ODg0NzUzMTIsLTExNDAzNDcyOTBdfQ
+==
 -->
