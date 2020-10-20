@@ -242,10 +242,20 @@ U
 > attach to the end of original. The function should return the
 > concatenated array.
 
+	    function nonMutatingConcat(original, attach) {
+	      // Only change code below this line
+	    
+	        return original.concat(attach);
+	      // Only change code above this line
+	    }
+	    var first = [1, 2, 3];
+	    var second = [4, 5];
+	    nonMutatingConcat(first, second);
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNDIwNjk4LDMyNzM1MjI3OCw0MzI5NT
-IzMDgsLTE2MDI0NDI0MDIsOTE2MzcxNDg4LDE3OTM2MTgyMzIs
-LTc3MTUxODg1MCw0MDc0MDU3MTcsLTE4ODg0NzUzMTIsLTExND
-AzNDcyOTBdfQ==
+eyJoaXN0b3J5IjpbMTQ3NzU4MDQ1OCwzMjczNTIyNzgsNDMyOT
+UyMzA4LC0xNjAyNDQyNDAyLDkxNjM3MTQ4OCwxNzkzNjE4MjMy
+LC03NzE1MTg4NTAsNDA3NDA1NzE3LC0xODg4NDc1MzEyLC0xMT
+QwMzQ3MjkwXX0=
 -->
