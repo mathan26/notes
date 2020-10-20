@@ -252,9 +252,20 @@ U
 	    var second = [4, 5];
 	    nonMutatingConcat(first, second);
 
+## Add Elements to the End of an Array Using concat Instead of push
+
+ - Push adds an item to the end of the same array it is called on, which
+   mutates that array.
+  
+ - Concat offers a way to add new items to the end of an array without
+   any mutating side effects.
+
+>    Change the nonMutatingPush function so it uses concat to add
+> newItem to the end of original instead of push. The function should
+> return an array.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NzU4MDQ1OCwzMjczNTIyNzgsNDMyOT
+eyJoaXN0b3J5IjpbMTE4NDUzNTk1NCwzMjczNTIyNzgsNDMyOT
 UyMzA4LC0xNjAyNDQyNDAyLDkxNjM3MTQ4OCwxNzkzNjE4MjMy
 LC03NzE1MTg4NTAsNDA3NDA1NzE3LC0xODg4NDc1MzEyLC0xMT
 QwMzQ3MjkwXX0=
