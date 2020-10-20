@@ -173,9 +173,9 @@ var s = [23, 65, 98, 5];
     // Only change code above this line
     
     console.log(filteredList);
-
+## Implement the filter Method on a Prototype
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDI0NDI0MDIsOTE2MzcxNDg4LDE3OT
-M2MTgyMzIsLTc3MTUxODg1MCw0MDc0MDU3MTcsLTE4ODg0NzUz
-MTIsLTExNDAzNDcyOTBdfQ==
+eyJoaXN0b3J5IjpbMjEwMDkwMzg1NywtMTYwMjQ0MjQwMiw5MT
+YzNzE0ODgsMTc5MzYxODIzMiwtNzcxNTE4ODUwLDQwNzQwNTcx
+NywtMTg4ODQ3NTMxMiwtMTE0MDM0NzI5MF19
 -->
