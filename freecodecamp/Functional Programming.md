@@ -233,9 +233,18 @@ A common pattern while working with arrays is when you want to remove items and 
     }
     var inputCities = ["Chicago", "Delhi", "Islamabad", "London", "Berlin"];
     console.log(nonMutatingSplice(inputCities));
+## Combine Two Arrays Using the concat Method
+Concatenation means to join items end to end. JavaScript offers the concat method for both strings and arrays that work in the same way. For arrays, the method is called on one, then another array is provided as the argument to concat, which is added to the end of the first array. 
+
+U
+
+> se the concat method in the nonMutatingConcat function to concatenate
+> attach to the end of original. The function should return the
+> concatenated array.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2OTQ3NzE4LDMyNzM1MjI3OCw0MzI5NT
+eyJoaXN0b3J5IjpbMTcwNDIwNjk4LDMyNzM1MjI3OCw0MzI5NT
 IzMDgsLTE2MDI0NDI0MDIsOTE2MzcxNDg4LDE3OTM2MTgyMzIs
 LTc3MTUxODg1MCw0MDc0MDU3MTcsLTE4ODg0NzUzMTIsLTExND
 AzNDcyOTBdfQ==
