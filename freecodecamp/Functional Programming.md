@@ -272,10 +272,10 @@ U
 	    var first = [1, 2, 3];
 	    var second = [4, 5];
 	    nonMutatingPush(first, second);
-
+## Use the reduce Method to Analyze Data
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NDc1MjUyOCwzMjczNTIyNzgsNDMyOT
-UyMzA4LC0xNjAyNDQyNDAyLDkxNjM3MTQ4OCwxNzkzNjE4MjMy
-LC03NzE1MTg4NTAsNDA3NDA1NzE3LC0xODg4NDc1MzEyLC0xMT
-QwMzQ3MjkwXX0=
+eyJoaXN0b3J5IjpbMTk4NzU1MTMwLC05ODQ3NTI1MjgsMzI3Mz
+UyMjc4LDQzMjk1MjMwOCwtMTYwMjQ0MjQwMiw5MTYzNzE0ODgs
+MTc5MzYxODIzMiwtNzcxNTE4ODUwLDQwNzQwNTcxNywtMTg4OD
+Q3NTMxMiwtMTE0MDM0NzI5MF19
 -->
