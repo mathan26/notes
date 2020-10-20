@@ -115,8 +115,21 @@
     
     console.log(bookList);
     console.log(newBookList);
-## Heading
+## Use the map Method to Extract Data from an Array
+
+> The watchList array holds objects with information on several movies.
+> Use map on watchList to assign a new array of objects with only title
+> and rating keys to the ratings variable. The code in the editor
+> currently uses a for loop to do this, so you should replace the loop
+>functionality with your map expression.
+
+    const ratings = watchList.map(item => ({
+      title: item["Title"],
+      rating: item["imdbRating"]
+    }));
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTc4Mjg0NTIsLTc3MTUxODg1MCw0MD
-c0MDU3MTcsLTE4ODg0NzUzMTIsLTExNDAzNDcyOTBdfQ==
+eyJoaXN0b3J5IjpbMTUwNTU2NzM0NCwtNzcxNTE4ODUwLDQwNz
+QwNTcxNywtMTg4ODQ3NTMxMiwtMTE0MDM0NzI5MF19
 -->
