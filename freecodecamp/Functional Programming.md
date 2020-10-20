@@ -155,10 +155,10 @@ var s = [23, 65, 98, 5];
  - for each element call back has been.
  - Result is stored in the newArray.
  - Finally the new array has been returned.
- - 
+ - [Refer](https://forum.freecodecamp.org/t/implement-map-on-a-prototype-detailed-description/336272/6) detailed explantion on `this` keyword.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3OTAyOTcxLDE3OTM2MTgyMzIsLTc3MT
+eyJoaXN0b3J5IjpbOTE2MzcxNDg4LDE3OTM2MTgyMzIsLTc3MT
 UxODg1MCw0MDc0MDU3MTcsLTE4ODg0NzUzMTIsLTExNDAzNDcy
 OTBdfQ==
 -->
