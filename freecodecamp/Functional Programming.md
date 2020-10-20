@@ -217,8 +217,25 @@ var s = [23, 65, 98, 5];
 	    var inputAnim = ["Cat", "Dog", "Tiger", "Zebra", "Ant"];
 	    sliceArray(inputAnim, 1, 3);
 ## Remove Elements from an Array Using slice Instead of splice
+A common pattern while working with arrays is when you want to remove items and keep the rest of the array. JavaScript offers the splice method for this, which takes arguments for the index of where to start removing items, then the number of items to remove. If the second argument is not provided, the default is to remove items through the end. However, the splice method mutates the original array it is called on.
+
+> Rewrite the function nonMutatingSplice by using slice instead of
+> splice. It should limit the provided cities array to a length of 3,
+> and return a new array with only the first three items.
+> 
+> Do not mutate the original array provided to the function.
+
+    function nonMutatingSplice(cities) {
+      // Only change code below this line
+      return cities.slice(0,3);
+    
+      // Only change code above this line
+    }
+    var inputCities = ["Chicago", "Delhi", "Islamabad", "London", "Berlin"];
+    console.log(nonMutatingSplice(inputCities));
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MzQ0NjE4LDMyNzM1MjI3OCw0MzI5NT
+eyJoaXN0b3J5IjpbMTE2OTQ3NzE4LDMyNzM1MjI3OCw0MzI5NT
 IzMDgsLTE2MDI0NDI0MDIsOTE2MzcxNDg4LDE3OTM2MTgyMzIs
 LTc3MTUxODg1MCw0MDc0MDU3MTcsLTE4ODg0NzUzMTIsLTExND
 AzNDcyOTBdfQ==
