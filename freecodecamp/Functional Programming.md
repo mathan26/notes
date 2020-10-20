@@ -151,10 +151,14 @@ var s = [23, 65, 98, 5];
 **Explantion**
 
  - Here s is an Object which calls the myMap Prototype fucntion.
- - Anno
+ - Annonymous function passed as callback.
+ - for each element call back has been.
+ - Result is stored in the newArray.
+ - Finally the new array has been returned.
+ - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzOTY4MzQzLDE3OTM2MTgyMzIsLTc3MT
+eyJoaXN0b3J5IjpbLTU3OTAyOTcxLDE3OTM2MTgyMzIsLTc3MT
 UxODg1MCw0MDc0MDU3MTcsLTE4ODg0NzUzMTIsLTExNDAzNDcy
 OTBdfQ==
 -->
