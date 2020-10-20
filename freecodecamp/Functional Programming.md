@@ -158,8 +158,24 @@ var s = [23, 65, 98, 5];
  - [Refer](https://forum.freecodecamp.org/t/implement-map-on-a-prototype-detailed-description/336272/6) detailed explantion on `this` keyword.
 ## Use the filter Method to Extract Data from an Array
 
+> The variable watchList holds an array of objects with information on
+> several movies. Use a combination of filter and map on watchList to
+> assign a new array of objects with only title and rating keys. The new
+> array should only include objects where imdbRating is greater than or
+> equal to 8.0. Note that the rating values are saved as strings in the
+> object and you may need to convert them into numbers to perform
+> mathematical operations on them.
+
+    // Only change code below this line
+    
+    var filteredList;
+    filteredList = watchList.filter(movie => movie.imdbRating > 8.0).map(({Title:title,imdbRating: rating })=>({title,rating}));
+    // Only change code above this line
+    
+    console.log(filteredList);
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMzQyNTY2Nyw5MTYzNzE0ODgsMTc5Mz
-YxODIzMiwtNzcxNTE4ODUwLDQwNzQwNTcxNywtMTg4ODQ3NTMx
-MiwtMTE0MDM0NzI5MF19
+eyJoaXN0b3J5IjpbLTE2MDI0NDI0MDIsOTE2MzcxNDg4LDE3OT
+M2MTgyMzIsLTc3MTUxODg1MCw0MDc0MDU3MTcsLTE4ODg0NzUz
+MTIsLTExNDAzNDcyOTBdfQ==
 -->
