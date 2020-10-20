@@ -135,9 +135,26 @@
 > Write your own Array.prototype.myMap(), which should behave exactly
 > like Array.prototype.map(). You may use a for loop or the forEach
 > method.
+var s = [23, 65, 98, 5];
+
+    Array.prototype.myMap = function(callback){
+      var newArray = [];
+      this.forEach(a => newArray.push(callback(a)));
+      return newArray;
+    };
+    
+    var new_s = s.myMap(function(item){
+      console.log('called')
+      return item * 2;
+    });
+
+**Explantion**
+
+ - Here s is an Object which calls the myMap Prototype fucntion.
+ - Anno
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjQ5MTA3NjEsMTc5MzYxODIzMiwtNz
-cxNTE4ODUwLDQwNzQwNTcxNywtMTg4ODQ3NTMxMiwtMTE0MDM0
-NzI5MF19
+eyJoaXN0b3J5IjpbMTkzOTY4MzQzLDE3OTM2MTgyMzIsLTc3MT
+UxODg1MCw0MDc0MDU3MTcsLTE4ODg0NzUzMTIsLTExNDAzNDcy
+OTBdfQ==
 -->
