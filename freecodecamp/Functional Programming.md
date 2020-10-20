@@ -350,15 +350,27 @@ In addition to the callback function, reduce has an additional parameter which t
    supplied, the array elements are sorted according to the return value
    of the compareFunction:
 
- If compareFunction(a,b) returns a value less
-   than 0 for two elements a and b, then a will come before b. If
-   compareFunction(a,b) returns a value greater than 0 for two elements
-   a and b, then b will come before a. If compareFunction(a,b) returns a
-   value equal to 0 for two elements a and b, then a and b will remain
-   unchanged.
+    
+
+ - If compareFunction(a,b) returns a value less    than 0 for two
+   elements a and b, then a will come before b. 
+   
+ - If  compareFunction(a,b) returns a value greater than 0 for two
+   elements     a and b, then b will come before a. If
+   compareFunction(a,b) returns a    value equal to 0 for two elements a
+   and b, then a and b will remain      unchanged.
+
+	    function alphabeticalOrder(arr) {
+	      // Only change code below this line
+	        return arr.sort((a,b)=>a===b? 0: a>b?1:-1);
+	    
+	      // Only change code above this line
+	    }
+	    alphabeticalOrder(["a", "d", "c", "a", "z", "g"]);
+	    console.log(alphabeticalOrder(["a", "d", "c", "a", "z", "g"]))
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMTE5NDUxNywxNDc1NTExMDA3LC0xND
+eyJoaXN0b3J5IjpbLTUyNzY3Nzg0NiwxNDc1NTExMDA3LC0xND
 IyODUzMjI4LC05ODQ3NTI1MjgsMzI3MzUyMjc4LDQzMjk1MjMw
 OCwtMTYwMjQ0MjQwMiw5MTYzNzE0ODgsMTc5MzYxODIzMiwtNz
 cxNTE4ODUwLDQwNzQwNTcxNywtMTg4ODQ3NTMxMiwtMTE0MDM0
