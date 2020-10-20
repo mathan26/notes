@@ -129,8 +129,15 @@
     }));
     // Another approach
     const ratings = watchList.map(({ Title: title, imdbRating: rating }) => ({title, rating}));
+    
+## Implement map on a Prototype
+
+> Write your own Array.prototype.myMap(), which should behave exactly
+> like Array.prototype.map(). You may use a for loop or the forEach
+> method.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MzYxODIzMiwtNzcxNTE4ODUwLDQwNz
-QwNTcxNywtMTg4ODQ3NTMxMiwtMTE0MDM0NzI5MF19
+eyJoaXN0b3J5IjpbLTE3NjQ5MTA3NjEsMTc5MzYxODIzMiwtNz
+cxNTE4ODUwLDQwNzQwNTcxNywtMTg4ODQ3NTMxMiwtMTE0MDM0
+NzI5MF19
 -->
