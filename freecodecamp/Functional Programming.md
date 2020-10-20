@@ -216,9 +216,10 @@ var s = [23, 65, 98, 5];
 	    }
 	    var inputAnim = ["Cat", "Dog", "Tiger", "Zebra", "Ant"];
 	    sliceArray(inputAnim, 1, 3);
-
+## Remove Elements from an Array Using slice Instead of splice
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI3MzUyMjc4LDQzMjk1MjMwOCwtMTYwMj
-Q0MjQwMiw5MTYzNzE0ODgsMTc5MzYxODIzMiwtNzcxNTE4ODUw
-LDQwNzQwNTcxNywtMTg4ODQ3NTMxMiwtMTE0MDM0NzI5MF19
+eyJoaXN0b3J5IjpbMTU5MzQ0NjE4LDMyNzM1MjI3OCw0MzI5NT
+IzMDgsLTE2MDI0NDI0MDIsOTE2MzcxNDg4LDE3OTM2MTgyMzIs
+LTc3MTUxODg1MCw0MDc0MDU3MTcsLTE4ODg0NzUzMTIsLTExND
+AzNDcyOTBdfQ==
 -->
