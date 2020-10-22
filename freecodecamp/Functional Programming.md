@@ -400,11 +400,29 @@ The split method splits a string into an array of strings. It takes an argument 
 	    }
 	    console.log(splitify("Hello World,I-am code"));
 	    [ 'Hello', 'World', 'I', 'am', 'code' ]
-       
+      
+## Combine an Array into a String Using the join Method 
+The join method is used to join the elements of an array together to create a string. It takes an argument for the delimiter that is used to separate the array elements in the string.
+
+> Use the join method (among others) inside the sentensify function to
+> make a sentence from the words in the string str. The function should
+> return a string. For example, "I-like-Star-Wars" would be converted to
+> "I like Star Wars". For this challenge, do not use the replace method.
+
+	    function sentensify(str) {
+	      // Only change code below this line
+	         
+	         return str.split(/\W/).join(" ");
+	    
+	      // Only change code above this line
+	    }
+	    sentensify("May-the-force-be-with-you");
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2Nzc5MTI0OCwtMTM5NjUzNjIzOSwtNT
-I3Njc3ODQ2LDE0NzU1MTEwMDcsLTE0MjI4NTMyMjgsLTk4NDc1
-MjUyOCwzMjczNTIyNzgsNDMyOTUyMzA4LC0xNjAyNDQyNDAyLD
-kxNjM3MTQ4OCwxNzkzNjE4MjMyLC03NzE1MTg4NTAsNDA3NDA1
-NzE3LC0xODg4NDc1MzEyLC0xMTQwMzQ3MjkwXX0=
+eyJoaXN0b3J5IjpbLTEwOTAyMzgxMTMsLTQ2Nzc5MTI0OCwtMT
+M5NjUzNjIzOSwtNTI3Njc3ODQ2LDE0NzU1MTEwMDcsLTE0MjI4
+NTMyMjgsLTk4NDc1MjUyOCwzMjczNTIyNzgsNDMyOTUyMzA4LC
+0xNjAyNDQyNDAyLDkxNjM3MTQ4OCwxNzkzNjE4MjMyLC03NzE1
+MTg4NTAsNDA3NDA1NzE3LC0xODg4NDc1MzEyLC0xMTQwMzQ3Mj
+kwXX0=
 -->
