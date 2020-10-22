@@ -455,12 +455,26 @@ The every method works with arrays to check if every element passes a particular
 	      // Only change code above this line
 	    }
 	    checkPositive([1, 2, 3, 4, 5]);
+## Use the some Method to Check that Any Elements in an Array Meet a Criteria
+The some method works with arrays to check if any element passes a particular test. It returns a Boolean value - true if any of the values meet the criteria, false if not.
+
+> Use the some method inside the checkPositive function to check if any
+> element in arr is positive. The function should return a Boolean
+> value.
+
+    function checkPositive(arr) {
+      // Only change code below this line
+        return arr.some(num=>num>0);
+      // Only change code above this line
+    }
+    checkPositive([1, 2, 3, -4, 5]);
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMDIxNTg2NSwxNjEwNjA3NzMxLC0xMD
-kwMjM4MTEzLC00Njc3OTEyNDgsLTEzOTY1MzYyMzksLTUyNzY3
-Nzg0NiwxNDc1NTExMDA3LC0xNDIyODUzMjI4LC05ODQ3NTI1Mj
-gsMzI3MzUyMjc4LDQzMjk1MjMwOCwtMTYwMjQ0MjQwMiw5MTYz
-NzE0ODgsMTc5MzYxODIzMiwtNzcxNTE4ODUwLDQwNzQwNTcxNy
-wtMTg4ODQ3NTMxMiwtMTE0MDM0NzI5MF19
+eyJoaXN0b3J5IjpbLTU5Nzc0NjQ2NiwyMDAwMjE1ODY1LDE2MT
+A2MDc3MzEsLTEwOTAyMzgxMTMsLTQ2Nzc5MTI0OCwtMTM5NjUz
+NjIzOSwtNTI3Njc3ODQ2LDE0NzU1MTEwMDcsLTE0MjI4NTMyMj
+gsLTk4NDc1MjUyOCwzMjczNTIyNzgsNDMyOTUyMzA4LC0xNjAy
+NDQyNDAyLDkxNjM3MTQ4OCwxNzkzNjE4MjMyLC03NzE1MTg4NT
+AsNDA3NDA1NzE3LC0xODg4NDc1MzEyLC0xMTQwMzQ3MjkwXX0=
+
 -->
