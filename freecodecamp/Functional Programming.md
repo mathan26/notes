@@ -441,12 +441,12 @@ The join method is used to join the elements of an array together to create a st
 	    // Only change code above this line
 	    
 	    console.log(urlSlug(" Winter Is  Coming"))
-
+## Use the every Method to Check that Every Element in an Array Meets a Criteria
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMDYwNzczMSwtMTA5MDIzODExMywtND
-Y3NzkxMjQ4LC0xMzk2NTM2MjM5LC01Mjc2Nzc4NDYsMTQ3NTUx
-MTAwNywtMTQyMjg1MzIyOCwtOTg0NzUyNTI4LDMyNzM1MjI3OC
-w0MzI5NTIzMDgsLTE2MDI0NDI0MDIsOTE2MzcxNDg4LDE3OTM2
-MTgyMzIsLTc3MTUxODg1MCw0MDc0MDU3MTcsLTE4ODg0NzUzMT
-IsLTExNDAzNDcyOTBdfQ==
+eyJoaXN0b3J5IjpbOTYxMDk4NDc1LDE2MTA2MDc3MzEsLTEwOT
+AyMzgxMTMsLTQ2Nzc5MTI0OCwtMTM5NjUzNjIzOSwtNTI3Njc3
+ODQ2LDE0NzU1MTEwMDcsLTE0MjI4NTMyMjgsLTk4NDc1MjUyOC
+wzMjczNTIyNzgsNDMyOTUyMzA4LC0xNjAyNDQyNDAyLDkxNjM3
+MTQ4OCwxNzkzNjE4MjMyLC03NzE1MTg4NTAsNDA3NDA1NzE3LC
+0xODg4NDc1MzEyLC0xMTQwMzQ3MjkwXX0=
 -->
