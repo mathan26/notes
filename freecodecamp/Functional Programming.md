@@ -417,12 +417,36 @@ The join method is used to join the elements of an array together to create a st
 	      // Only change code above this line
 	    }
 	    sentensify("May-the-force-be-with-you");
+## Apply Functional Programming to Convert Strings to URL Slugs
+
+> Fill in the urlSlug function so it converts a string title and returns
+> the hyphenated version for the URL. You can use any of the methods
+> covered in this section, and don't use replace. Here are the
+> requirements:
+> 
+> The input is a string with spaces and title-cased words
+> 
+> The output is a string with the spaces between words replaced by a
+> hyphen (-)
+> 
+> The output should be all lower-cased letters
+> 
+> The output should not have any spaces
+
+	    // Only change code below this line
+	    function urlSlug(title) {
+	        return title.toLocaleLowerCase().trim().split(/\s+/).join('-');
+	    
+	    }
+	    // Only change code above this line
+	    
+	    console.log(urlSlug(" Winter Is  Coming"))
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTAyMzgxMTMsLTQ2Nzc5MTI0OCwtMT
-M5NjUzNjIzOSwtNTI3Njc3ODQ2LDE0NzU1MTEwMDcsLTE0MjI4
-NTMyMjgsLTk4NDc1MjUyOCwzMjczNTIyNzgsNDMyOTUyMzA4LC
-0xNjAyNDQyNDAyLDkxNjM3MTQ4OCwxNzkzNjE4MjMyLC03NzE1
-MTg4NTAsNDA3NDA1NzE3LC0xODg4NDc1MzEyLC0xMTQwMzQ3Mj
-kwXX0=
+eyJoaXN0b3J5IjpbMTYxMDYwNzczMSwtMTA5MDIzODExMywtND
+Y3NzkxMjQ4LC0xMzk2NTM2MjM5LC01Mjc2Nzc4NDYsMTQ3NTUx
+MTAwNywtMTQyMjg1MzIyOCwtOTg0NzUyNTI4LDMyNzM1MjI3OC
+w0MzI5NTIzMDgsLTE2MDI0NDI0MDIsOTE2MzcxNDg4LDE3OTM2
+MTgyMzIsLTc3MTUxODg1MCw0MDc0MDU3MTcsLTE4ODg0NzUzMT
+IsLTExNDAzNDcyOTBdfQ==
 -->
