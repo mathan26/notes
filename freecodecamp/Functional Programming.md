@@ -441,12 +441,26 @@ The join method is used to join the elements of an array together to create a st
 	    // Only change code above this line
 	    
 	    console.log(urlSlug(" Winter Is  Coming"))
-## Use the every Method to Check that Every Element in an Array Meets a Criteria
+## Use the every Method to Check that Every Element in an Array Meets a Criteria.
+The every method works with arrays to check if every element passes a particular test. It returns a Boolean value - true if all values meet the criteria, false if not.
+
+> Use the every method inside the checkPositive function to check if
+> every element in arr is positive. The function should return a Boolean
+> value.
+
+	    function checkPositive(arr) {
+	      // Only change code below this line
+	        return arr.every(num => num > 0);
+	    
+	      // Only change code above this line
+	    }
+	    checkPositive([1, 2, 3, 4, 5]);
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYxMDk4NDc1LDE2MTA2MDc3MzEsLTEwOT
-AyMzgxMTMsLTQ2Nzc5MTI0OCwtMTM5NjUzNjIzOSwtNTI3Njc3
-ODQ2LDE0NzU1MTEwMDcsLTE0MjI4NTMyMjgsLTk4NDc1MjUyOC
-wzMjczNTIyNzgsNDMyOTUyMzA4LC0xNjAyNDQyNDAyLDkxNjM3
-MTQ4OCwxNzkzNjE4MjMyLC03NzE1MTg4NTAsNDA3NDA1NzE3LC
-0xODg4NDc1MzEyLC0xMTQwMzQ3MjkwXX0=
+eyJoaXN0b3J5IjpbMjAwMDIxNTg2NSwxNjEwNjA3NzMxLC0xMD
+kwMjM4MTEzLC00Njc3OTEyNDgsLTEzOTY1MzYyMzksLTUyNzY3
+Nzg0NiwxNDc1NTExMDA3LC0xNDIyODUzMjI4LC05ODQ3NTI1Mj
+gsMzI3MzUyMjc4LDQzMjk1MjMwOCwtMTYwMjQ0MjQwMiw5MTYz
+NzE0ODgsMTc5MzYxODIzMiwtNzcxNTE4ODUwLDQwNzQwNTcxNy
+wtMTg4ODQ3NTMxMiwtMTE0MDM0NzI5MF19
 -->
