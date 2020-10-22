@@ -469,8 +469,28 @@ The some method works with arrays to check if any element passes a particular te
 	    }
 	    checkPositive([1, 2, 3, -4, 5]);
 ## Introduction to Currying and Partial Application
+In other words, it restructures a function so it takes one argument, then returns another function that takes the next argument, and so on.
+
+This is useful in your program if you can't supply all the arguments to a function at one time. You can save each function call into a variable, which will hold the returned function reference that takes the next argument when it's available.
+
+> Fill in the body of the add function so it uses currying to add
+> parameters x, y, and z.
+
+	    function add(x) {
+	      // Only change code below this line
+	        return function(y){
+	          return function(z){
+	            return x+y+z;
+	          }
+	        }
+	    
+	      // Only change code above this line
+	    }
+	    add(10)(20)(30);
+	    console.log(add(10)(20)(30))
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MjcyMTg5MiwyMDAwMjE1ODY1LDE2MT
+eyJoaXN0b3J5IjpbMTM0ODU3ODIxNywyMDAwMjE1ODY1LDE2MT
 A2MDc3MzEsLTEwOTAyMzgxMTMsLTQ2Nzc5MTI0OCwtMTM5NjUz
 NjIzOSwtNTI3Njc3ODQ2LDE0NzU1MTEwMDcsLTE0MjI4NTMyMj
 gsLTk4NDc1MjUyOCwzMjczNTIyNzgsNDMyOTUyMzA4LC0xNjAy
