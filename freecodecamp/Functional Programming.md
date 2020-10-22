@@ -384,11 +384,27 @@ In addition to the callback function, reduce has an additional parameter which t
 	      // Only change code above this line
 	    }
 	    console.log(nonMutatingSort(globalArray));
+## Split a String into an Array Using the split Method
+The split method splits a string into an array of strings. It takes an argument for the delimiter, which can be a character to use to break up the string or a regular expression. For example, if the delimiter is a space, you get an array of words, and if the delimiter is an empty string, you get an array of each character in the string.
 
+> Use the split method inside the splitify function to split str into an
+> array of words. The function should return the array. Note that the
+> words are not always separated by spaces, and the array should not
+> contain punctuation.
+
+	    function splitify(str) {
+	      // Only change code below this line
+	    
+	        return str.split(/\W/);
+	      // Only change code above this line
+	    }
+	    console.log(splitify("Hello World,I-am code"));
+	    [ 'Hello', 'World', 'I', 'am', 'code' ]
+       
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTY1MzYyMzksLTUyNzY3Nzg0NiwxND
-c1NTExMDA3LC0xNDIyODUzMjI4LC05ODQ3NTI1MjgsMzI3MzUy
-Mjc4LDQzMjk1MjMwOCwtMTYwMjQ0MjQwMiw5MTYzNzE0ODgsMT
-c5MzYxODIzMiwtNzcxNTE4ODUwLDQwNzQwNTcxNywtMTg4ODQ3
-NTMxMiwtMTE0MDM0NzI5MF19
+eyJoaXN0b3J5IjpbLTQ2Nzc5MTI0OCwtMTM5NjUzNjIzOSwtNT
+I3Njc3ODQ2LDE0NzU1MTEwMDcsLTE0MjI4NTMyMjgsLTk4NDc1
+MjUyOCwzMjczNTIyNzgsNDMyOTUyMzA4LC0xNjAyNDQyNDAyLD
+kxNjM3MTQ4OCwxNzkzNjE4MjMyLC03NzE1MTg4NTAsNDA3NDA1
+NzE3LC0xODg4NDc1MzEyLC0xMTQwMzQ3MjkwXX0=
 -->
