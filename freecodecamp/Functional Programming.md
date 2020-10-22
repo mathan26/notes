@@ -368,11 +368,27 @@ In addition to the callback function, reduce has an additional parameter which t
 	    }
 	    alphabeticalOrder(["a", "d", "c", "a", "z", "g"]);
 	    console.log(alphabeticalOrder(["a", "d", "c", "a", "z", "g"]))
+## Return a Sorted Array Without Changing the Original Array
+
+> Use the sort method in the nonMutatingSort function to sort the
+> elements of an array in ascending order. The function should return a
+> new array, and not mutate the globalArray variable.
+
+	    var globalArray = [5, 6, 3, 2, 9];
+	    function nonMutatingSort(arr) {
+	      // Only change code below this line
+	    
+	        return [...globalArray].sort();
+	        //or 
+	        //return [].concat(arr).sort();
+	      // Only change code above this line
+	    }
+	    console.log(nonMutatingSort(globalArray));
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNzY3Nzg0NiwxNDc1NTExMDA3LC0xND
-IyODUzMjI4LC05ODQ3NTI1MjgsMzI3MzUyMjc4LDQzMjk1MjMw
-OCwtMTYwMjQ0MjQwMiw5MTYzNzE0ODgsMTc5MzYxODIzMiwtNz
-cxNTE4ODUwLDQwNzQwNTcxNywtMTg4ODQ3NTMxMiwtMTE0MDM0
-NzI5MF19
+eyJoaXN0b3J5IjpbLTEzOTY1MzYyMzksLTUyNzY3Nzg0NiwxND
+c1NTExMDA3LC0xNDIyODUzMjI4LC05ODQ3NTI1MjgsMzI3MzUy
+Mjc4LDQzMjk1MjMwOCwtMTYwMjQ0MjQwMiw5MTYzNzE0ODgsMT
+c5MzYxODIzMiwtNzcxNTE4ODUwLDQwNzQwNTcxNywtMTg4ODQ3
+NTMxMiwtMTE0MDM0NzI5MF19
 -->
