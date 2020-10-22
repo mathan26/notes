@@ -462,19 +462,19 @@ The some method works with arrays to check if any element passes a particular te
 > element in arr is positive. The function should return a Boolean
 > value.
 
-    function checkPositive(arr) {
-      // Only change code below this line
-        return arr.some(num=>num>0);
-      // Only change code above this line
-    }
-    checkPositive([1, 2, 3, -4, 5]);
+	    function checkPositive(arr) {
+	      // Only change code below this line
+	        return arr.some(num=>num>0);
+	      // Only change code above this line
+	    }
+	    checkPositive([1, 2, 3, -4, 5]);
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5Nzc0NjQ2NiwyMDAwMjE1ODY1LDE2MT
-A2MDc3MzEsLTEwOTAyMzgxMTMsLTQ2Nzc5MTI0OCwtMTM5NjUz
-NjIzOSwtNTI3Njc3ODQ2LDE0NzU1MTEwMDcsLTE0MjI4NTMyMj
-gsLTk4NDc1MjUyOCwzMjczNTIyNzgsNDMyOTUyMzA4LC0xNjAy
-NDQyNDAyLDkxNjM3MTQ4OCwxNzkzNjE4MjMyLC03NzE1MTg4NT
-AsNDA3NDA1NzE3LC0xODg4NDc1MzEyLC0xMTQwMzQ3MjkwXX0=
+eyJoaXN0b3J5IjpbOTQ3NzI2OTU4LDIwMDAyMTU4NjUsMTYxMD
+YwNzczMSwtMTA5MDIzODExMywtNDY3NzkxMjQ4LC0xMzk2NTM2
+MjM5LC01Mjc2Nzc4NDYsMTQ3NTUxMTAwNywtMTQyMjg1MzIyOC
+wtOTg0NzUyNTI4LDMyNzM1MjI3OCw0MzI5NTIzMDgsLTE2MDI0
+NDI0MDIsOTE2MzcxNDg4LDE3OTM2MTgyMzIsLTc3MTUxODg1MC
+w0MDc0MDU3MTcsLTE4ODg0NzUzMTIsLTExNDAzNDcyOTBdfQ==
 
 -->
