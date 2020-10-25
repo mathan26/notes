@@ -359,13 +359,24 @@ Then return the rest of the array once the condition is satisfied, otherwise, ar
 	    
 	    dropElements([1, 2, 3], function(n) {return n < 3; });
 
+## Binary Agents
+Return an English translated sentence of the passed binary string.
+
+The binary string will be space separated.
+
+	    function binaryAgent(str) {
+	    
+	      return str.split(' ').map(item=> String.fromCharCode(parseInt(item,2))).join('');
+	    }
+	    
+	    binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111");
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDEyOTE0ODQsMTczMDE0ODIxNCwtMT
-Q4OTcwOTY1NCwxNDY2Mjg3NDkxLDE5NTE5NzI4MSwtMTA0NDM3
-MjA3MSwxMzQ4NTc4MjE3LDIwMDAyMTU4NjUsMTYxMDYwNzczMS
-wtMTA5MDIzODExMywtNDY3NzkxMjQ4LC0xMzk2NTM2MjM5LC01
-Mjc2Nzc4NDYsMTQ3NTUxMTAwNywtMTQyMjg1MzIyOCwtOTg0Nz
-UyNTI4LDMyNzM1MjI3OCw0MzI5NTIzMDgsLTE2MDI0NDI0MDIs
-OTE2MzcxNDg4XX0=
+eyJoaXN0b3J5IjpbLTIwNzg5OTIyLDE3MzAxNDgyMTQsLTE0OD
+k3MDk2NTQsMTQ2NjI4NzQ5MSwxOTUxOTcyODEsLTEwNDQzNzIw
+NzEsMTM0ODU3ODIxNywyMDAwMjE1ODY1LDE2MTA2MDc3MzEsLT
+EwOTAyMzgxMTMsLTQ2Nzc5MTI0OCwtMTM5NjUzNjIzOSwtNTI3
+Njc3ODQ2LDE0NzU1MTEwMDcsLTE0MjI4NTMyMjgsLTk4NDc1Mj
+UyOCwzMjczNTIyNzgsNDMyOTUyMzA4LC0xNjAyNDQyNDAyLDkx
+NjM3MTQ4OF19
 -->
