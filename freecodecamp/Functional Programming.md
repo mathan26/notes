@@ -253,13 +253,37 @@ Convert the characters &, <, >, " (double quote), and ' (apostrophe), in a strin
     
     // test here
     convertHTML("Dolce & Gabbana");
+## Sum All Odd Fibonacci Numbers
+Given a positive integer num, return the sum of all odd Fibonacci numbers that are less than or equal to num.
+
+The first two numbers in the Fibonacci sequence are 1 and 1. Every additional number in the sequence is the sum of the two previous numbers. The first six numbers of the Fibonacci sequence are 1, 1, 2, 3, 5 and 8.
+
+For example, sumFibs(10) should return 10 because all odd Fibonacci numbers less than or equal to 10 are 1, 1, 3, and 5.
+
+	    function sumFibs(num) {
+	      let a =1;
+	      let b = 1;
+	      let sum = a + b;
+	      while(a<num){
+	        const temp = a;
+	        a=b;
+	        b=temp+b;
+	        if(b<=num)
+	         sum +=(b % 2 !==0)? b: 0;
+	      }
+	      return sum;
+	    }
+	    
+	    console.log(sumFibs(75025));
+
+  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDQzNzIwNzEsMTM0ODU3ODIxNywyMD
-AwMjE1ODY1LDE2MTA2MDc3MzEsLTEwOTAyMzgxMTMsLTQ2Nzc5
-MTI0OCwtMTM5NjUzNjIzOSwtNTI3Njc3ODQ2LDE0NzU1MTEwMD
-csLTE0MjI4NTMyMjgsLTk4NDc1MjUyOCwzMjczNTIyNzgsNDMy
-OTUyMzA4LC0xNjAyNDQyNDAyLDkxNjM3MTQ4OCwxNzkzNjE4Mj
-MyLC03NzE1MTg4NTAsNDA3NDA1NzE3LC0xODg4NDc1MzEyLC0x
-MTQwMzQ3MjkwXX0=
+eyJoaXN0b3J5IjpbMTk1MTk3MjgxLC0xMDQ0MzcyMDcxLDEzND
+g1NzgyMTcsMjAwMDIxNTg2NSwxNjEwNjA3NzMxLC0xMDkwMjM4
+MTEzLC00Njc3OTEyNDgsLTEzOTY1MzYyMzksLTUyNzY3Nzg0Ni
+wxNDc1NTExMDA3LC0xNDIyODUzMjI4LC05ODQ3NTI1MjgsMzI3
+MzUyMjc4LDQzMjk1MjMwOCwtMTYwMjQ0MjQwMiw5MTYzNzE0OD
+gsMTc5MzYxODIzMiwtNzcxNTE4ODUwLDQwNzQwNTcxNywtMTg4
+ODQ3NTMxMl19
 -->
