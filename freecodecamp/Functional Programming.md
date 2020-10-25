@@ -277,13 +277,35 @@ For example, sumFibs(10) should return 10 because all odd Fibonacci numbers less
 	    console.log(sumFibs(75025));
 
   
+## Sum All Primes
 
+A prime number is a whole number greater than 1 with exactly two divisors: 1 and itself. For example, 2 is a prime number because it is only divisible by 1 and 2. In contrast, 4 is not prime since it is divisible by 1, 2 and 4.
+	function sumPrimes(num) {
+	  let sum = 0;
+	  for(let i=2;i<=num;i++){
+	    if(isPrime(i))
+	      sum +=i;
+	  }
+	  return sum;
+	}
+
+
+	function isPrime(n){
+	  for(let i=2; i<=Math.sqrt(n);i++){
+	    if(n % i === 0){
+	      return false;
+	    }
+	  }
+	  return true;
+	}
+
+	sumPrimes(10);
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MTk3MjgxLC0xMDQ0MzcyMDcxLDEzND
-g1NzgyMTcsMjAwMDIxNTg2NSwxNjEwNjA3NzMxLC0xMDkwMjM4
-MTEzLC00Njc3OTEyNDgsLTEzOTY1MzYyMzksLTUyNzY3Nzg0Ni
-wxNDc1NTExMDA3LC0xNDIyODUzMjI4LC05ODQ3NTI1MjgsMzI3
-MzUyMjc4LDQzMjk1MjMwOCwtMTYwMjQ0MjQwMiw5MTYzNzE0OD
-gsMTc5MzYxODIzMiwtNzcxNTE4ODUwLDQwNzQwNTcxNywtMTg4
-ODQ3NTMxMl19
+eyJoaXN0b3J5IjpbMTQ2NjI4NzQ5MSwxOTUxOTcyODEsLTEwND
+QzNzIwNzEsMTM0ODU3ODIxNywyMDAwMjE1ODY1LDE2MTA2MDc3
+MzEsLTEwOTAyMzgxMTMsLTQ2Nzc5MTI0OCwtMTM5NjUzNjIzOS
+wtNTI3Njc3ODQ2LDE0NzU1MTEwMDcsLTE0MjI4NTMyMjgsLTk4
+NDc1MjUyOCwzMjczNTIyNzgsNDMyOTUyMzA4LC0xNjAyNDQyND
+AyLDkxNjM3MTQ4OCwxNzkzNjE4MjMyLC03NzE1MTg4NTAsNDA3
+NDA1NzE3XX0=
 -->
