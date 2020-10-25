@@ -1,4 +1,5 @@
 
+
 ## Sum All Numbers in a Range
 
 > We'll pass you an array of two numbers. Return the sum of those two
@@ -253,7 +254,125 @@ Convert the characters &, <, >, " (double quote), and ' (apostrophe), in a strin
     
     // test here
     convertHTML("Dolce & Gabbana");
+## Sum All Odd Fibonacci Numbers
+Given a positive integer num, return the sum of all odd Fibonacci numbers that are less than or equal to num.
+
+The first two numbers in the Fibonacci sequence are 1 and 1. Every additional number in the sequence is the sum of the two previous numbers. The first six numbers of the Fibonacci sequence are 1, 1, 2, 3, 5 and 8.
+
+For example, sumFibs(10) should return 10 because all odd Fibonacci numbers less than or equal to 10 are 1, 1, 3, and 5.
+
+	    function sumFibs(num) {
+	      let a =1;
+	      let b = 1;
+	      let sum = a + b;
+	      while(a<num){
+	        const temp = a;
+	        a=b;
+	        b=temp+b;
+	        if(b<=num)
+	         sum +=(b % 2 !==0)? b: 0;
+	      }
+	      return sum;
+	    }
+	    
+	    console.log(sumFibs(75025));
+
+  
+## Sum All Primes
+
+A prime number is a whole number greater than 1 with exactly two divisors: 1 and itself. For example, 2 is a prime number because it is only divisible by 1 and 2. In contrast, 4 is not prime since it is divisible by 1, 2 and 4.
+	function sumPrimes(num) {
+	  let sum = 0;
+	  for(let i=2;i<=num;i++){
+	    if(isPrime(i))
+	      sum +=i;
+	  }
+	  return sum;
+	}
+
+
+	function isPrime(n){
+	  for(let i=2; i<=Math.sqrt(n);i++){
+	    if(n % i === 0){
+	      return false;
+	    }
+	  }
+	  return true;
+	}
+
+	sumPrimes(10);
+## Smallest Common Multiple*
+Find the smallest common multiple of the provided parameters that can be evenly divided by both, as well as by all sequential numbers in the range between these parameters.
+
+The range will be an array of two numbers that will not necessarily be in numerical order.
+
+For example, if given 1 and 3, find the smallest common multiple of both 1 and 3 that is also evenly divisible by all numbers between 1 and 3. The answer here would be 6.
+
+
+
+	    function smallestCommons(arr) {
+	      // Sort array from greater to lowest
+	      // This line of code was from Adam Doyle (http://github.com/Adoyle2014)
+	      arr.sort(function(a, b) {
+	        return b - a;
+	      });
+	    
+	      // Create new array and add all values from greater to smaller from the
+	      // original array.
+	      var newArr = [];
+	      for (var i = arr[0]; i >= arr[1]; i--) {
+	        newArr.push(i);
+	      }
+	    
+	      // Variables needed declared outside the loops.
+	      var quot = 0;
+	      var loop = 1;
+	      var n;
+	    
+	      // Run code while n is not the same as the array length.
+	      do {
+	        quot = newArr[0] * loop * newArr[1];
+	        for (n = 2; n < newArr.length; n++) {
+	          if (quot % newArr[n] !== 0) {
+	            break;
+	          }
+	        }
+	    
+	        loop++;
+	      } while (n !== newArr.length);
+	    
+	      return quot;
+	    }
+	    
+	    // test here
+	    smallestCommons([1, 5]);
+
+## Drop it
+Given the array arr, iterate through and remove each element starting from the first element (the 0 index) until the function func returns true when the iterated element is passed through it.
+
+Then return the rest of the array once the condition is satisfied, otherwise, arr should be returned as an empty array.
+
+	    function dropElements(arr, func) {
+	      const index = arr.findIndex(func);
+	      
+	      return index=== -1 ?[]:arr.slice(index);
+	    }
+	    
+	    dropElements([1, 2, 3], function(n) {return n < 3; });
+
+## Binary Agents
+Return an English translated sentence of the passed binary string.
+
+The binary string will be space separated.
+
+	    function binaryAgent(str) {
+	    
+	      return str.split(' ').map(item=> String.fromCharCode(parseInt(item,2))).join('');
+	    }
+	    
+	    binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111");
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDQzNzIwNzEsLTcxMTY3MzQ3MV19
+eyJoaXN0b3J5IjpbLTE1ODU4MjI2MCwtMTA0NDM3MjA3MSwtNz
+ExNjczNDcxXX0=
 -->
