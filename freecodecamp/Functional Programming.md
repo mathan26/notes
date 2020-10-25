@@ -346,13 +346,25 @@ For example, if given 1 and 3, find the smallest common multiple of both 1 and 3
 	    // test here
 	    smallestCommons([1, 5]);
 
+## Drop it
+Given the array arr, iterate through and remove each element starting from the first element (the 0 index) until the function func returns true when the iterated element is passed through it.
+
+Then return the rest of the array once the condition is satisfied, otherwise, arr should be returned as an empty array.
+
+	    function dropElements(arr, func) {
+	      const index = arr.findIndex(func);
+	      
+	      return index=== -1 ?[]:arr.slice(index);
+	    }
+	    
+	    dropElements([1, 2, 3], function(n) {return n < 3; });
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODk3MDk2NTQsMTQ2NjI4NzQ5MSwxOT
-UxOTcyODEsLTEwNDQzNzIwNzEsMTM0ODU3ODIxNywyMDAwMjE1
-ODY1LDE2MTA2MDc3MzEsLTEwOTAyMzgxMTMsLTQ2Nzc5MTI0OC
-wtMTM5NjUzNjIzOSwtNTI3Njc3ODQ2LDE0NzU1MTEwMDcsLTE0
-MjI4NTMyMjgsLTk4NDc1MjUyOCwzMjczNTIyNzgsNDMyOTUyMz
-A4LC0xNjAyNDQyNDAyLDkxNjM3MTQ4OCwxNzkzNjE4MjMyLC03
-NzE1MTg4NTBdfQ==
+eyJoaXN0b3J5IjpbMTczMDE0ODIxNCwtMTQ4OTcwOTY1NCwxND
+Y2Mjg3NDkxLDE5NTE5NzI4MSwtMTA0NDM3MjA3MSwxMzQ4NTc4
+MjE3LDIwMDAyMTU4NjUsMTYxMDYwNzczMSwtMTA5MDIzODExMy
+wtNDY3NzkxMjQ4LC0xMzk2NTM2MjM5LC01Mjc2Nzc4NDYsMTQ3
+NTUxMTAwNywtMTQyMjg1MzIyOCwtOTg0NzUyNTI4LDMyNzM1Mj
+I3OCw0MzI5NTIzMDgsLTE2MDI0NDI0MDIsOTE2MzcxNDg4LDE3
+OTM2MTgyMzJdfQ==
 -->
