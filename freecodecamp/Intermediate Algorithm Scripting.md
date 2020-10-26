@@ -1,5 +1,7 @@
 
 
+
+
 ## Sum All Numbers in a Range
 
 > We'll pass you an array of two numbers. Return the sum of those two
@@ -371,8 +373,141 @@ The binary string will be space separated.
 	    }
 	    
 	    binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111");
+## Everything Be True
+Check if the predicate (second argument) is truthy on all elements of a collection (first argument).
+
+In other words, you are given an array collection of objects. The predicate pre will be an object property and you need to return true if its value is truthy. Otherwise, return false.
+
+In JavaScript, truthy values are values that translate to true when evaluated in a Boolean context.
+
+Remember, you can access object properties through either dot notation or [] notation.
+
+	function truthCheck(collection, pre) {
+		  return collection.every(item=>{
+		    console.log(item.hasOwnProperty(pre),item[pre]);
+		    if(!item.hasOwnProperty(pre) || !item[pre]){
+		      console.log('here')
+		      return false;
+		    }else{
+		      return true;
+		    }
+		  });
+		}
+		console.clear();
+		console.log(truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy"}, {"user": "Laa-Laa", "sex": "female"}, {"user": "Po", "sex": "female"}], "sex"))
+
+
+## Arguments Optional
+Create a function that sums two arguments together. If only one argument is provided, then return a function that expects one argument and returns the sum.
+
+For example, addTogether(2, 3) should return 5, and addTogether(2) should return a function.
+
+Calling this returned function with a single argument will then return the sum:
+
+var sumTwoAnd = addTogether(2);
+
+sumTwoAnd(3) returns 5.
+
+If either argument isn't a valid number, return undefined.
+
+	    function addTogether(first, second) {
+	      if (typeof first !== "number") {
+	        return undefined;
+	      }
+	      const sum = second =>
+	        typeof second === "number" ? first + second : undefined;
+	      return typeof second === "undefined" ? second => sum(second) : sum(second);
+	    }
+	    
+	    console.log(addTogether(5));
+## Steamroller
+latten a nested array. You must account for varying levels of nesting.
+
+    function steamrollArray(arr) {
+      let flat = [].concat(...arr);
+      console.log(flat)
+      return flat.some(Array.isArray) ? steamrollArray(flat) : flat;
+    }
+    
+    steamrollArray([1, [2], [3, [[4]]]]);
+## Make a Person
+Fill in the object constructor with the following methods below:
+
+    getFirstName()
+    getLastName()
+    getFullName()
+    setFirstName(first)
+    setLastName(last)
+    setFullName(firstAndLast)
+
+Run the tests to see the expected output for each method. The methods that take an argument must accept only one argument and it has to be a string. These methods must be the only available means of interacting with the object.
+
+        var Person = function(firstAndLast) {
+      var fullName = firstAndLast;
+    
+      this.getFirstName = function() {
+        return fullName.split(" ")[0];
+      };
+    
+      this.getLastName = function() {
+        return fullName.split(" ")[1];
+      };
+    
+      this.getFullName = function() {
+        return fullName;
+      };
+    
+      this.setFirstName = function(name) {
+        fullName = name + " " + fullName.split(" ")[1];
+      };
+    
+      this.setLastName = function(name) {
+        fullName = fullName.split(" ")[0] + " " + name;
+      };
+    
+      this.setFullName = function(name) {
+        fullName = name;
+      };
+    };
+    
+    var bob = new Person("Bob Ross");
+    bob.getFullName();
+
+
+
+## Map the Debris
+Return a new array that transforms the elements' average altitude into their orbital periods (in seconds).
+
+The array will contain objects in the format {name: 'name', avgAlt: avgAlt}.
+
+You can read about orbital periods on Wikipedia.
+
+The values should be rounded to the nearest whole number. The body being orbited is Earth.
+
+The radius of the earth is 6367.4447 kilometers, and the GM value of earth is 398600.4418 km3s-2.
+
+    function orbitalPeriod(arr) {
+      var GM = 398600.4418;
+      var earthRadius = 6367.4447;
+      var newArr = [];
+    
+      //Looping through each key in arr object
+      for (var elem in arr) {
+        //Rounding off the orbital period value
+        var orbitalPer = Math.round(
+          2 * Math.PI * Math.sqrt(Math.pow(arr[elem].avgAlt + earthRadius, 3) / GM)
+        );
+        //Adding new object with orbitalPeriod property
+        newArr.push({name: arr[elem].name, orbitalPeriod: orbitalPer});
+      }
+    
+      return newArr;
+    }
+    
+    
+    orbitalPeriod([{name : "sputnik", avgAlt : 35873.5553}]);
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODU4MjI2MCwtMTA0NDM3MjA3MSwtNz
-ExNjczNDcxXX0=
+eyJoaXN0b3J5IjpbMjAxNTE5NzU3OSwtMTU4NTgyMjYwLC0xMD
+Q0MzcyMDcxLC03MTE2NzM0NzFdfQ==
 -->
