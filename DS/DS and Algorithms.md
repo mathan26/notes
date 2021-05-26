@@ -1,5 +1,57 @@
 # Data Structures and Algorithms
+**Time Complexisty**
 
+ - Asymptotic  runtime or big -O times.
+ - Big-O: Upper bound
+ - Big Omega - Lower Bound
+ - Big Theta - Tight Bound Both lower and upper bound
+ Cases:
+	 - Best case
+	 - Worst case
+	 - Expected case
+
+**Space Complexity:**
+
+ - Stack space in recurisive calls counts too.
+ - In Some case method inside the for loop doesnot mean that take up O(n) space, it will be cleared once it is out of the loop.
+
+**Drop the constants:**
+
+ - O(n) sometimes faster thatn O(1).Big-O Just describes the rate of increase.
+ - This is the reason we have to drop the constants.
+ - Example program for find the min and max we can write with one for loop or two for loops,so it comes outs like O(n) and O(2n).
+ - In Big-O both are represented as same manneer.Just drop the constants.
+ 
+  **Drop the Non Dominant Terms:**
+  
+ - O(N2 +N+) = O(N2)
+ - ![big o cheatsheet](https://jarednielsen.com/static/9c24f10d0295ead7526e32d62fa2eac5/b9e4f/big-o-cheatsheet.png)
+
+**Mutlipart Algorithm:**
+
+ - O(A +B) vs O(A*B)
+ - If your algorithm is in the from "do this, then when you're all done, do that" then you add the runtimes
+ - If your algorithm is in the form "do this for each item you do that" then multiply the runtimes.
+ 
+ **Amortized Time:**
+ 
+ - Taking cost of operation over extented period of time.
+ - Example: ArrayList Insertion
+ - https://youtu.be/MTl8djZFWE0
+
+**Log N Runtimes**
+
+ - Example: Binary Search
+ - Every time the operation is half of the element and finally reach to the  target that is 1.
+ - [O(log n) Explained](https://medium.com/hackernoon/what-does-the-time-complexity-o-log-n-actually-mean-45f94bb5bfbf)
+
+**Recursive Runtime:**
+
+ - Check the Levels and calculartion of node
+ - It is not O(n2) it is based on the operation
+ - [Code School Explanation](https://youtu.be/ncpTxqK35PI)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
  1 Introduction
  * Variables 
  * Data Types
